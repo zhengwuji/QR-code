@@ -10,7 +10,6 @@
         <item name="android:fitsSystemWindows">true</item>
     </style>
     <style name="Ad.Fan.Activity" parent="@android:style/Theme.Translucent.NoTitleBar">
-        <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
     </style>
     <style name="Ad.VK.Activity" parent="@android:style/Theme.NoTitleBar.Fullscreen">
         <item name="android:fitsSystemWindows">false</item>
