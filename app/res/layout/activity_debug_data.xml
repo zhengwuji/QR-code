@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_return" android:layout_width="?actionBarSize" android:layout_height="?actionBarSize" android:scaleType="center" android:onClick="onClickView" app:srcCompat="@drawable/ic_return" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="20.0sp" android:textColor="@color/black" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Debug Data" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:gravity="center_vertical" android:background="#ffffffff" android:paddingLeft="@dimen/cm_dp_20" android:paddingRight="@dimen/cm_dp_20" android:layout_width="fill_parent" android:layout_height="@dimen/cm_dp_50" android:layout_marginTop="@dimen/cm_dp_1" android:foreground="?selectableItemBackground" android:text="添加扫描记录" android:onClick="addScanHistory" android:paddingHorizontal="@dimen/cm_dp_20" style="@style/FontBlack" />
+            <androidx.appcompat.widget.AppCompatTextView android:gravity="center_vertical" android:background="#ffffffff" android:paddingLeft="@dimen/cm_dp_20" android:paddingRight="@dimen/cm_dp_20" android:layout_width="fill_parent" android:layout_height="@dimen/cm_dp_50" android:layout_marginTop="@dimen/cm_dp_1" android:foreground="?selectableItemBackground" android:text="添加创建记录" android:onClick="addCreateHistory" android:paddingHorizontal="@dimen/cm_dp_20" style="@style/FontBlack" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

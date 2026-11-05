@@ -1,0 +1,14 @@
+.class synthetic LF2/h$a;
+.super Ljava/lang/Object;
+.source "PlaceholderSurface.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LF2/h;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1008
+    name = null
+.end annotation

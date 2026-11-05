@@ -1,0 +1,66 @@
+.class final synthetic Lcom/google/android/gms/internal/ads/zzftn;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-ads@@25.4.0"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field private final synthetic zza:Lcom/google/android/gms/internal/ads/zzftp;
+
+.field private final synthetic zzb:I
+
+.field private final synthetic zzc:Lcom/google/android/gms/internal/ads/zzfvd;
+
+
+# direct methods
+.method synthetic constructor <init>(Lcom/google/android/gms/internal/ads/zzftp;ILcom/google/android/gms/internal/ads/zzfvd;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lcom/google/android/gms/internal/ads/zzftn;->zza:Lcom/google/android/gms/internal/ads/zzftp;
+
+    .line 5
+    .line 6
+    iput p2, p0, Lcom/google/android/gms/internal/ads/zzftn;->zzb:I
+
+    .line 7
+    .line 8
+    iput-object p3, p0, Lcom/google/android/gms/internal/ads/zzftn;->zzc:Lcom/google/android/gms/internal/ads/zzfvd;
+
+    .line 9
+    .line 10
+    return-void
+.end method
+
+
+# virtual methods
+.method public final synthetic run()V
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzftn;->zza:Lcom/google/android/gms/internal/ads/zzftp;
+
+    .line 2
+    .line 3
+    iget v1, p0, Lcom/google/android/gms/internal/ads/zzftn;->zzb:I
+
+    .line 4
+    .line 5
+    iget-object v2, p0, Lcom/google/android/gms/internal/ads/zzftn;->zzc:Lcom/google/android/gms/internal/ads/zzfvd;
+
+    .line 6
+    .line 7
+    invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/internal/ads/zzftp;->zzp(ILcom/google/android/gms/internal/ads/zzfvd;)V
+
+    .line 8
+    .line 9
+    .line 10
+    return-void
+.end method

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingLeft="@dimen/cm_dp_16" android:paddingTop="@dimen/cm_dp_2" android:paddingRight="@dimen/cm_dp_16" android:paddingBottom="@dimen/cm_dp_2" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/cm_dp_16" android:paddingVertical="@dimen/cm_dp_2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatButton android:textSize="@dimen/cm_sp_16" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/ad_action_button" android:background="@drawable/shape_bg_00b66e_corner_dp25" android:paddingTop="@dimen/cm_dp_11" android:paddingBottom="@dimen/cm_dp_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:textAllCaps="true" android:backgroundTint="#ff1cab70" style="@style/FontBlack" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/cm_sp_11" android:textColor="#ff7f8281" android:id="@id/ad_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cm_dp_2" android:text="Ad" android:includeFontPadding="false" android:layout_below="@id/ad_action_button" android:textAlignment="viewStart" style="@style/FontRegular" />
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/cm_dp_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cm_dp_1" android:layout_below="@id/ad_tv">
+        <FrameLayout android:id="@id/layout_icon" android:layout_width="@dimen/cm_dp_50" android:layout_height="@dimen/cm_dp_50">
+            <ImageView android:layout_gravity="center" android:id="@id/ad_icon_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/svg_icon" android:adjustViewBounds="true" android:maxWidth="@dimen/cm_dp_63" android:maxHeight="@dimen/cm_dp_63" />
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/ad_icon_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/cm_dp_10" android:layout_marginEnd="@dimen/cm_dp_8">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/cm_sp_12" android:textColor="#ff7f88a1" android:ellipsize="end" android:layout_gravity="start" android:id="@id/ad_title_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/cm_dp_10" android:maxLines="1" android:includeFontPadding="false" android:textAlignment="viewStart" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/ad_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="16.0dip" android:src="@drawable/ad_mark" android:layout_marginStart="@dimen/cm_dp_4" android:layout_marginEnd="@dimen/cm_dp_2" />
+                <LinearLayout android:orientation="vertical" android:id="@id/ad_choices_linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/cm_dp_2">
+                    <ImageView android:id="@id/ad_choices_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/cm_sp_11" android:textColor="#ff7f88a1" android:ellipsize="end" android:id="@id/ad_describe_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cm_dp_4" android:maxLines="3" android:includeFontPadding="false" android:textAlignment="viewStart" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

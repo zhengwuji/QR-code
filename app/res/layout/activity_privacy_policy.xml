@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main" android:background="@color/colorAccent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/colorAccent" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:elevation="0.0dip" app:navigationIcon="?homeAsUpIndicator" app:theme="@style/policy_theme" app:titleTextColor="@android:color/white" />
+    <ProgressBar android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="3.0dip" android:progressTint="@color/colorAccent" style="@android:style/Widget.ProgressBar.Horizontal" />
+    <WebView android:id="@id/web_view_policy" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

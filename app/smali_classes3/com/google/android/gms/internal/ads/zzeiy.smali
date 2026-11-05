@@ -1,0 +1,49 @@
+.class final synthetic Lcom/google/android/gms/internal/ads/zzeiy;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-ads@@25.4.0"
+
+# interfaces
+.implements Lcom/google/android/gms/internal/ads/zzhcg;
+
+
+# direct methods
+.method synthetic constructor <init>(Lcom/google/android/gms/internal/ads/zzejg;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public final synthetic zza(Ljava/lang/Object;)Lfutures2/ListenableFuture;
+    .locals 0
+
+    .line 1
+    check-cast p1, Ljava/io/InputStream;
+
+    .line 2
+    .line 3
+    invoke-static {p1}, Lcom/google/android/gms/internal/ads/zzfmx;->zza(Ljava/io/InputStream;)Landroid/os/ParcelFileDescriptor;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p1
+
+    .line 7
+    invoke-static {p1}, Lcom/google/android/gms/internal/ads/zzhcy;->zza(Ljava/lang/Object;)Lfutures2/ListenableFuture;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object p1
+
+    .line 11
+    return-object p1
+.end method

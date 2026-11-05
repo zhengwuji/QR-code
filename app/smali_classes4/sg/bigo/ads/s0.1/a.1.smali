@@ -1,0 +1,106 @@
+.class public final Lsg/bigo/ads/s0/a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic a:Lsg/bigo/ads/s0/z;
+
+.field public final synthetic b:Lsg/bigo/ads/U/c;
+
+.field public final synthetic c:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Lsg/bigo/ads/s0/z;Lsg/bigo/ads/U/c;Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lsg/bigo/ads/s0/a;->a:Lsg/bigo/ads/s0/z;
+
+    .line 2
+    .line 3
+    iput-object p2, p0, Lsg/bigo/ads/s0/a;->b:Lsg/bigo/ads/U/c;
+
+    .line 4
+    .line 5
+    iput-object p3, p0, Lsg/bigo/ads/s0/a;->c:Ljava/lang/String;
+
+    .line 6
+    .line 7
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 8
+    .line 9
+    .line 10
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 13
+
+    .line 1
+    iget-object v0, p0, Lsg/bigo/ads/s0/a;->a:Lsg/bigo/ads/s0/z;
+
+    .line 2
+    .line 3
+    iget-object v1, p0, Lsg/bigo/ads/s0/a;->b:Lsg/bigo/ads/U/c;
+
+    .line 4
+    .line 5
+    iget-object v2, v1, Lsg/bigo/ads/U/c;->a:Landroid/graphics/Bitmap;
+
+    .line 6
+    .line 7
+    new-instance v3, Lsg/bigo/ads/s0/y;
+
+    .line 8
+    .line 9
+    iget-object v5, v1, Lsg/bigo/ads/U/c;->b:Ljava/lang/String;
+
+    .line 10
+    .line 11
+    iget-object v8, v1, Lsg/bigo/ads/U/c;->c:Ljava/lang/String;
+
+    .line 12
+    .line 13
+    iget-object v9, p0, Lsg/bigo/ads/s0/a;->c:Ljava/lang/String;
+
+    .line 14
+    .line 15
+    iget-object v10, v1, Lsg/bigo/ads/U/c;->d:Ljava/lang/String;
+
+    .line 16
+    .line 17
+    iget-object v11, v1, Lsg/bigo/ads/U/c;->e:Ljava/lang/String;
+
+    .line 18
+    .line 19
+    iget-object v12, v1, Lsg/bigo/ads/U/c;->f:Ljava/lang/String;
+
+    .line 20
+    .line 21
+    const/4 v4, 0x2
+
+    .line 22
+    const-wide/16 v6, 0x0
+
+    .line 23
+    .line 24
+    invoke-direct/range {v3 .. v12}, Lsg/bigo/ads/s0/y;-><init>(ILjava/lang/String;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 25
+    .line 26
+    .line 27
+    invoke-interface {v0, v2, v3}, Lsg/bigo/ads/s0/z;->a(Landroid/graphics/Bitmap;Lsg/bigo/ads/s0/y;)V
+
+    .line 28
+    .line 29
+    .line 30
+    return-void
+.end method

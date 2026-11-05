@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_tab_font_size">12.0sp</dimen>
+    <dimen name="main_tab_height">48.0dip</dimen>
+    <dimen name="main_tab_size">24.0dip</dimen>
+    <dimen name="result_bottom_banner_height_corner">158.0dip</dimen>
+    <dimen name="result_type_text_size">12.0sp</dimen>
+    <dimen name="scan_bottom_banner_content_size">11.0sp</dimen>
+    <dimen name="scan_bottom_banner_height">62.0dip</dimen>
+    <dimen name="scan_bottom_banner_icon_size">48.0dip</dimen>
+    <dimen name="scan_bottom_banner_title_size">14.0sp</dimen>
+    <dimen name="scan_option_icon_padding">6.0dip</dimen>
+    <dimen name="scan_option_icon_size">36.0dip</dimen>
+    <dimen name="scan_option_padding_top">4.0dip</dimen>
+    <dimen name="scan_option_separation_height">22.0dip</dimen>
+    <dimen name="scan_option_text_size">11.0sp</dimen>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_return" android:layout_width="?actionBarSize" android:layout_height="?actionBarSize" android:scaleType="center" android:onClick="onClickView" app:srcCompat="@drawable/ic_return" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="20.0sp" android:textColor="@color/black" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Debug UI" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabIndicatorColor="@color/themeColor" app:tabSelectedTextColor="@color/themeColor" app:tabTextColor="#ff666666" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

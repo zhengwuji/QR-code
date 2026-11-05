@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_return" android:background="?actionBarItemBackground" android:layout_width="?actionBarSize" android:layout_height="?actionBarSize" android:scaleType="center" android:onClick="onClickView" app:srcCompat="@drawable/ic_return" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="20.0sp" android:textColor="@color/black" android:ellipsize="end" android:gravity="end|center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/cm_dp_10" android:layout_marginRight="@dimen/cm_dp_10" android:text="埋点触发" android:layout_weight="1.0" android:layout_marginHorizontal="@dimen/cm_dp_10" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_analytics_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="#ff888888" android:paddingLeft="@dimen/cm_dp_20" android:paddingTop="@dimen/cm_dp_10" android:paddingRight="@dimen/cm_dp_20" android:paddingBottom="@dimen/cm_dp_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="点一下即按线上口径上报一条埋点，事件名与 value 和真实场景完全一致，只是不校验触发条件。不受 debug 首页「开启debug」影响。" android:paddingHorizontal="@dimen/cm_dp_20" android:paddingVertical="@dimen/cm_dp_10" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,12 @@
+build/
+dist/
+out*/
+_tmp/
+__pycache__/
+*.apk
+*.keystore
+*.jks
+*.p12
+Thumbs.db
+.DS_Store
+desktop.ini

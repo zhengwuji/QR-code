@@ -1,0 +1,56 @@
+.class public final synthetic Lu/r;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic a:Lu/i$c;
+
+.field public final synthetic b:Landroid/hardware/camera2/CameraCaptureSession;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lu/i$c;Landroid/hardware/camera2/CameraCaptureSession;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lu/r;->a:Lu/i$c;
+
+    .line 5
+    .line 6
+    iput-object p2, p0, Lu/r;->b:Landroid/hardware/camera2/CameraCaptureSession;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lu/r;->a:Lu/i$c;
+
+    .line 2
+    .line 3
+    iget-object v1, p0, Lu/r;->b:Landroid/hardware/camera2/CameraCaptureSession;
+
+    .line 4
+    .line 5
+    invoke-static {v0, v1}, Lu/i$c;->b(Lu/i$c;Landroid/hardware/camera2/CameraCaptureSession;)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method

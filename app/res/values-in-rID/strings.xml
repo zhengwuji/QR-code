@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_cancel">Batal</string>
+    <string name="action_ok">Oke</string>
+    <string name="ad_later">Kemudian</string>
+    <string name="ad_privacy_policy">Kebijakan privasi</string>
+    <string name="ad_showing_ads">Menampilkan iklan</string>
+    <string name="ad_tip">Tip</string>
+    <string name="ad_update">memperbarui</string>
+</resources>

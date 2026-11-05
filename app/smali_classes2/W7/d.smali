@@ -1,0 +1,2 @@
+.class final synthetic LW7/d;
+.super Ljava/lang/Object;

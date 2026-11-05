@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/cm_dp_12"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_photo" android:layout_width="@dimen/cm_dp_56" android:layout_height="@dimen/cm_dp_56" android:layout_marginTop="@dimen/cm_dp_10" android:scaleType="centerCrop" android:layout_marginEnd="@dimen/cm_dp_10" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end|center|top" android:id="@id/iv_delete" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/fb_svg_delete" />
+</FrameLayout>

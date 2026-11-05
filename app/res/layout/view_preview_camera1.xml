@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qrcodereader.barcodescanner.scan.qrscanner.page.ACameraView android:id="@id/preview_view_camera1" android:paddingBottom="1.0px" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingEnd="1.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/ad_container_banner" android:background="#ffdde3eb" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <qrcodereader.barcodescanner.scan.qrscanner.views.ShimmerConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:shimmer_blur="3.0" app:shimmer_color="#ffd5dbe3" app:shimmer_width_percent="0.1">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cm_dp_19" android:layout_marginStart="@dimen/cm_dp_8" android:layout_marginEnd="@dimen/cm_dp_20">
+                <com.google.android.material.imageview.ShapeableImageView android:id="@id/view_icon" android:background="#ffced3db" android:layout_width="@dimen/cm_dp_50" android:layout_height="@dimen/cm_dp_50" app:shapeAppearance="@style/ShapeAppearanceRound12" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/cm_dp_8">
+                    <com.google.android.material.imageview.ShapeableImageView android:id="@id/view_des" android:background="#ffced3db" android:layout_width="fill_parent" android:layout_height="@dimen/cm_dp_20" android:layout_marginEnd="@dimen/cm_dp_94" app:shapeAppearance="@style/ShapeAppearanceRound4" />
+                    <com.google.android.material.imageview.ShapeableImageView android:id="@id/view_title" android:background="#ffced3db" android:layout_width="fill_parent" android:layout_height="@dimen/cm_dp_16" android:layout_marginTop="@dimen/cm_dp_9" app:shapeAppearance="@style/ShapeAppearanceRound4" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.google.android.material.imageview.ShapeableImageView android:id="@id/view_button" android:background="#ffced3db" android:layout_width="fill_parent" android:layout_height="@dimen/cm_dp_48" android:layout_marginLeft="@dimen/cm_dp_8" android:layout_marginTop="@dimen/cm_dp_11" android:layout_marginRight="@dimen/cm_dp_8" android:layout_marginHorizontal="@dimen/cm_dp_8" app:shapeAppearance="@style/ShapeAppearanceRound24" />
+            <Space android:layout_width="fill_parent" android:layout_height="@dimen/cm_dp_12" />
+        </LinearLayout>
+    </qrcodereader.barcodescanner.scan.qrscanner.views.ShimmerConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+.class synthetic Ldecoder2/CryptoInfo$a;
+.super Ljava/lang/Object;
+.source "CryptoInfo.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Ldecoder2/CryptoInfo;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1008
+    name = null
+.end annotation

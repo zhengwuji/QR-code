@@ -1,0 +1,216 @@
+.class public final Lsg/bigo/ads/E0/o;
+.super Lsg/bigo/ads/E0/n;
+.source "SourceFile"
+
+
+# instance fields
+.field public final d:Landroid/graphics/drawable/Drawable;
+
+.field public final e:Landroid/graphics/drawable/ColorDrawable;
+
+.field public f:I
+
+
+# direct methods
+.method public constructor <init>(Landroid/view/View;I)V
+    .locals 4
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    const/4 v1, 0x0
+
+    .line 3
+    invoke-direct {p0, p1, v1, p2}, Lsg/bigo/ads/E0/n;-><init>(Landroid/view/View;Ljava/lang/Object;I)V
+
+    .line 4
+    .line 5
+    .line 6
+    new-instance v1, Landroid/graphics/drawable/ColorDrawable;
+
+    .line 7
+    .line 8
+    invoke-direct {v1, p2}, Landroid/graphics/drawable/ColorDrawable;-><init>(I)V
+
+    .line 9
+    .line 10
+    .line 11
+    iput-object v1, p0, Lsg/bigo/ads/E0/o;->e:Landroid/graphics/drawable/ColorDrawable;
+
+    .line 12
+    .line 13
+    if-eqz p1, :cond_1
+
+    .line 14
+    .line 15
+    invoke-virtual {p1}, Landroid/view/View;->getBackground()Landroid/graphics/drawable/Drawable;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object p2
+
+    .line 19
+    iput-object p2, p0, Lsg/bigo/ads/E0/o;->d:Landroid/graphics/drawable/Drawable;
+
+    .line 20
+    .line 21
+    if-nez p2, :cond_0
+
+    .line 22
+    .line 23
+    invoke-virtual {v1, v0}, Landroid/graphics/drawable/ColorDrawable;->setColor(I)V
+
+    .line 24
+    .line 25
+    .line 26
+    invoke-virtual {p1, v1}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
+
+    .line 27
+    .line 28
+    .line 29
+    return-void
+
+    .line 30
+    :cond_0
+    new-instance v2, Landroid/graphics/drawable/LayerDrawable;
+
+    .line 31
+    .line 32
+    const/4 v3, 0x2
+
+    .line 33
+    new-array v3, v3, [Landroid/graphics/drawable/Drawable;
+
+    .line 34
+    .line 35
+    aput-object p2, v3, v0
+
+    .line 36
+    .line 37
+    const/4 p2, 0x1
+
+    .line 38
+    aput-object v1, v3, p2
+
+    .line 39
+    .line 40
+    invoke-direct {v2, v3}, Landroid/graphics/drawable/LayerDrawable;-><init>([Landroid/graphics/drawable/Drawable;)V
+
+    .line 41
+    .line 42
+    .line 43
+    invoke-virtual {p1, v2}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
+
+    .line 44
+    .line 45
+    .line 46
+    :cond_1
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()I
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final a(F)I
+    .locals 2
+
+    const/high16 v0, 0x437f0000    # 255.0f
+
+    mul-float v1, p1, v0
+
+    sub-float/2addr v0, v1
+
+    const/high16 v1, 0x3f000000    # 0.5f
+
+    add-float/2addr v0, v1
+
+    float-to-int v0, v0
+
+    const/16 v1, 0xff
+
+    invoke-static {v0, v1}, Ljava/lang/Math;->max(II)I
+
+    move-result v0
+
+    iput v0, p0, Lsg/bigo/ads/E0/o;->f:I
+
+    .line 2
+    iget v0, p0, Lsg/bigo/ads/E0/n;->c:I
+
+    const/4 v1, 0x0
+
+    invoke-static {p1, v1, v0}, Lsg/bigo/ads/E0/p;->a(FII)I
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public final a(I)V
+    .locals 1
+
+    .line 3
+    iget-object v0, p0, Lsg/bigo/ads/E0/n;->a:Landroid/view/View;
+
+    if-eqz v0, :cond_1
+
+    iget-object v0, p0, Lsg/bigo/ads/E0/o;->e:Landroid/graphics/drawable/ColorDrawable;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0, p1}, Landroid/graphics/drawable/ColorDrawable;->setColor(I)V
+
+    iget-object p1, p0, Lsg/bigo/ads/E0/o;->e:Landroid/graphics/drawable/ColorDrawable;
+
+    invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
+
+    :cond_0
+    iget-object p1, p0, Lsg/bigo/ads/E0/o;->d:Landroid/graphics/drawable/Drawable;
+
+    if-eqz p1, :cond_1
+
+    iget v0, p0, Lsg/bigo/ads/E0/o;->f:I
+
+    invoke-virtual {p1, v0}, Landroid/graphics/drawable/Drawable;->setAlpha(I)V
+
+    iget-object p1, p0, Lsg/bigo/ads/E0/o;->d:Landroid/graphics/drawable/Drawable;
+
+    invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
+
+    :cond_1
+    return-void
+.end method
+
+.method public final a(Z)V
+    .locals 1
+
+    .line 4
+    iget-object v0, p0, Lsg/bigo/ads/E0/n;->a:Landroid/view/View;
+
+    if-eqz v0, :cond_1
+
+    if-eqz p1, :cond_0
+
+    iget-object p1, p0, Lsg/bigo/ads/E0/o;->d:Landroid/graphics/drawable/Drawable;
+
+    goto :goto_0
+
+    :cond_0
+    iget-object p1, p0, Lsg/bigo/ads/E0/o;->e:Landroid/graphics/drawable/ColorDrawable;
+
+    :goto_0
+    invoke-virtual {v0, p1}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
+
+    :cond_1
+    return-void
+.end method

@@ -1,0 +1,96 @@
+.class public final Lanimation/VectorizedAnimationSpec$b;
+.super Ljava/lang/Object;
+.source "VectorizedAnimationSpec.kt"
+
+# interfaces
+.implements Lanimation/VectorizedAnimationSpec8;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lanimation/VectorizedAnimationSpec;->b(Lanimation/AnimationVectors4;FF)Lanimation/VectorizedAnimationSpec8;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+
+# instance fields
+.field private final a:Lanimation/FloatAnimationSpec3;
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end field
+
+
+# direct methods
+.method constructor <init>(FF)V
+    .locals 6
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    new-instance v0, Lanimation/FloatAnimationSpec3;
+
+    .line 5
+    .line 6
+    const/4 v4, 0x4
+
+    .line 7
+    const/4 v5, 0x0
+
+    .line 8
+    const/4 v3, 0x0
+
+    .line 9
+    move v1, p1
+
+    .line 10
+    move v2, p2
+
+    .line 11
+    invoke-direct/range {v0 .. v5}, Lanimation/FloatAnimationSpec3;-><init>(FFFILkotlin/jvm/internal/k;)V
+
+    .line 12
+    .line 13
+    .line 14
+    iput-object v0, p0, Lanimation/VectorizedAnimationSpec$b;->a:Lanimation/FloatAnimationSpec3;
+
+    .line 15
+    .line 16
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(I)Lanimation/FloatAnimationSpec3;
+    .locals 0
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    .line 1
+    iget-object p1, p0, Lanimation/VectorizedAnimationSpec$b;->a:Lanimation/FloatAnimationSpec3;
+
+    .line 2
+    .line 3
+    return-object p1
+.end method
+
+.method public bridge synthetic get(I)Lanimation/FloatAnimationSpec2;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lanimation/VectorizedAnimationSpec$b;->a(I)Lanimation/FloatAnimationSpec3;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    return-object p1
+.end method

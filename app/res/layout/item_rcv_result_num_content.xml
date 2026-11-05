@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/cm_dp_20" android:paddingTop="@dimen/cm_dp_11" android:paddingRight="@dimen/cm_dp_20" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/cm_dp_20"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/cm_sp_13" android:textColor="#ff000a06" android:gravity="center" android:id="@id/tv_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cm_dp_8" android:fontFamily="@string/roboto_regular" android:layout_marginStart="@dimen/cm_dp_24" android:layout_marginEnd="@dimen/cm_dp_24" />
+    <TextView android:textSize="@dimen/cm_sp_20" android:textColor="#ff000a06" android:gravity="center" android:id="@id/tv_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:fontFamily="@string/roboto_medium" />
+</LinearLayout>

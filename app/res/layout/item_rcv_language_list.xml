@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="?selectableItemBackground" android:paddingLeft="@dimen/qr_dp_20" android:paddingRight="@dimen/qr_dp_20" android:layout_width="fill_parent" android:layout_height="@dimen/qr_dp_56" android:paddingHorizontal="@dimen/qr_dp_20"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/cm_sp_16" android:textColor="@color/lan_black" android:id="@id/tv_language_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/FontBold" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_language_selected_flag" android:layout_width="@dimen/qr_dp_24" android:layout_height="@dimen/qr_dp_24" android:src="@drawable/ic_lan_unselected" android:layout_centerVertical="true" android:layout_alignParentEnd="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

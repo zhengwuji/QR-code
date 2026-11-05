@@ -1,0 +1,22 @@
+.class public interface abstract Lcom/my/target/d0$d;
+.super Ljava/lang/Object;
+.source "r8-map-id-376f9cbbf0a7df308b3ad5c16a6608bc59316f0ad6051cf26b365c8cc4cd0036"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/my/target/d0;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "d"
+.end annotation
+
+
+# virtual methods
+.method public abstract a(Lcom/my/target/C;Landroid/view/View;)V
+.end method
+
+.method public abstract f(Lcom/my/target/C;Ljava/lang/String;Landroid/view/View;)V
+.end method

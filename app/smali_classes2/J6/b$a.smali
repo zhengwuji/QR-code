@@ -1,0 +1,14 @@
+.class synthetic LJ6/b$a;
+.super Ljava/lang/Object;
+.source "AsynchronousMediaCodecAdapter.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LJ6/b;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1008
+    name = null
+.end annotation

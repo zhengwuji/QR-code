@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/cm_dp_40" android:paddingTop="@dimen/cm_dp_11" android:paddingRight="@dimen/cm_dp_40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/cm_dp_40"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/cm_sp_16" android:textColor="#ff7f8281" android:gravity="end" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:fontFamily="@string/roboto_medium" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/cm_sp_16" android:textColor="#ff000a06" android:id="@id/tv_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:fontFamily="@string/roboto_medium" android:textAlignment="viewStart" android:layout_marginStart="@dimen/cm_dp_9" />
+</LinearLayout>
