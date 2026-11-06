@@ -615,7 +615,6 @@
     move-object v1, p0
 
     .line 70
-    invoke-static/range {v1 .. v7}, LU5/i;->b(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/ArrayList;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -2020,12 +2019,10 @@
     .locals 4
 
     .line 1
-    invoke-static {p0}, Lverify16/VerifyUtils42;->f(Landroid/content/Context;)V
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p0}, Lverify23/VerifyUtils6;->f(Landroid/content/Context;)V
 
     .line 5
     .line 6

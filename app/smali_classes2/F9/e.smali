@@ -232,7 +232,6 @@
 
     .line 7
     .line 8
-    invoke-static {p0, v0}, Lg6/l;->a(Ltransport/Transport;Ltransport/Priority;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 

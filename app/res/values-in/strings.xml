@@ -47,6 +47,7 @@
     <string name="avoid_reflections">Hindari &lt;b>pantulan&lt;/b> cahaya atau &lt;b>bayangan&lt;/b> pada kode</string>
     <string name="barcode_number_gpt">Nomor kode batang...</string>
     <string name="barcode_scan_fail_tip">Jika pemindaian gagal, Anda dapat mencoba memasukkan angka barcode secara manual untuk mencari.</string>
+    <string name="qr2_thanks_feedback">Terima kasih atas masukan Anda!</string>
     <string name="beep">Bunyi</string>
     <string name="beep_hint">Berbunyi ketika pemindaian berhasil</string>
     <string name="bigo_ad_form_agree">Saya Setuju</string>
@@ -195,6 +196,7 @@ Fungsi ini akan segera diluncurkan…"</string>
     <string name="delete_sure">Anda yakin ingin menghapus?</string>
     <string name="description">Deskripsi</string>
     <string name="different_engine_more_info">Coba berbagai mesin pencarian untuk mendapatkan lebih banyak informasi berguna!</string>
+    <string name="still_have_problems_1">Masih mengalami masalah</string>
     <string name="dropdown_menu">Menu dropdown</string>
     <string name="ebay">eBay</string>
     <string name="email">E-mail:</string>
@@ -280,14 +282,7 @@ Fungsi ini akan segera diluncurkan…"</string>
     <string name="fb_ok">OK</string>
     <string name="fb_please_tell_more">Beri tahu kami secara terperinci agar kami dapat menemukan dan menyelesaikan masalah Anda lebih cepat (setidaknya %s karakter)</string>
     <string name="fb_tell_us_your_problem">Beri tahu kami masalah yang Anda hadapi</string>
-    <string name="fb_thx_feedback_tip">Kami akan memperbaikinya dalam versi selanjutnya. Maaf atas ketidaknyamannya.</string>
-    <string name="fb_thx_feedback_title">Terima kasih atas masukan Anda</string>
     <string name="fb_type">Jenis</string>
-    <string name="feedback">Masukan</string>
-    <string name="feedback_des">Laporkan bug dan beri tahu kami apa yang perlu ditingkatkan</string>
-    <string name="feedback_hint">Laporkan bug dan memberitahu kita apa untuk meningkatkan</string>
-    <string name="feedback_hint_tip">Umpan balik atau saran</string>
-    <string name="feedback_mail_text">Informasi Sistem</string>
     <string name="file_name">Nama File</string>
     <string name="flashlight">Lampu kilat</string>
     <string name="free">Gratis</string>
@@ -543,10 +538,8 @@ Kami akan membagikan lebih banyak informasi setelah Anda kembali online."</strin
     <string name="product_guide_hint">Beberapa produk belum tercatat di pustaka produk. Anda dapat mengetuk Pencarian Web untuk mendapatkan informasi produk lainnya.</string>
     <string name="purchased_failed">Layanan Berbayar Google tidak tersedia saat ini atau di negara Anda, tetapi Anda bisa terus menggunakan aplikasi ini tanpa bisa membayar untuk menghapus iklan.</string>
     <string name="purchased_failed_title">Tidak bisa melakukan pembelian</string>
-    <string name="qr2_negative_feedback_hint_gpt">Tolong beri tahu kami masalah yang Anda alami selama proses pemindaian, kami akan berusaha untuk meningkatkannya.</string>
     <string name="qr2_problem_code_ask_gpt">Jenis kode apa yang Anda pindai?</string>
     <string name="qr2_rate_later_gpt">Tanya saya nanti</string>
-    <string name="qr2_thanks_feedback">Terima kasih atas masukan Anda!</string>
     <string name="qr_code">Kode QR</string>
     <string name="qr_code_not_found">Tidak ditemukan kode QR/kode batang</string>
     <string name="qr_code_not_found_hint">Pastikan kode QR/kode batang jelas dan seluruhnya di dalam bingkai</string>
@@ -614,7 +607,6 @@ Kami akan membagikan lebih banyak informasi setelah Anda kembali online."</strin
     <string name="song_name">Judul Lagu</string>
     <string name="start">Mulai</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="still_have_problems_1">Masih mengalami masalah</string>
     <string name="storage_permission_save_images">Izin penyimpanan dibutuhkan untuk menyimpan gambar.</string>
     <string name="subject">Subjek</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
@@ -629,11 +621,8 @@ Kami akan membagikan lebih banyak informasi setelah Anda kembali online."</strin
     <string name="tell_us_your_problem">Beri tahu kami masalah yang Anda hadapi</string>
     <string name="template_percent">%1$d persen.</string>
     <string name="text">Teks</string>
-    <string name="text_feedback_hint_short">Jelaskan masalah Anda</string>
     <string name="text_message">Pesan teks</string>
     <string name="then_select_generate">2. Pilih \"%s\"</string>
-    <string name="thx_feedback_tip">Kami akan memperbaikinya dalam versi selanjutnya. Maaf atas ketidaknyamannya.</string>
-    <string name="thx_feedback_title">Terima kasih atas masukan Anda</string>
     <string name="tiktok">TikTok</string>
     <string name="tip">Saran</string>
     <string name="title">Gelar:</string>

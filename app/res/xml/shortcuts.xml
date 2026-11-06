@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="shortcut_scan"
+        android:enabled="true"
+        android:icon="@drawable/vector_ic_tab_scan_selected"
+        android:shortcutShortLabel="@string/main_tab_scan">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="qrcodereader.barcodescanner.scan.qrscanner"
+            android:targetClass="qrcodereader.barcodescanner.scan.qrscanner.page.MainActivity">
+            <extra android:name="qr_tab" android:value="1" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="shortcut_create"
+        android:enabled="true"
+        android:icon="@drawable/vector_ic_tab_create_unselected"
+        android:shortcutShortLabel="@string/main_tab_create">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="qrcodereader.barcodescanner.scan.qrscanner"
+            android:targetClass="qrcodereader.barcodescanner.scan.qrscanner.page.MainActivity">
+            <extra android:name="qr_tab" android:value="4" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="shortcut_history"
+        android:enabled="true"
+        android:icon="@drawable/vector_ic_tab_history_unselected"
+        android:shortcutShortLabel="@string/main_tab_history">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="qrcodereader.barcodescanner.scan.qrscanner"
+            android:targetClass="qrcodereader.barcodescanner.scan.qrscanner.page.MainActivity">
+            <extra android:name="qr_tab" android:value="2" />
+        </intent>
+    </shortcut>
+</shortcuts>

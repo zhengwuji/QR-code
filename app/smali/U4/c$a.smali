@@ -53,7 +53,6 @@
     :try_start_0
     iget-object v0, v1, LU4/c$a;->a:LU4/c;
 
-    invoke-virtual/range {p2 .. p2}, Lcom/bytedance/sdk/component/sf/pcc/gbb;->oo()Z
 
     move-result v3
 
@@ -69,7 +68,6 @@
     if-eqz v0, :cond_9
 
     .line 4
-    invoke-virtual/range {p2 .. p2}, Lcom/bytedance/sdk/component/sf/pcc/gbb;->wh()Lcom/bytedance/sdk/component/sf/pcc/jr;
 
     move-result-object v3
     :try_end_0
@@ -90,7 +88,6 @@
     .line 6
     iget-object v0, v1, LU4/c$a;->a:LU4/c;
 
-    invoke-virtual {v3}, Lcom/bytedance/sdk/component/sf/pcc/jr;->pcc()J
 
     move-result-wide v4
 
@@ -105,7 +102,6 @@
     invoke-static {v0, v4, v5}, LU4/c;->g(LU4/c;J)J
 
     .line 7
-    invoke-virtual {v3}, Lcom/bytedance/sdk/component/sf/pcc/jr;->gm()Ljava/io/InputStream;
 
     move-result-object v2
 
@@ -141,11 +137,9 @@
     if-eqz v3, :cond_2
 
     .line 10
-    invoke-virtual {v3}, Lcom/bytedance/sdk/component/sf/pcc/jr;->close()V
 
     .line 11
     :cond_2
-    invoke-virtual/range {p2 .. p2}, Lcom/bytedance/sdk/component/sf/pcc/gbb;->close()V
 
     .line 12
     iget-object v0, v1, LU4/c$a;->a:LU4/c;
@@ -214,11 +208,9 @@
 
     iget-object v7, v1, LU4/c$a;->a:LU4/c;
 
-    invoke-static {v7}, LU4/c;->d(LU4/c;)Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;
 
     move-result-object v7
 
-    invoke-virtual {v7}, Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;->dax()Ljava/lang/String;
 
     const-wide/16 v7, 0x0
 
@@ -335,11 +327,9 @@
 
     iget-object v7, v1, LU4/c$a;->a:LU4/c;
 
-    invoke-static {v7}, LU4/c;->d(LU4/c;)Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;
 
     move-result-object v7
 
-    invoke-virtual {v7}, Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;->nac()Ljava/lang/String;
 
     move-result-object v7
 
@@ -461,11 +451,9 @@
     :try_start_6
     iget-object v0, v1, LU4/c$a;->a:LU4/c;
 
-    invoke-virtual/range {p2 .. p2}, Lcom/bytedance/sdk/component/sf/pcc/gbb;->gm()I
 
     move-result v3
 
-    invoke-virtual/range {p2 .. p2}, Lcom/bytedance/sdk/component/sf/pcc/gbb;->vj()Ljava/lang/String;
 
     move-result-object v4
 
@@ -486,11 +474,9 @@
     if-eqz v3, :cond_b
 
     .line 29
-    invoke-virtual {v3}, Lcom/bytedance/sdk/component/sf/pcc/jr;->close()V
 
     .line 30
     :cond_b
-    invoke-virtual/range {p2 .. p2}, Lcom/bytedance/sdk/component/sf/pcc/gbb;->close()V
 
     .line 31
     iget-object v0, v1, LU4/c$a;->a:LU4/c;
@@ -550,11 +536,9 @@
     if-eqz v3, :cond_d
 
     .line 34
-    invoke-virtual {v3}, Lcom/bytedance/sdk/component/sf/pcc/jr;->close()V
 
     .line 35
     :cond_d
-    invoke-virtual/range {p2 .. p2}, Lcom/bytedance/sdk/component/sf/pcc/gbb;->close()V
 
     .line 36
     iget-object v0, v1, LU4/c$a;->a:LU4/c;
@@ -609,11 +593,9 @@
     if-eqz v3, :cond_10
 
     .line 39
-    invoke-virtual {v3}, Lcom/bytedance/sdk/component/sf/pcc/jr;->close()V
 
     .line 40
     :cond_10
-    invoke-virtual/range {p2 .. p2}, Lcom/bytedance/sdk/component/sf/pcc/gbb;->close()V
 
     .line 41
     iget-object v2, v1, LU4/c$a;->a:LU4/c;

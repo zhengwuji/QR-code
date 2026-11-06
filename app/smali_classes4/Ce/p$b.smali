@@ -87,7 +87,6 @@
     .line 10
     .line 11
     .line 12
-    invoke-static {}, Lconsent/ConsentManager;->h()Lconsent/ConsentManager;
 
     .line 13
     .line 14
@@ -95,7 +94,6 @@
     move-result-object p1
 
     .line 16
-    invoke-virtual {p1}, Lconsent/ConsentManager;->e()V
 
     .line 17
     .line 18
@@ -128,7 +126,6 @@
     .line 10
     .line 11
     .line 12
-    invoke-static {}, Lconsent/ConsentManager;->h()Lconsent/ConsentManager;
 
     .line 13
     .line 14
@@ -136,7 +133,6 @@
     move-result-object p1
 
     .line 16
-    invoke-virtual {p1}, Lconsent/ConsentManager;->e()V
 
     .line 17
     .line 18

@@ -36,7 +36,6 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Ls6/l0;->a(Ljava/lang/String;)V
 
     .line 4
     .line 5

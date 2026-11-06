@@ -47,6 +47,7 @@
     <string name="avoid_reflections">หลีกเลี่ยงแสง&lt;b>สะท้อน&lt;/b>หรือ&lt;b>เงา&lt;/b>บนรหัส</string>
     <string name="barcode_number_gpt">หมายเลขบาร์โค้ด...</string>
     <string name="barcode_scan_fail_tip">หากสแกนไม่สำเร็จ คุณสามารถลองป้อนหมายเลขบาร์โค้ดด้วยตนเองเพื่อค้นหา</string>
+    <string name="qr2_thanks_feedback">ขอบคุณที่ส่งความคิดเห็นมา!</string>
     <string name="beep">บี๊ป</string>
     <string name="beep_hint">ส่งเสียงเมื่อสแกนสำเร็จ</string>
     <string name="bigo_ad_about_app_default">เกี่ยวกับแอพนี้</string>
@@ -206,6 +207,7 @@
     <string name="delete_sure">คุณแน่ใจหรือว่าต้องการลบ?</string>
     <string name="description">คำอธิบาย</string>
     <string name="different_engine_more_info">ลองใช้เครื่องมือค้นหาต่างๆ เพื่อรับข้อมูลเพิ่มเติมที่เป็นประโยชน์!</string>
+    <string name="still_have_problems_1">ยังคงมีปัญหา</string>
     <string name="dropdown_menu">เมนูแบบเลื่อนลง</string>
     <string name="ebay">eBay</string>
     <string name="email">อีเมล:</string>
@@ -291,14 +293,7 @@
     <string name="fb_ok">ตกลง</string>
     <string name="fb_please_tell_more">โปรดแจ้งรายละเอียดเพิ่มเติมเพื่อให้เราสามารถระบุตำแหน่งและแก้ไขปัญหาของคุณได้เร็วขึ้น (อย่างน้อย %s ตัวอักษร)</string>
     <string name="fb_tell_us_your_problem">แจ้งปัญหาที่คุณพบ</string>
-    <string name="fb_thx_feedback_tip">เราจะแก้ไขในเวอร์ชันต่อไป ขออภัยในความไม่สะดวก</string>
-    <string name="fb_thx_feedback_title">ขอบคุณที่ส่งความคิดเห็นมา</string>
     <string name="fb_type">ประเภท</string>
-    <string name="feedback">คำติชม</string>
-    <string name="feedback_des">รายงานจุดบกพร่องและบอกเราว่าควรปรับปรุงอะไร</string>
-    <string name="feedback_hint">รายงานข้อบกพร่องและเสนอแนะสิ่งที่ควรปรับปรุง</string>
-    <string name="feedback_hint_tip">คำติชมหรือคำแนะนำ</string>
-    <string name="feedback_mail_text">ข้อมูลระบบ</string>
     <string name="file_name">ชื่อไฟล์</string>
     <string name="flashlight">ไฟฉาย</string>
     <string name="free">ฟรี</string>
@@ -554,10 +549,8 @@
     <string name="product_guide_hint">ยังไม่ได้ใส่ผลิตภัณฑ์บางรายการในไลบรารีผลิตภัณฑ์ คุณสามารถแตะที่ค้นหาผ่านเว็บเพื่อรับข้อมูลผลิตภัณฑ์เพิ่มเติม</string>
     <string name="purchased_failed">บริการ Google Paid ใช้ไม่ได้ในขณะนี้ หรือยังใช้ไม่ได้ในประเทศของคุณ คุณสามารถใช้แอปพลิเคชันต่อไปได้แต่จะจ่ายเงินเพื่อลบโฆษณาไม่ได้</string>
     <string name="purchased_failed_title">ซื้อไม่ได้</string>
-    <string name="qr2_negative_feedback_hint_gpt">โปรดบอกปัญหาที่คุณพบระหว่างกระบวนการสแกน พวกเราจะพยายามปรับปรุงให้ดีที่สุด</string>
     <string name="qr2_problem_code_ask_gpt">คุณสแกนประเภทของรหัสอะไร?</string>
     <string name="qr2_rate_later_gpt">ถามฉันในภายหลัง</string>
-    <string name="qr2_thanks_feedback">ขอบคุณที่ส่งความคิดเห็นมา!</string>
     <string name="qr_code">รหัส QR</string>
     <string name="qr_code_not_found">ไม่พบรหัส QR/บาร์โค้ด</string>
     <string name="qr_code_not_found_hint">ตรวจสอบให้แน่ใจว่ารหัสคิวอาร์/บาร์โค้ดมีความชัดเจนและอยู่ภายในกรอบที่กำหนด</string>
@@ -625,7 +618,6 @@
     <string name="song_name">ชื่อเพลง</string>
     <string name="start">เริ่ม</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="still_have_problems_1">ยังคงมีปัญหา</string>
     <string name="storage_permission_save_images">ต้องได้รับอนุญาตในการจัดเก็บเพื่อบันทึกภาพ</string>
     <string name="subject">หัวข้อ:</string>
     <string name="summary_collapsed_preference_list">%1$s %2$s</string>
@@ -640,11 +632,8 @@
     <string name="tell_us_your_problem">แจ้งปัญหาที่คุณพบ</string>
     <string name="template_percent">%1$d เปอร์เซ็นต์</string>
     <string name="text">ข้อความ</string>
-    <string name="text_feedback_hint_short">โปรดอธิบายปัญหาของคุณ</string>
     <string name="text_message">ข้อความ</string>
     <string name="then_select_generate">2. เลือก \"%s\"</string>
-    <string name="thx_feedback_tip">เราจะแก้ไขในเวอร์ชันต่อไป ขออภัยในความไม่สะดวก</string>
-    <string name="thx_feedback_title">ขอบคุณที่ส่งความคิดเห็นมา</string>
     <string name="tiktok">TikTok</string>
     <string name="tip">แนะนำ</string>
     <string name="title">ตำแหน่ง:</string>

@@ -4695,6 +4695,14 @@
     return-object v0
 .end method
 
+.method public y4()V
+    .locals 1
+
+    invoke-direct {p0}, Lve/V;->u3()LHc/H;
+
+    return-void
+.end method
+
 .method public static synthetic v2(Lve/V;I)V
     .locals 0
 
@@ -5883,6 +5891,12 @@
     .line 161
     invoke-static {v0, v1}, Lone/OneClickListener2;->a(Landroid/view/View;Lfunctions/Functions;)V
 
+    new-instance v1, Lqrfix/ContinuousToggleListener;
+
+    invoke-direct {v1}, Lqrfix/ContinuousToggleListener;-><init>()V
+
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
+
     .line 162
     .line 163
     .line 164
@@ -5908,6 +5922,12 @@
     .line 174
     .line 175
     invoke-static {v0, v1}, Lone/OneClickListener2;->a(Landroid/view/View;Lfunctions/Functions;)V
+
+    new-instance v1, Lqrfix/ContinuousToggleListener;
+
+    invoke-direct {v1}, Lqrfix/ContinuousToggleListener;-><init>()V
+
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
 
     .line 176
     .line 177
@@ -5938,6 +5958,12 @@
     .line 190
     .line 191
     invoke-static {v0, v1}, Lone/OneClickListener2;->a(Landroid/view/View;Lfunctions/Functions;)V
+
+    new-instance v1, Lqrfix/ContinuousToggleListener;
+
+    invoke-direct {v1}, Lqrfix/ContinuousToggleListener;-><init>()V
+
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
 
     .line 192
     .line 193
@@ -6218,6 +6244,56 @@
 
     .line 11
     :cond_1
+    invoke-static {v0}, Lqrfix/ContinuousScanHelper;->isContinuousEnabled(Landroid/content/Context;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_normal_k3
+
+    invoke-static {}, Lqrfix/ContinuousScanHelper;->shouldProcessScan()Z
+
+    move-result v1
+
+    if-nez v1, :cond_do_cont
+
+    invoke-direct {p0}, Lve/V;->b3()V
+
+    invoke-direct {p0}, Lve/V;->M3()V
+
+    return-void
+
+    :cond_do_cont
+    iget-object v1, p0, Lve/V;->h0:Lp5/c;
+
+    if-eqz v1, :cond_skip_h0
+
+    invoke-virtual {v1}, Lp5/c;->e()V
+
+    :cond_skip_h0
+    invoke-static {v0, p1}, Lqrfix/ContinuousScanHelper;->savePayloadToHistory(Landroid/content/Context;Lscan4/ScanResultPayload;)V
+
+    invoke-virtual {p1}, Lscan4/ScanResultPayload;->f()Ljava/lang/String;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_skip_msg
+
+    const/4 v2, 0x0
+
+    invoke-static {v0, v1, v2}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Landroid/widget/Toast;->show()V
+
+    :cond_skip_msg
+    invoke-direct {p0}, Lve/V;->b3()V
+
+    invoke-direct {p0}, Lve/V;->M3()V
+
+    return-void
+
+    :cond_normal_k3
     const-string v1, "rpvZ5u2604n-5raPhYij5f6f"
 
     .line 12

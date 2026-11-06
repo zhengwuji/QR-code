@@ -53,6 +53,7 @@
     <string name="avoid_reflections">코드에 빛이 &lt;b>반사&lt;/b>되거나 &lt;b>그늘&lt;/b>이 생기지 않도록 하세요</string>
     <string name="barcode_number_gpt">바코드 번호...</string>
     <string name="barcode_scan_fail_tip">스캔이 실패할 경우, 바코드 번호를 수동으로 입력하여 검색을 시도하실 수 있습니다.</string>
+    <string name="qr2_thanks_feedback">피드백을 주셔서 감사합니다!</string>
     <string name="beep">전자음</string>
     <string name="beep_hint">스캔 완료 시 전자음 발생</string>
     <string name="bigo_ad_about_app_default">이 앱 정보</string>
@@ -212,6 +213,7 @@
     <string name="delete_sure">정말 삭제하시겠습니까?</string>
     <string name="description">설명</string>
     <string name="different_engine_more_info">다양한 검색 엔진을 사용해서 유용한 정보를 더 많이 얻어 보세요!</string>
+    <string name="still_have_problems_1">여전히 문제가 있습니다</string>
     <string name="download">다운로드</string>
     <string name="dropdown_menu">드롭다운 메뉴</string>
     <string name="ebay">eBay</string>
@@ -298,14 +300,7 @@
     <string name="fb_ok">확인</string>
     <string name="fb_please_tell_more">고객님의 문제를 파악하여 더 빨리 해결할 수 있도록 더 자세히 설명해 주세요(최소 %s자 이상)</string>
     <string name="fb_tell_us_your_problem">발생한 문제에 대해 말씀해 주세요</string>
-    <string name="fb_thx_feedback_tip">차후 버전에서 수정하겠습니다. 불편을 끼쳐 드려 죄송합니다.</string>
-    <string name="fb_thx_feedback_title">피드백을 보내 주셔서 감사합니다</string>
     <string name="fb_type">유형</string>
-    <string name="feedback">의견</string>
-    <string name="feedback_des">버그 신고 및 개선 사항을 알려주세요</string>
-    <string name="feedback_hint">버그를 신고하고 개선 할 내용을 알려주십시오</string>
-    <string name="feedback_hint_tip">피드백 또는 제안</string>
-    <string name="feedback_mail_text">시스템정보</string>
     <string name="file_name">파일 이름</string>
     <string name="flashlight">손전등</string>
     <string name="free">무료</string>
@@ -562,10 +557,8 @@
     <string name="product_guide_hint">일부 제품은 아직 제품 라이브러리에 포함되지 않았습니다. 웹 검색을 탭하여 자세한 제품 정보를 확인하실 수 있습니다.</string>
     <string name="purchased_failed">Google Paid 서비스를 현재 이용할 수 없거나 회원님의 국가에서 지원되지 않습니다. 광고 제거를 위한 구매만 제외하고 앱을 계속 사용하실 수 있습니다.</string>
     <string name="purchased_failed_title">구매할 수 없습니다</string>
-    <string name="qr2_negative_feedback_hint_gpt">스캔 과정 중에 발생한 문제를 알려주세요. 최선을 다해 개선하겠습니다.</string>
     <string name="qr2_problem_code_ask_gpt">어떤 유형의 코드를 스캔했나요?</string>
     <string name="qr2_rate_later_gpt">나중에 물어보세요</string>
-    <string name="qr2_thanks_feedback">피드백을 주셔서 감사합니다!</string>
     <string name="qr_code">QR 코드</string>
     <string name="qr_code_not_found">QR 코드/바코드 없음</string>
     <string name="qr_code_not_found_hint">QR 코드/바코드가 선명하고 완전히 사각형 안에 있는지 확인하세요</string>
@@ -633,7 +626,6 @@
     <string name="song_name">노래 이름</string>
     <string name="start">시작</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="still_have_problems_1">여전히 문제가 있습니다</string>
     <string name="storage_permission_save_images">이미지를 저장하려면 저장 공간 사용 권한이 필요합니다.</string>
     <string name="subject">제목:</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
@@ -648,11 +640,8 @@
     <string name="tell_us_your_problem">발생한 문제에 대해 말씀해 주세요</string>
     <string name="template_percent">%1$d퍼센트</string>
     <string name="text">텍스트</string>
-    <string name="text_feedback_hint_short">문제에 대해 기재해 주세요</string>
     <string name="text_message">텍스트 메시지</string>
     <string name="then_select_generate">"2. '%s'을 선택합니다"</string>
-    <string name="thx_feedback_tip">차후 버전에서 수정하겠습니다. 불편을 끼쳐 드려 죄송합니다.</string>
-    <string name="thx_feedback_title">피드백을 보내 주셔서 감사합니다</string>
     <string name="tiktok">TikTok</string>
     <string name="tip">도움말</string>
     <string name="title">직함:</string>

@@ -37,7 +37,6 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Lcom/google/firebase/crashlytics/CrashlyticsRegistrar;->a(Lcom/google/firebase/crashlytics/CrashlyticsRegistrar;LT8/d;)Lcom/google/firebase/crashlytics/a;
 
     .line 4
     .line 5

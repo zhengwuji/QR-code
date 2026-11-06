@@ -53,6 +53,7 @@
     <string name="avoid_reflections">Kod üzerinde ışık &lt;b>yansımaları&lt;/b> veya &lt;b>gölgeler&lt;/b> olmasından kaçının</string>
     <string name="barcode_number_gpt">Barkod numarası...</string>
     <string name="barcode_scan_fail_tip">Tarama başarısız olursa, aranacak barkod numarasını elle girmeyi deneyebilirsiniz.</string>
+    <string name="qr2_thanks_feedback">Geri bildiriminiz için teşekkürler!</string>
     <string name="beep">Bip</string>
     <string name="beep_hint">Tarama başarılı olunca biple</string>
     <string name="bigo_ad_about_app_default">Bu uygulama hakkında</string>
@@ -216,6 +217,7 @@ Bu fonksiyon yakında kullanılabilecek…"</string>
     <string name="delete_sure">Silmek istediğinizden emin misiniz?</string>
     <string name="description">Açıklama</string>
     <string name="different_engine_more_info">Daha faydalı bilgi edinmek için farklı arama motorlarını deneyin!</string>
+    <string name="still_have_problems_1">Hâlâ sorunlarınız mı var</string>
     <string name="download">Indir</string>
     <string name="dropdown_menu">Açılır menü</string>
     <string name="ebay">eBay</string>
@@ -302,14 +304,7 @@ Bu fonksiyon yakında kullanılabilecek…"</string>
     <string name="fb_ok">TAMAM</string>
     <string name="fb_please_tell_more">Lütfen sorununuzu daha hızlı tespit edip çözebilmemiz için bize daha fazla ayrıntı verin (en az %s karakter)</string>
     <string name="fb_tell_us_your_problem">Bize karşılaştığınız sorunu anlatın</string>
-    <string name="fb_thx_feedback_tip">Gelecekteki sürümde bunu düzelteceğiz. Uygunsuz durum için özür dileriz.</string>
-    <string name="fb_thx_feedback_title">Geri bildiriminiz için teşekkürler</string>
     <string name="fb_type">Tür</string>
-    <string name="feedback">Geri bildirim</string>
-    <string name="feedback_des">Hataları bildirin ve neleri geliştirmemiz gerektiğini bize bildirin</string>
-    <string name="feedback_hint">Bize hataları bildirin ve nerede iyileştirme yapılması gerektiğini söyleyin</string>
-    <string name="feedback_hint_tip">Görüşleriniz veya öneri</string>
-    <string name="feedback_mail_text">Sistem bilgisi</string>
     <string name="file_name">Dosya Adı</string>
     <string name="flashlight">El Feneri</string>
     <string name="free">Ücretsiz</string>
@@ -566,10 +561,8 @@ Tekrar internete bağlandığınızda daha fazla bilgi paylaşacağız."</string
     <string name="product_guide_hint">Bazı ürünler henüz ürün kitaplığına girilmedi. Daha fazla ürün bilgisi almak için Web Aramasına dokunabilirsiniz.</string>
     <string name="purchased_failed">Google Ödendi hizmeti şu anda veya ülkenizde mevcut değil, reklam kaldırma ücreti ödeme hariç, uygulamamızı kullanmaya devam edebilirsiniz.</string>
     <string name="purchased_failed_title">Satın alınamıyor</string>
-    <string name="qr2_negative_feedback_hint_gpt">Lütfen tarama işlemi sırasında karşılaştığınız sorunu bize bildirin, en iyi şekilde geliştirmeye çalışacağız.</string>
     <string name="qr2_problem_code_ask_gpt">Hangi tür kodu taradınız?</string>
     <string name="qr2_rate_later_gpt">Beni sonra sor</string>
-    <string name="qr2_thanks_feedback">Geri bildiriminiz için teşekkürler!</string>
     <string name="qr_code">QR kodu</string>
     <string name="qr_code_not_found">QR kodu/barkod bulunamadı</string>
     <string name="qr_code_not_found_hint">QR kodunun/barkodun net ve tamamıyla çerçevenin içinde olduğundan emin olun</string>
@@ -637,7 +630,6 @@ Tekrar internete bağlandığınızda daha fazla bilgi paylaşacağız."</string
     <string name="song_name">Şarkı Adı</string>
     <string name="start">Başlangıç</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="still_have_problems_1">Hâlâ sorunlarınız mı var</string>
     <string name="storage_permission_save_images">Resimlerin kaydedilebilmesi için depolama izni gerekli.</string>
     <string name="subject">Konu</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
@@ -652,11 +644,8 @@ Tekrar internete bağlandığınızda daha fazla bilgi paylaşacağız."</string
     <string name="tell_us_your_problem">Bize karşılaştığınız sorunu anlatın</string>
     <string name="template_percent">Yüzde %1$d.</string>
     <string name="text">Metin</string>
-    <string name="text_feedback_hint_short">Lütfen sorununuzu açıklayın</string>
     <string name="text_message">Metin iletisi</string>
     <string name="then_select_generate">2. \"%s\" seçeneğini seçin</string>
-    <string name="thx_feedback_tip">Gelecekteki sürümde bunu düzelteceğiz. Uygunsuz durum için özür dileriz.</string>
-    <string name="thx_feedback_title">Geri bildiriminiz için teşekkürler</string>
     <string name="tiktok">TikTok</string>
     <string name="tip">İpuçları</string>
     <string name="title">Unvan:</string>

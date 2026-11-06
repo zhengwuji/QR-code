@@ -224,7 +224,6 @@
 
     .line 54
     .line 55
-    invoke-static {}, Lcom/google/firebase/provider/FirebaseInitProvider;->b()LO8/o;
 
     .line 56
     .line 57
@@ -308,12 +307,10 @@
 
     .line 98
     .line 99
-    invoke-direct {v2}, Lcom/google/firebase/FirebaseCommonRegistrar;-><init>()V
 
     .line 100
     .line 101
     .line 102
-    invoke-virtual {v0, v2}, LT8/n$b;->c(Lcom/google/firebase/components/ComponentRegistrar;)LT8/n$b;
 
     .line 103
     .line 104
@@ -325,12 +322,10 @@
 
     .line 107
     .line 108
-    invoke-direct {v2}, Lcom/google/firebase/concurrent/ExecutorsRegistrar;-><init>()V
 
     .line 109
     .line 110
     .line 111
-    invoke-virtual {v0, v2}, LT8/n$b;->c(Lcom/google/firebase/components/ComponentRegistrar;)LT8/n$b;
 
     .line 112
     .line 113
@@ -439,7 +434,6 @@
 
     .line 165
     .line 166
-    invoke-static {}, Lcom/google/firebase/provider/FirebaseInitProvider;->c()Z
 
     .line 167
     .line 168

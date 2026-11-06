@@ -25,7 +25,6 @@
     .locals 0
 
     .line 1
-    invoke-static {p1}, Lle/c;->b(Lm7/d;)V
 
     .line 2
     .line 3

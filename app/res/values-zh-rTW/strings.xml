@@ -53,6 +53,7 @@
     <string name="avoid_reflections">請避免&lt;b>反光&lt;/b>或碼上有&lt;b>陰影&lt;/b></string>
     <string name="barcode_number_gpt">條碼號碼...</string>
     <string name="barcode_scan_fail_tip">若掃描失敗，您可以嘗試手動輸入條碼號碼以搜尋。</string>
+    <string name="qr2_thanks_feedback">感謝您的意見回饋！</string>
     <string name="beep">提示音</string>
     <string name="beep_hint">掃描成功時發出提示音</string>
     <string name="birthday">生日：</string>
@@ -190,6 +191,7 @@
     <string name="delete_sure">您確定要刪除它嗎？</string>
     <string name="description">描述</string>
     <string name="different_engine_more_info">試試不同的搜尋引擎以取得更多有用的資訊！</string>
+    <string name="still_have_problems_1">仍有問題</string>
     <string name="download">下載</string>
     <string name="dropdown_menu">下拉式選單</string>
     <string name="ebay">eBay</string>
@@ -276,14 +278,7 @@
     <string name="fb_ok">確定</string>
     <string name="fb_please_tell_more">請告訴我們更多細節，以便更迅速確定並解決您的問題 (至少 %s 個字元)</string>
     <string name="fb_tell_us_your_problem">告訴我們您遇到的問題</string>
-    <string name="fb_thx_feedback_tip">很抱歉給您造成的不便 。我們會在之後的版本中修復此問題。</string>
-    <string name="fb_thx_feedback_title">感謝您的寶貴意見</string>
     <string name="fb_type">類型</string>
-    <string name="feedback">反饋</string>
-    <string name="feedback_des">回報錯誤及告訴我們該如何改進</string>
-    <string name="feedback_hint">回報錯誤及告訴我們該如何改進</string>
-    <string name="feedback_hint_tip">反饋或建議</string>
-    <string name="feedback_mail_text">系統資訊</string>
     <string name="file_name">檔案名稱</string>
     <string name="flashlight">手電筒</string>
     <string name="free">免費</string>
@@ -540,10 +535,8 @@
     <string name="product_guide_hint">某些產品尚未列入產品庫。您可點選網路搜尋以獲得更多產品資訊。</string>
     <string name="purchased_failed">谷歌付費服務不支持你的國家，或谷歌支付服務在這此刻不可用，你可以繼續使用該應用程序，但不能購買移除廣告。</string>
     <string name="purchased_failed_title">購買失敗</string>
-    <string name="qr2_negative_feedback_hint_gpt">請告訴我們您在掃描過程中遇到的問題，我們將盡力改進。</string>
     <string name="qr2_problem_code_ask_gpt">您掃描的是哪種類型的碼？</string>
     <string name="qr2_rate_later_gpt">稍後再問我</string>
-    <string name="qr2_thanks_feedback">感謝您的意見回饋！</string>
     <string name="qr_code">QR 碼</string>
     <string name="qr_code_not_found">沒有發現 QR 碼/條碼</string>
     <string name="qr_code_not_found_hint">請確定二維碼/條碼清晰且完全置於框內</string>
@@ -611,7 +604,6 @@
     <string name="song_name">歌曲名稱</string>
     <string name="start">開始</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="still_have_problems_1">仍有問題</string>
     <string name="storage_permission_save_images">需要有儲存空間權限才能儲存圖片。</string>
     <string name="subject">主旨：</string>
     <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
@@ -626,11 +618,8 @@
     <string name="tell_us_your_problem">告訴我們您遇到的問題</string>
     <string name="template_percent">百分之 %1$d。</string>
     <string name="text">文本</string>
-    <string name="text_feedback_hint_short">請描述您的問題</string>
     <string name="text_message">簡訊</string>
     <string name="then_select_generate">2. 選取「%s」</string>
-    <string name="thx_feedback_tip">很抱歉給您造成的不便 。我們會在之後的版本中修復此問題。</string>
-    <string name="thx_feedback_title">感謝您的寶貴意見</string>
     <string name="tiktok">TikTok</string>
     <string name="tip">建議</string>
     <string name="title">稱謂：</string>

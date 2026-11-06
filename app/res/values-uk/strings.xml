@@ -53,6 +53,7 @@
     <string name="avoid_reflections">Уникайте &lt;b>відбиття&lt;/b> світла чи &lt;b>тіней&lt;/b> на коді</string>
     <string name="barcode_number_gpt">Номер штрих-коду...</string>
     <string name="barcode_scan_fail_tip">Якщо засканувати не вдалося, спробуйте ввести номер штрих-коду для пошуку вручну.</string>
+    <string name="qr2_thanks_feedback">Дякуємо за ваш відгук!</string>
     <string name="beep">Звуковий сигнал</string>
     <string name="beep_hint">Звуковий сигнал у разі успішного сканування</string>
     <string name="birthday">День народження:</string>
@@ -190,6 +191,7 @@
     <string name="delete_sure">Справді видалити?</string>
     <string name="description">Опис</string>
     <string name="different_engine_more_info">Спробуйте різні пошукові системи, щоб отримувати більше корисної інформації!</string>
+    <string name="still_have_problems_1">Проблеми не зникли</string>
     <string name="download">Завантажити</string>
     <string name="dropdown_menu">Спадне меню</string>
     <string name="ebay">eBay</string>
@@ -276,14 +278,7 @@
     <string name="fb_ok">ОК</string>
     <string name="fb_please_tell_more">Надайте нам більше відомостей, щоб ми могли швидше знайти та вирішити вашу проблему (принаймні %s символів)</string>
     <string name="fb_tell_us_your_problem">Розкажіть, яку проблему ви виявили</string>
-    <string name="fb_thx_feedback_tip">Ми усунемо її в наступній версії. Вибачте за незручності.</string>
-    <string name="fb_thx_feedback_title">Дякуємо за ваш відгук.</string>
     <string name="fb_type">Тип</string>
-    <string name="feedback">Відгук</string>
-    <string name="feedback_des">Повідомляйте про помилки та підказуйте нам, що можна вдосконалити</string>
-    <string name="feedback_hint">Повідомте про помилки та скажіть нам, як поліпшитися</string>
-    <string name="feedback_hint_tip">Відгук і пропозиції</string>
-    <string name="feedback_mail_text">Інформ. про сист.</string>
     <string name="file_name">"Ім'я файлу"</string>
     <string name="flashlight">Ліхтарик</string>
     <string name="free">безкоштовно</string>
@@ -540,10 +535,8 @@
     <string name="product_guide_hint">Деякі товари ще не внесено до бібліотеки. Щоб отримати більше інформації про товар, натисніть \"Пошук в Інтернеті\".</string>
     <string name="purchased_failed">Послуга Google Paid наразі не доступна у Вашій країні, Ви можете продовжувати використовувати додаток, крім оплати за видалення оголошень.</string>
     <string name="purchased_failed_title">Неможливо зробити покупку</string>
-    <string name="qr2_negative_feedback_hint_gpt">Будь ласка, розкажіть нам про проблему, з якою ви зіткнулися під час процесу сканування, і ми зробимо все можливе, щоб вдосконалитися.</string>
     <string name="qr2_problem_code_ask_gpt">Який тип коду ви сканували?</string>
     <string name="qr2_rate_later_gpt">Спитайте мене пізніше</string>
-    <string name="qr2_thanks_feedback">Дякуємо за ваш відгук!</string>
     <string name="qr_code">QR-код</string>
     <string name="qr_code_not_found">QR-/штрих-код не знайдено</string>
     <string name="qr_code_not_found_hint">Стежте, щоб QR-/штрих-код був чітким і повністю поміщався в рамку</string>
@@ -611,7 +604,6 @@
     <string name="song_name">Назва пісні</string>
     <string name="start">Початок</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="still_have_problems_1">Проблеми не зникли</string>
     <string name="storage_permission_save_images">Щоб зберігати зображення, потрібен дозвіл на зберігання.</string>
     <string name="subject">Тема:</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
@@ -626,11 +618,8 @@
     <string name="tell_us_your_problem">Розкажіть, яку проблему ви виявили</string>
     <string name="template_percent">Відсотків: %1$d.</string>
     <string name="text">Текст</string>
-    <string name="text_feedback_hint_short">Опишіть свою проблему</string>
     <string name="text_message">Текстове повідомлення</string>
     <string name="then_select_generate">2. Виберіть \"%s\"</string>
-    <string name="thx_feedback_tip">Ми усунемо її в наступній версії. Вибачте за незручності.</string>
-    <string name="thx_feedback_title">Дякуємо за ваш відгук.</string>
     <string name="tiktok">TikTok</string>
     <string name="tip">Порада</string>
     <string name="title">Назва:</string>

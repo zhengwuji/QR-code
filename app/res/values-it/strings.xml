@@ -53,6 +53,7 @@
     <string name="avoid_reflections">Evita &lt;b>riflessi&lt;/b> o &lt;b>ombre&lt;/b> sul codice</string>
     <string name="barcode_number_gpt">Numero del codice a barre...</string>
     <string name="barcode_scan_fail_tip">Se la scansione non riesce, potresti provare a inserire manualmente il codice a barre per la ricerca.</string>
+    <string name="qr2_thanks_feedback">Grazie per la tua opinione!</string>
     <string name="beep">Segnale acustico</string>
     <string name="beep_hint">Emetti un segnale acustico quando la scansione è riuscita</string>
     <string name="bigo_ad_lose_reward">Perderai la tua ricompensa.</string>
@@ -194,6 +195,7 @@ La funzione verrà presentata presto…"</string>
     <string name="delete_sure">"Vuoi eliminare l'elemento?"</string>
     <string name="description">Descrizione</string>
     <string name="different_engine_more_info">Prova vari motori di ricerca per ottenere altre informazioni utili!</string>
+    <string name="still_have_problems_1">Hai ancora problemi</string>
     <string name="download">il Download</string>
     <string name="dropdown_menu">Menu a discesa</string>
     <string name="ebay">eBay</string>
@@ -280,14 +282,7 @@ La funzione verrà presentata presto…"</string>
     <string name="fb_ok">OK</string>
     <string name="fb_please_tell_more">Dacci più dettagli così potremo individuare e risolvere il problema più velocemente (almeno %s caratteri)</string>
     <string name="fb_tell_us_your_problem">Qual è stato il problema?</string>
-    <string name="fb_thx_feedback_tip">"Lo risolveremo nella prossima versione. Ci scusiamo per l'accaduto."</string>
-    <string name="fb_thx_feedback_title">Grazie per il tuo feedback</string>
     <string name="fb_type">Tipo</string>
-    <string name="feedback">Feedback</string>
-    <string name="feedback_des">Segnala bug e consigli per migliorare</string>
-    <string name="feedback_hint">Segnala i bug e dicci cosa migliorare</string>
-    <string name="feedback_hint_tip">Feedback o suggerimento</string>
-    <string name="feedback_mail_text">Info di sistema</string>
     <string name="file_name">Nome file</string>
     <string name="flashlight">Torcia</string>
     <string name="free">Gratis</string>
@@ -544,10 +539,8 @@ Comunicheremo ulteriori dettagli quando tornerai online."</string>
     <string name="product_guide_hint">Alcuni prodotti non sono ancora inseriti nella libreria dei prodotti. Puoi toccare Ricerca sul Web per ottenere ulteriori informazioni sul prodotto.</string>
     <string name="purchased_failed">"Il servizio Google Paid non è disponibile al momento o nel tuo paese. Puoi continuare a utilizzare l'applicazione tranne l'opzione di pagamento per rimuovere la pubblicità."</string>
     <string name="purchased_failed_title">Acquisto non riuscito</string>
-    <string name="qr2_negative_feedback_hint_gpt">Per favore, segnalaci il problema che hai riscontrato durante il processo di scansione, faremo del nostro meglio per migliorare.</string>
     <string name="qr2_problem_code_ask_gpt">Che tipo di codice hai scansionato?</string>
     <string name="qr2_rate_later_gpt">Chiedimi in seguito</string>
-    <string name="qr2_thanks_feedback">Grazie per la tua opinione!</string>
     <string name="qr_code">Codice QR</string>
     <string name="qr_code_not_found">Nessun codice QR/codice a barre trovato</string>
     <string name="qr_code_not_found_hint">"Verifica che il codice a barre/QR sia leggibile e rientri completamente all'interno della cornice"</string>
@@ -615,7 +608,6 @@ Comunicheremo ulteriori dettagli quando tornerai online."</string>
     <string name="song_name">Nome del brano</string>
     <string name="start">Inizio</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="still_have_problems_1">Hai ancora problemi</string>
     <string name="storage_permission_save_images">"L'accesso allo spazio di archiviazione è necessario per il salvataggio delle immagini."</string>
     <string name="subject">Oggetto:</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
@@ -630,11 +622,8 @@ Comunicheremo ulteriori dettagli quando tornerai online."</string>
     <string name="tell_us_your_problem">Qual è stato il problema?</string>
     <string name="template_percent">%1$d percento.</string>
     <string name="text">Testo</string>
-    <string name="text_feedback_hint_short">Descrivi il problema</string>
     <string name="text_message">Messaggio di testo</string>
     <string name="then_select_generate">2. Seleziona \"%s\"</string>
-    <string name="thx_feedback_tip">"Lo risolveremo nella prossima versione. Ci scusiamo per l'accaduto."</string>
-    <string name="thx_feedback_title">Grazie per il tuo feedback</string>
     <string name="tiktok">TikTok</string>
     <string name="tip">Consiglio</string>
     <string name="title">Titolo:</string>

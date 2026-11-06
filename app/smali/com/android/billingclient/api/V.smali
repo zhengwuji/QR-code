@@ -20,12 +20,10 @@
     .line 3
     .line 4
     :try_start_0
-    invoke-static {p1}, Lg6/u;->f(Landroid/content/Context;)V
 
     .line 5
     .line 6
     .line 7
-    invoke-static {}, Lg6/u;->c()Lg6/u;
 
     .line 8
     .line 9
@@ -37,7 +35,6 @@
 
     .line 12
     .line 13
-    invoke-virtual {p1, v0}, Lg6/u;->g(Lg6/f;)Ltransport/TransportFactory;
 
     .line 14
     .line 15

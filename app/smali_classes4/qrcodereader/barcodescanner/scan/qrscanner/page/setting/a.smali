@@ -683,29 +683,10 @@
 .end method
 
 .method private synthetic s2()LHc/H;
-    .locals 2
+    .locals 1
 
-    .line 1
-    invoke-virtual {p0}, Landroidx/fragment/app/f;->w()Landroidx/fragment/app/k;
-
-    .line 2
-    .line 3
-    .line 4
-    move-result-object v0
-
-    .line 5
-    sget-object v1, Lqrcodereader/barcodescanner/scan/qrscanner/page/setting/FeedbackActivity$b;->c:Lqrcodereader/barcodescanner/scan/qrscanner/page/setting/FeedbackActivity$b;
-
-    .line 6
-    .line 7
-    invoke-static {v0, v1}, Lqrcodereader/barcodescanner/scan/qrscanner/page/setting/FeedbackActivity;->l0(Landroid/app/Activity;Lqrcodereader/barcodescanner/scan/qrscanner/page/setting/FeedbackActivity$b;)V
-
-    .line 8
-    .line 9
-    .line 10
     const/4 v0, 0x0
 
-    .line 11
     return-object v0
 .end method
 
@@ -1691,28 +1672,6 @@
     .line 241
     .line 242
     .line 243
-    sget v0, Lce/e;->j4:I
-
-    .line 244
-    .line 245
-    invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
-
-    .line 246
-    .line 247
-    .line 248
-    move-result-object v0
-
-    .line 249
-    new-instance v1, LBe/j;
-
-    .line 250
-    .line 251
-    invoke-direct {v1, p0}, LBe/j;-><init>(Lqrcodereader/barcodescanner/scan/qrscanner/page/setting/a;)V
-
-    .line 252
-    .line 253
-    .line 254
-    invoke-static {v0, v1}, Lone/OneClickListener2;->a(Landroid/view/View;Lfunctions/Functions;)V
 
     .line 255
     .line 256

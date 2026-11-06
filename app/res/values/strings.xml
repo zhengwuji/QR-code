@@ -56,6 +56,7 @@
     <string name="avoid_reflections">Avoid light &lt;b>reflections&lt;/b> or &lt;b>shadows&lt;/b> on the code</string>
     <string name="barcode_number_gpt">Barcode number...</string>
     <string name="barcode_scan_fail_tip">If the scan fails, you could try to manually enter the barcode number to search.</string>
+    <string name="qr2_thanks_feedback">Thanks for your feedback!</string>
     <string name="beep">Beep</string>
     <string name="beep_hint">Beep when the scan is successful</string>
     <string name="bigo_ad_about_app_default">About this app</string>
@@ -252,6 +253,7 @@ The function will be launched soon…"</string>
     <string name="description">Description</string>
     <string name="different_engine_more_info">Try different search engines to get more useful information!</string>
     <string name="dismiss_button_description">sdk_loading_ui_dismiss_button</string>
+    <string name="still_have_problems_1">Still have problems</string>
     <string name="download">Download</string>
     <string name="dropdown_menu">Dropdown menu</string>
     <string name="ebay">eBay</string>
@@ -344,14 +346,7 @@ The function will be launched soon…"</string>
     <string name="fb_ok">OK</string>
     <string name="fb_please_tell_more">Please tell us more details so that we can locate and solve your problem faster (at least %s characters)</string>
     <string name="fb_tell_us_your_problem">Tell us the problem you encountered</string>
-    <string name="fb_thx_feedback_tip">We will fix it in the future version. Sorry for the inconvenience.</string>
-    <string name="fb_thx_feedback_title">Thanks for your feedback</string>
     <string name="fb_type">Type</string>
-    <string name="feedback">Feedback</string>
-    <string name="feedback_des">Report bugs and tell us what to improve</string>
-    <string name="feedback_hint">Report bugs and tell us what to improve</string>
-    <string name="feedback_hint_tip">Feedback or suggestion</string>
-    <string name="feedback_mail_text">System info</string>
     <string name="file_name">File Name</string>
     <string name="files_path_core_ad">lib_promote_ad</string>
     <string name="firebase_database_url">https://qrcode-52677.firebaseio.com</string>
@@ -696,10 +691,8 @@ We will share more once you're back online."</string>
     <string name="project_id">qrcode-52677</string>
     <string name="purchased_failed">"The Google Paid service isn't available at the moment or in your country, you can continue to use the application except paying for removing ads."</string>
     <string name="purchased_failed_title">"Can't make purchase"</string>
-    <string name="qr2_negative_feedback_hint_gpt">Please tell us the problem you encountered during the scanning process, we will try our best to improve.</string>
     <string name="qr2_problem_code_ask_gpt">What type of code did you scan?</string>
     <string name="qr2_rate_later_gpt">Ask me later</string>
-    <string name="qr2_thanks_feedback">Thanks for your feedback!</string>
     <string name="qr_code">QR code</string>
     <string name="qr_code_not_found">No QR code/barcode found</string>
     <string name="qr_code_not_found_hint">Make sure the QR code/barcode is clear and completely inside the frame</string>
@@ -780,7 +773,6 @@ We will share more once you're back online."</string>
     <string name="spotify">Spotify</string>
     <string name="start">Start</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="still_have_problems_1">Still have problems</string>
     <string name="storage_permission_save_images">Storage permission is required to save images.</string>
     <string name="subject">Subject</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
@@ -795,11 +787,8 @@ We will share more once you're back online."</string>
     <string name="tell_us_your_problem">Tell us the problem you encountered</string>
     <string name="template_percent">%1$d percent.</string>
     <string name="text">Text</string>
-    <string name="text_feedback_hint_short">Please describe your problem</string>
     <string name="text_message">Text message</string>
     <string name="then_select_generate">Select \"%s\"</string>
-    <string name="thx_feedback_tip">We will fix it in the future version. Sorry for the inconvenience.</string>
-    <string name="thx_feedback_title">Thanks for your feedback</string>
     <string name="tiktok">TikTok</string>
     <string name="tip">Tips</string>
     <string name="title">Title</string>

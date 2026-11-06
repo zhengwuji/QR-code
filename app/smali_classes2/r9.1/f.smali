@@ -25,7 +25,6 @@
     .locals 0
 
     .line 1
-    invoke-static {p1}, Lcom/google/firebase/installations/FirebaseInstallationsRegistrar;->a(LT8/d;)Lr9/e;
 
     .line 2
     .line 3

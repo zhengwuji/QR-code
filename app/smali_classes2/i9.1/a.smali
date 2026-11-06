@@ -25,7 +25,6 @@
     .locals 0
 
     .line 1
-    invoke-static {p1}, Lcom/google/firebase/datatransport/TransportRegistrar;->a(LT8/d;)Ltransport/TransportFactory;
 
     .line 2
     .line 3

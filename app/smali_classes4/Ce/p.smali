@@ -73,7 +73,6 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Lconsent/ConsentManager;->h()Lconsent/ConsentManager;
 
     .line 2
     .line 3
@@ -81,7 +80,6 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p1}, Lconsent/ConsentManager;->g(Landroid/content/Context;)I
 
     .line 6
     .line 7
@@ -174,7 +172,6 @@
 
     .line 9
     .line 10
-    invoke-static {}, Lconsent/ConsentManager;->h()Lconsent/ConsentManager;
 
     .line 11
     .line 12
@@ -182,7 +179,6 @@
     move-result-object v0
 
     .line 14
-    invoke-virtual {v0, p0}, Lconsent/ConsentManager;->l(Landroid/app/Activity;)V
 
     .line 15
     .line 16
@@ -219,7 +215,6 @@
     .line 4
     .line 5
     .line 6
-    invoke-static {}, Lconsent/ConsentManager;->h()Lconsent/ConsentManager;
 
     .line 7
     .line 8
@@ -236,7 +231,6 @@
     .line 13
     .line 14
     .line 15
-    invoke-virtual {v0, p1, v1}, Lconsent/ConsentManager;->i(Landroid/app/Activity;Lconsent/ConsentListener;)V
 
     .line 16
     .line 17

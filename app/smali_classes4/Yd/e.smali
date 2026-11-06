@@ -171,7 +171,6 @@
 
     .line 26
     .line 27
-    invoke-interface {v1}, Lmdcad/SLF4JServiceProvider;->initialize()V
 
     .line 28
     .line 29
@@ -639,7 +638,6 @@
     move-result-object v1
 
     .line 12
-    invoke-static {v1}, LYd/e;->o(Ljava/lang/ClassLoader;)Lmdcad/SLF4JServiceProvider;
 
     .line 13
     .line 14
@@ -826,7 +824,6 @@
     .locals 1
 
     .line 1
-    invoke-static {}, LYd/e;->l()Lmdcad/SLF4JServiceProvider;
 
     .line 2
     .line 3
@@ -834,7 +831,6 @@
     move-result-object v0
 
     .line 5
-    invoke-interface {v0}, Lmdcad/SLF4JServiceProvider;->a()LYd/a;
 
     .line 6
     .line 7
@@ -2105,7 +2101,6 @@
 
     .line 2
     .line 3
-    invoke-interface {v0}, Lmdcad/SLF4JServiceProvider;->b()Ljava/lang/String;
 
     .line 4
     .line 5

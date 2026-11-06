@@ -16,7 +16,7 @@ permissions:
 
 jobs:
   build:
-    name: 编译 APK 并发布 Release
+    name: 编译 APK (Fixed + Offline) 并发布 Release
     runs-on: ubuntu-latest
 
     steps:
@@ -37,13 +37,45 @@ jobs:
           curl -sSL -o tools-bin/apktool.jar https://github.com/iBotPeaches/Apktool/releases/download/v2.10.0/apktool_2.10.0.jar
           curl -sSL -o tools-bin/uber-apk-signer.jar https://github.com/patrickfav/uber-apk-signer/releases/download/v1.3.0/uber-apk-signer-1.3.0.jar
 
-      - name: 编译 APK
+      - name: 编译并签名 APK (Fixed + Offline)
+        env:
+          KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
         run: |
-          echo "=== 正在编译修复版 APK ==="
-          java -jar tools-bin/apktool.jar b app -o build_raw.apk --use-aapt2
-          java -jar tools-bin/uber-apk-signer.jar -a build_raw.apk -o out --allowResign
-          mv out/*-aligned-debugSigned.apk "dist/QRScanner_2.7.6_Fixed_Deobf.apk"
-          rm -rf build_raw.apk out
+          echo "=== 正在编译 Fixed 版 APK ==="
+          java -jar tools-bin/apktool.jar b app -o build_fixed_raw.apk --use-aapt2
+
+          echo "=== 正在准备 Offline 变体 ==="
+          cp -r app app_offline
+          sed -i '/android.permission.INTERNET/d' app_offline/AndroidManifest.xml
+          sed -i '/android.permission.ACCESS_NETWORK_STATE/d' app_offline/AndroidManifest.xml
+
+          echo "=== 正在编译 Offline 版 APK ==="
+          java -jar tools-bin/apktool.jar b app_offline -o build_offline_raw.apk --use-aapt2
+          rm -rf app_offline
+
+          echo "=== 正在签名 APK ==="
+          if [ -n "$KEYSTORE_BASE64" ]; then
+            echo "检测到 Release Keystore Secret，执行正式签名..."
+            echo "$KEYSTORE_BASE64" | base64 -d > release.keystore
+            KS_PASS="${KEYSTORE_PASSWORD:-qrscanner2026}"
+            KS_ALIAS="${KEY_ALIAS:-qrscanner}"
+            KEY_PASS="${KEY_PASSWORD:-qrscanner2026}"
+
+            java -jar tools-bin/uber-apk-signer.jar -a build_fixed_raw.apk -o out_fixed --ks release.keystore --ksAlias "$KS_ALIAS" --ksPass "$KS_PASS" --ksKeyPass "$KEY_PASS"
+            java -jar tools-bin/uber-apk-signer.jar -a build_offline_raw.apk -o out_offline --ks release.keystore --ksAlias "$KS_ALIAS" --ksPass "$KS_PASS" --ksKeyPass "$KEY_PASS"
+            rm -f release.keystore
+          else
+            echo "未配置 Keystore Secret，使用 Debug Key 签名..."
+            java -jar tools-bin/uber-apk-signer.jar -a build_fixed_raw.apk -o out_fixed --allowResign
+            java -jar tools-bin/uber-apk-signer.jar -a build_offline_raw.apk -o out_offline --allowResign
+          fi
+
+          mv out_fixed/*-aligned-*.apk "dist/QRScanner_2.7.6_Fixed.apk"
+          mv out_offline/*-aligned-*.apk "dist/QRScanner_2.7.6_Offline.apk"
+          rm -rf build_fixed_raw.apk build_offline_raw.apk out_fixed out_offline
 
       - name: 生成 SHA256 校验和
         run: |
@@ -63,22 +95,32 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.release_meta.outputs.tag_name }}
-          name: 二维码扫描器 2.7.6 修复版 (${{ steps.release_meta.outputs.tag_name }})
+          name: 二维码扫描器 2.7.6 终极增强版 (${{ steps.release_meta.outputs.tag_name }})
           draft: false
           prerelease: false
           files: |
-            dist/QRScanner_2.7.6_Fixed_Deobf.apk
+            dist/QRScanner_2.7.6_Fixed.apk
+            dist/QRScanner_2.7.6_Offline.apk
             dist/sha256sums.txt
           body: |
-            ## 二维码扫描器 2.7.6 修复版
+            ## 二维码条码扫描器 2.7.6 终极增强版
 
             > **构建版本**：`${{ steps.release_meta.outputs.tag_name }}`
             > **触发提交**：`${{ github.sha }}`
             > **构建时间**：${{ steps.release_meta.outputs.release_date }} (UTC)
 
-            ### 修复与优化
-            1. 修复扫一扫真实二维码闪退（VerifyUtils 自杀校验链 / 环境检测 / SDK killProcess 中和）
-            2. 修复图库扫码读不到 Photo Picker `content://` URI 的问题
-            3. 移除全部广告与评分弹窗代码（39 个方法桩体化 + UI 隐藏 + 服务端开关）
-            4. 去混淆维护版：4281 个类按 `.source` 注释还原语义命名，251 个含 R8 保留类的包回退原名保证 package-private 访问合法
-            5. 移除结果页广告加载骨架（常驻加载动画）
+            ### 双版本产物说明
+            - **`QRScanner_2.7.6_Fixed.apk`**：全功能修复增强版（包含所有功能、深度瘦身与优化）。
+            - **`QRScanner_2.7.6_Offline.apk`**：纯离线隐私版（完全移除 `INTERNET` 与 `ACCESS_NETWORK_STATE` 权限，保证 100% 物理断网级隐私）。
+
+            ### 本次更新要点
+            1. **代码深度瘦身（-46% 体积）**：彻底物理剔除 23,066 个孤立死代码类、33 个 VerifyUtils 自杀校验类、8 个无用 SO 动态库及 5.3MB 广告内嵌 DEX，DEX 类数从 42,592 降至 19,493，APK 体积由 47.1MB 骤降至 25.3MB。
+            2. **彻底移除反馈与评分**：剥离全部反馈 Activity、Dialog、布局文件、文案及后台邮件调用，移除评分漏斗。
+            3. **音量键开关手电筒**：在扫码界面支持按物理音量键快速切换手电筒状态。
+            4. **系统分享识图**：支持从其他应用通过系统分享（`ACTION_SEND image/*`）直接投递图片到扫码器自动解析。
+            5. **桌面长按快捷方式**：新增 Android 桌面 Shortcuts（扫一扫、创建二维码、扫描历史）。
+            6. **历史记录 CSV 导出**：支持一键导出带 UTF-8 BOM 的标准 CSV 历史记录并调起系统分享。
+            7. **连续扫码模式**：长按扫码控制栏开启连续扫码，1500ms 防抖，识别即入库并不中断相机取景。
+            8. **相册批量选图**：启用 `EXTRA_ALLOW_MULTIPLE`，支持相册批量多选图片识图。
+            9. **深色模式适配**：升级至 DayNight 主题，新增 night 颜色配置，随系统夜间模式自适应。
+            10. **延续核心修复基线**：修复真实扫码自杀闪退、修复 Photo Picker `content://` 流读取、保留 4281 个语义化去混淆类维护工程。

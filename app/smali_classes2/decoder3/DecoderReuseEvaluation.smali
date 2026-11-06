@@ -209,7 +209,6 @@
 
     .line 44
     .line 45
-    invoke-virtual {v2, v3}, Ls6/o0;->equals(Ljava/lang/Object;)Z
 
     .line 46
     .line 47
@@ -229,7 +228,6 @@
 
     .line 54
     .line 55
-    invoke-virtual {v2, p1}, Ls6/o0;->equals(Ljava/lang/Object;)Z
 
     .line 56
     .line 57
@@ -302,7 +300,6 @@
 
     .line 23
     .line 24
-    invoke-virtual {v1}, Ls6/o0;->hashCode()I
 
     .line 25
     .line 26
@@ -321,7 +318,6 @@
 
     .line 32
     .line 33
-    invoke-virtual {v1}, Ls6/o0;->hashCode()I
 
     .line 34
     .line 35

@@ -38,7 +38,6 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, LLa/c;-><init>(LJa/d;LLa/a;)V
 
     .line 4
     .line 5

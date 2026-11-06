@@ -1264,7 +1264,6 @@
 
     .line 206
     .line 207
-    invoke-static {v2, v0}, Lcom/google/android/gms/ads/internal/util/L0;->a(Landroid/app/NotificationManager;Ljava/lang/String;)Landroid/app/NotificationChannel;
 
     .line 208
     .line 209
@@ -1299,7 +1298,6 @@
     const/4 p4, 0x4
 
     .line 224
-    invoke-static {v0, p1, p4}, Lcom/google/android/gms/ads/internal/util/N0;->a(Ljava/lang/String;Ljava/lang/CharSequence;I)Landroid/app/NotificationChannel;
 
     .line 225
     .line 226
@@ -1307,7 +1305,6 @@
     move-result-object p1
 
     .line 228
-    invoke-static {v2, p1}, Lcom/google/android/gms/ads/internal/util/J0;->a(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
 
     .line 229
     .line 230
@@ -1341,7 +1338,6 @@
     .line 243
     .line 244
     .line 245
-    invoke-static {v2, p4}, Lcom/google/android/gms/ads/internal/util/J0;->a(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
 
     .line 246
     .line 247

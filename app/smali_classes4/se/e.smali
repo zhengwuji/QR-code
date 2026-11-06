@@ -1159,6 +1159,21 @@
 .method protected Y1(Landroid/view/View;)V
     .locals 2
 
+    sget v0, Lce/e;->q1:I
+
+    invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_skip_share
+
+    new-instance v1, Lqrfix/CsvClickListener;
+
+    invoke-direct {v1}, Lqrfix/CsvClickListener;-><init>()V
+
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    :cond_skip_share
     .line 1
     sget v0, Lce/e;->H1:I
 

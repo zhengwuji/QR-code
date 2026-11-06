@@ -352,7 +352,6 @@
 
     .line 141
     .line 142
-    invoke-static {}, Ladlog/ADLogUtil;->a()Ladlog/ADLogUtil;
 
     .line 143
     .line 144
@@ -368,7 +367,6 @@
 
     .line 149
     .line 150
-    invoke-virtual {v3, v4, v5}, Ladlog/ADLogUtil;->b(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 151
     .line 152

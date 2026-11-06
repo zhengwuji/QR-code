@@ -835,12 +835,10 @@
     move-result-object p1
 
     .line 24
-    invoke-static {p1}, Lee/b;->g(Ljava/lang/String;)V
 
     .line 25
     .line 26
     .line 27
-    invoke-static {p0}, Lee/b;->f(Lfe/c;)V
 
     .line 28
     .line 29
@@ -1224,7 +1222,6 @@
     move-result-object v0
 
     .line 9
-    invoke-static {v0}, Lee/b;->g(Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -1265,7 +1262,6 @@
 
     .line 4
     .line 5
-    invoke-static {v0}, Lee/b;->e(Landroid/view/ViewGroup;)Z
 
     .line 6
     .line 7
@@ -1281,7 +1277,6 @@
 
     .line 12
     .line 13
-    invoke-static {p0, v0}, Lee/b;->k(Lfe/c;Landroid/view/ViewGroup;)V
 
     .line 14
     .line 15
@@ -1611,161 +1606,8 @@
 .end method
 
 .method private P0()V
-    .locals 2
+    .locals 0
 
-    .line 1
-    sget v0, Lce/e;->p3:I
-
-    .line 2
-    .line 3
-    invoke-virtual {p0, v0}, Landroidx/appcompat/app/d;->findViewById(I)Landroid/view/View;
-
-    .line 4
-    .line 5
-    .line 6
-    move-result-object v0
-
-    .line 7
-    check-cast v0, Landroid/widget/TextView;
-
-    .line 8
-    .line 9
-    if-eqz v0, :cond_0
-
-    .line 10
-    .line 11
-    invoke-virtual {v0}, Landroid/widget/TextView;->getPaintFlags()I
-
-    .line 12
-    .line 13
-    .line 14
-    move-result v1
-
-    .line 15
-    or-int/lit8 v1, v1, 0x8
-
-    .line 16
-    .line 17
-    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setPaintFlags(I)V
-
-    .line 18
-    .line 19
-    .line 20
-    :cond_0
-    sget v0, Lce/e;->p3:I
-
-    .line 21
-    .line 22
-    invoke-virtual {p0, v0}, Landroidx/appcompat/app/d;->findViewById(I)Landroid/view/View;
-
-    .line 23
-    .line 24
-    .line 25
-    move-result-object v0
-
-    .line 26
-    new-instance v1, Lze/r;
-
-    .line 27
-    .line 28
-    invoke-direct {v1, p0}, Lze/r;-><init>(Lqrcodereader/barcodescanner/scan/qrscanner/page/scan/result/ScanResultActivity;)V
-
-    .line 29
-    .line 30
-    .line 31
-    invoke-static {v0, v1}, Lone/OneClickListener2;->a(Landroid/view/View;Lfunctions/Functions;)V
-
-    .line 32
-    .line 33
-    .line 34
-    sget v0, Lce/e;->T0:I
-
-    .line 35
-    .line 36
-    invoke-virtual {p0, v0}, Landroidx/appcompat/app/d;->findViewById(I)Landroid/view/View;
-
-    .line 37
-    .line 38
-    .line 39
-    move-result-object v0
-
-    .line 40
-    new-instance v1, Lze/e;
-
-    .line 41
-    .line 42
-    invoke-direct {v1, p0}, Lze/e;-><init>(Lqrcodereader/barcodescanner/scan/qrscanner/page/scan/result/ScanResultActivity;)V
-
-    .line 43
-    .line 44
-    .line 45
-    invoke-static {v0, v1}, Lone/OneClickListener2;->a(Landroid/view/View;Lfunctions/Functions;)V
-
-    .line 46
-    .line 47
-    .line 48
-    sget v0, Lce/e;->q1:I
-
-    .line 49
-    .line 50
-    invoke-virtual {p0, v0}, Landroidx/appcompat/app/d;->findViewById(I)Landroid/view/View;
-
-    .line 51
-    .line 52
-    .line 53
-    move-result-object v0
-
-    .line 54
-    new-instance v1, Lze/f;
-
-    .line 55
-    .line 56
-    invoke-direct {v1, p0}, Lze/f;-><init>(Lqrcodereader/barcodescanner/scan/qrscanner/page/scan/result/ScanResultActivity;)V
-
-    .line 57
-    .line 58
-    .line 59
-    invoke-static {v0, v1}, Lone/OneClickListener2;->a(Landroid/view/View;Lfunctions/Functions;)V
-
-    .line 60
-    .line 61
-    .line 62
-    iget-object v0, p0, Lqrcodereader/barcodescanner/scan/qrscanner/page/scan/result/ScanResultActivity;->h:Landroid/view/View;
-
-    .line 63
-    .line 64
-    new-instance v1, Lze/g;
-
-    .line 65
-    .line 66
-    invoke-direct {v1, p0}, Lze/g;-><init>(Lqrcodereader/barcodescanner/scan/qrscanner/page/scan/result/ScanResultActivity;)V
-
-    .line 67
-    .line 68
-    .line 69
-    invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
-
-    .line 70
-    .line 71
-    .line 72
-    iget-object v0, p0, Lqrcodereader/barcodescanner/scan/qrscanner/page/scan/result/ScanResultActivity;->i:Landroid/view/View;
-
-    .line 73
-    .line 74
-    new-instance v1, Lze/h;
-
-    .line 75
-    .line 76
-    invoke-direct {v1, p0}, Lze/h;-><init>(Lqrcodereader/barcodescanner/scan/qrscanner/page/scan/result/ScanResultActivity;)V
-
-    .line 77
-    .line 78
-    .line 79
-    invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
-
-    .line 80
-    .line 81
-    .line 82
     return-void
 .end method
 
@@ -3331,75 +3173,8 @@
 .end method
 
 .method private Z0()V
-    .locals 4
+    .locals 0
 
-    .line 1
-    const/4 v0, 0x0
-
-    .line 2
-    invoke-virtual {p0}, Lfe/c;->u()Landroid/content/Context;
-
-    .line 3
-    .line 4
-    .line 5
-    move-result-object v1
-
-    .line 6
-    const/4 v2, 0x1
-
-    .line 7
-    if-eqz v1, :cond_0
-
-    .line 8
-    .line 9
-    invoke-virtual {p0}, Lfe/c;->u()Landroid/content/Context;
-
-    .line 10
-    .line 11
-    .line 12
-    move-result-object v1
-
-    .line 13
-    invoke-static {v1, v2}, Lqrcod/QRCodeHelper;->J(Landroid/content/Context;Z)V
-
-    .line 14
-    .line 15
-    .line 16
-    :cond_0
-    new-array v1, v2, [Z
-
-    .line 17
-    .line 18
-    aput-boolean v2, v1, v0
-
-    .line 19
-    .line 20
-    sget v2, Lce/b;->g:I
-
-    .line 21
-    .line 22
-    invoke-virtual {p0, v2}, Landroid/content/Context;->getColor(I)I
-
-    .line 23
-    .line 24
-    .line 25
-    move-result v2
-
-    .line 26
-    new-instance v3, Lqrcodereader/barcodescanner/scan/qrscanner/page/scan/result/ScanResultActivity$f;
-
-    .line 27
-    .line 28
-    invoke-direct {v3, p0, v1}, Lqrcodereader/barcodescanner/scan/qrscanner/page/scan/result/ScanResultActivity$f;-><init>(Lqrcodereader/barcodescanner/scan/qrscanner/page/scan/result/ScanResultActivity;[Z)V
-
-    .line 29
-    .line 30
-    .line 31
-    invoke-static {p0, v2, v0, v3}, LX5/V;->d(Landroid/app/Activity;IZLone/DialogListener;)Landroid/app/Dialog;
-
-    .line 32
-    .line 33
-    .line 34
     return-void
 .end method
 
@@ -5313,278 +5088,16 @@
 .end method
 
 .method private synthetic w0(Landroid/view/View;)V
-    .locals 1
+    .locals 0
 
-    .line 1
-    const-string p1, "ImwDYw0gRWE7ZQ=="
-
-    .line 2
-    .line 3
-    const-string v0, "AqAjf7OX"
-
-    .line 4
-    .line 5
-    invoke-static {p1, v0}, Lce/j;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 6
-    .line 7
-    .line 8
-    move-result-object p1
-
-    .line 9
-    invoke-direct {p0, p1}, Lqrcodereader/barcodescanner/scan/qrscanner/page/scan/result/ScanResultActivity;->G0(Ljava/lang/String;)V
-
-    .line 10
-    .line 11
-    .line 12
-    sget-object p1, LCe/v$b;->d:LCe/v$b;
-
-    .line 13
-    .line 14
-    new-instance v0, Lqrcodereader/barcodescanner/scan/qrscanner/page/scan/result/ScanResultActivity$a;
-
-    .line 15
-    .line 16
-    invoke-direct {v0, p0}, Lqrcodereader/barcodescanner/scan/qrscanner/page/scan/result/ScanResultActivity$a;-><init>(Lqrcodereader/barcodescanner/scan/qrscanner/page/scan/result/ScanResultActivity;)V
-
-    .line 17
-    .line 18
-    .line 19
-    invoke-static {p0, p1, v0}, LCe/v;->a(Landroid/app/Activity;LCe/v$b;LCe/v$a;)V
-
-    .line 20
-    .line 21
-    .line 22
-    invoke-static {p0}, Lqrcod/QRCodeHelper;->h(Landroid/content/Context;)Lqrcod/QRCodeHelper;
-
-    .line 23
-    .line 24
-    .line 25
-    move-result-object p1
-
-    .line 26
-    const/4 v0, 0x1
-
-    .line 27
-    invoke-virtual {p1, v0}, Lqrcod/QRCodeHelper;->Q(Z)V
-
-    .line 28
-    .line 29
-    .line 30
     return-void
 .end method
 
 .method private synthetic x0()LHc/H;
-    .locals 6
+    .locals 1
 
-    .line 1
-    :try_start_0
-    const-string v0, "BmwhYwcgVGUqZA9hB2s="
-
-    .line 2
-    .line 3
-    const-string v1, "fKeHl2MW"
-
-    .line 4
-    .line 5
-    invoke-static {v0, v1}, Lce/j;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 6
-    .line 7
-    .line 8
-    move-result-object v0
-
-    .line 9
-    invoke-direct {p0, v0}, Lqrcodereader/barcodescanner/scan/qrscanner/page/scan/result/ScanResultActivity;->G0(Ljava/lang/String;)V
-
-    .line 10
-    .line 11
-    .line 12
-    const/4 v0, 0x1
-
-    .line 13
-    iput-boolean v0, p0, Lqrcodereader/barcodescanner/scan/qrscanner/page/scan/result/ScanResultActivity;->o:Z
-
-    .line 14
-    .line 15
-    invoke-virtual {p0}, Lfe/c;->u()Landroid/content/Context;
-
-    .line 16
-    .line 17
-    .line 18
-    move-result-object v1
-
-    .line 19
-    invoke-static {v1, v0}, Lqrcod/QRCodeHelper;->J(Landroid/content/Context;Z)V
-
-    .line 20
-    .line 21
-    .line 22
-    iget-object v0, p0, Lqrcodereader/barcodescanner/scan/qrscanner/page/scan/result/ScanResultActivity;->G:Landroid/graphics/Bitmap;
-
-    .line 23
-    .line 24
-    const-string v1, "L2UEZBNhVmsKaVRhBGUdagRn"
-
-    .line 25
-    .line 26
-    const-string v2, "Bz2UyZkv"
-
-    .line 27
-    .line 28
-    invoke-static {v1, v2}, Lce/j;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 29
-    .line 30
-    .line 31
-    move-result-object v1
-
-    .line 32
-    invoke-static {p0, v0, v1}, Lbitmap2/CacheImageUtil;->a(Landroid/content/Context;Landroid/graphics/Bitmap;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 33
-    .line 34
-    .line 35
-    sget-object v0, Lqrcodereader/barcodescanner/scan/qrscanner/page/setting/FeedbackActivity$b;->a:Lqrcodereader/barcodescanner/scan/qrscanner/page/setting/FeedbackActivity$b;
-
-    .line 36
-    .line 37
-    const-string v1, "OHICbxVlR2U0ZFxyTWJSchdvCWVAYxhuDGUaLgZjVW5ncRNzEmFbbjByF2YKbFZwBm8baVdlcg=="
-
-    .line 38
-    .line 39
-    const-string v2, "Mw8Ybhu4"
-
-    .line 40
-    .line 41
-    invoke-static {v1, v2}, Lce/j;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 42
-    .line 43
-    .line 44
-    move-result-object v1
-
-    .line 45
-    new-instance v2, Ljava/io/File;
-
-    .line 46
-    .line 47
-    new-instance v3, Ljava/lang/StringBuilder;
-
-    .line 48
-    .line 49
-    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
-
-    .line 50
-    .line 51
-    .line 52
-    invoke-virtual {p0}, Landroid/content/Context;->getFilesDir()Ljava/io/File;
-
-    .line 53
-    .line 54
-    .line 55
-    move-result-object v4
-
-    .line 56
-    invoke-virtual {v4}, Ljava/io/File;->toString()Ljava/lang/String;
-
-    .line 57
-    .line 58
-    .line 59
-    move-result-object v4
-
-    .line 60
-    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 61
-    .line 62
-    .line 63
-    const-string v4, "Lw=="
-
-    .line 64
-    .line 65
-    const-string v5, "AkcGda9r"
-
-    .line 66
-    .line 67
-    invoke-static {v4, v5}, Lce/j;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 68
-    .line 69
-    .line 70
-    move-result-object v4
-
-    .line 71
-    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 72
-    .line 73
-    .line 74
-    const-string v4, "AGUhZDRhBmsPaT9hBWV-ajZn"
-
-    .line 75
-    .line 76
-    const-string v5, "TrjfSmIE"
-
-    .line 77
-    .line 78
-    invoke-static {v4, v5}, Lce/j;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 79
-    .line 80
-    .line 81
-    move-result-object v4
-
-    .line 82
-    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 83
-    .line 84
-    .line 85
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    .line 86
-    .line 87
-    .line 88
-    move-result-object v3
-
-    .line 89
-    invoke-direct {v2, v3}, Ljava/io/File;-><init>(Ljava/lang/String;)V
-
-    .line 90
-    .line 91
-    .line 92
-    invoke-static {p0, v1, v2}, Landroidx/core/content/c;->h(Landroid/content/Context;Ljava/lang/String;Ljava/io/File;)Landroid/net/Uri;
-
-    .line 93
-    .line 94
-    .line 95
-    move-result-object v1
-
-    .line 96
-    invoke-static {p0, v0, v1}, Lqrcodereader/barcodescanner/scan/qrscanner/page/setting/FeedbackActivity;->m0(Landroid/app/Activity;Lqrcodereader/barcodescanner/scan/qrscanner/page/setting/FeedbackActivity$b;Landroid/net/Uri;)V
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 97
-    .line 98
-    .line 99
-    goto :goto_0
-
-    .line 100
-    :catch_0
-    move-exception v0
-
-    .line 101
-    invoke-static {v0}, LO5/e;->a(Ljava/lang/Throwable;)V
-
-    .line 102
-    .line 103
-    .line 104
-    :goto_0
     const/4 v0, 0x0
 
-    .line 105
     return-object v0
 .end method
 
@@ -6148,7 +5661,6 @@
     move-result-object v0
 
     .line 245
-    invoke-static {v0}, Lee/b;->g(Ljava/lang/String;)V
 
     .line 246
     .line 247
@@ -6185,7 +5697,6 @@
     .line 262
     .line 263
     .line 264
-    invoke-static {p0}, Lde/b;->b(Landroid/app/Activity;)I
 
     .line 265
     .line 266
@@ -6197,7 +5708,6 @@
 
     .line 269
     .line 270
-    invoke-static {p0, v1, v0}, Lde/b;->c(Landroid/app/Activity;Landroid/view/ViewGroup;I)I
 
     .line 271
     .line 272
@@ -6235,17 +5745,14 @@
     .line 288
     .line 289
     :cond_d
-    invoke-static {p0}, Lee/b;->j(Lee/e;)V
 
     .line 290
     .line 291
     .line 292
-    invoke-static {p0}, Lee/b;->i(Lee/d;)V
 
     .line 293
     .line 294
     .line 295
-    invoke-static {p0}, Lee/b;->d(Lfe/c;)Z
 
     .line 296
     .line 297
@@ -6273,7 +5780,6 @@
     move-result-object v0
 
     .line 309
-    invoke-static {v0}, Lee/b;->g(Ljava/lang/String;)V
 
     .line 310
     .line 311
@@ -6309,7 +5815,6 @@
 
     .line 327
     .line 328
-    invoke-static {p0, v0}, Lee/b;->k(Lfe/c;Landroid/view/ViewGroup;)V
 
     .line 329
     .line 330
@@ -6334,7 +5839,6 @@
     move-result-object v0
 
     .line 340
-    invoke-static {v0}, Lee/b;->g(Ljava/lang/String;)V
 
     .line 341
     .line 342
@@ -6644,7 +6148,6 @@
     move-result-object v0
 
     .line 24
-    invoke-static {v0}, Lee/b;->g(Ljava/lang/String;)V
 
     .line 25
     .line 26
@@ -6729,7 +6232,6 @@
 
     .line 66
     .line 67
-    invoke-static {p0, p1}, Lee/b;->k(Lfe/c;Landroid/view/ViewGroup;)V
 
     .line 68
     .line 69
@@ -7393,20 +6895,6 @@
     .line 26
     .line 27
     .line 28
-    iget-object v0, p0, Lqrcodereader/barcodescanner/scan/qrscanner/page/scan/result/ScanResultActivity;->t:Landroid/widget/ImageView;
-
-    .line 29
-    .line 30
-    new-instance v1, Lze/d;
-
-    .line 31
-    .line 32
-    invoke-direct {v1, p0}, Lze/d;-><init>(Lqrcodereader/barcodescanner/scan/qrscanner/page/scan/result/ScanResultActivity;)V
-
-    .line 33
-    .line 34
-    .line 35
-    invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 36
     .line 37

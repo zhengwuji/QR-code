@@ -25,7 +25,6 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Lee/b;->a()Lee/c;
 
     .line 2
     .line 3

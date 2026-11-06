@@ -74,7 +74,6 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lcom/google/firebase/installations/i;->c()Lcom/google/firebase/installations/i;
 
     .line 5
     .line 6
@@ -153,7 +152,6 @@
 
     .line 24
     .line 25
-    invoke-virtual {p1}, Lcom/google/firebase/installations/i;->e()J
 
     .line 26
     .line 27
@@ -362,7 +360,6 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Lcom/google/firebase/installations/i;->a()J
 
     .line 9
     .line 10
@@ -489,7 +486,6 @@
 
     .line 26
     .line 27
-    invoke-virtual {p1}, Lcom/google/firebase/installations/i;->a()J
 
     .line 28
     .line 29

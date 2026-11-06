@@ -53,6 +53,7 @@
     <string name="avoid_reflections">Vermeiden Sie &lt;b>Lichtspiegelungen&lt;/b> oder &lt;b>Schatten&lt;/b> auf dem Code.</string>
     <string name="barcode_number_gpt">Barcode-Nummer...</string>
     <string name="barcode_scan_fail_tip">Wenn der Scan fehlschlägt, könnten Sie versuchen, die Barcode-Nummer für die Suche manuell einzugeben.</string>
+    <string name="qr2_thanks_feedback">Vielen Dank für Ihr Feedback!</string>
     <string name="beep">Piepsen</string>
     <string name="beep_hint">Piepton nach erfolgreichem Scannen</string>
     <string name="bigo_ad_about_app_default">Über diese App</string>
@@ -217,6 +218,7 @@ Diese Funktion wird in Kürze veröffentlicht …"</string>
     <string name="delete_sure">Möchten Sie dies wirklich löschen?</string>
     <string name="description">Beschreibung</string>
     <string name="different_engine_more_info">Probieren Sie verschiedene Suchmaschinen aus, um weitere nützliche Informationen zu erhalten!</string>
+    <string name="still_have_problems_1">Immer noch Probleme</string>
     <string name="download">Herunterladen</string>
     <string name="dropdown_menu">Drop-down-Menü</string>
     <string name="ebay">eBay</string>
@@ -303,14 +305,7 @@ Diese Funktion wird in Kürze veröffentlicht …"</string>
     <string name="fb_ok">OK</string>
     <string name="fb_please_tell_more">Bitte beschreiben Sie das Problem, damit wir es schneller erkennen und beheben können (mind. %s Zeichen).</string>
     <string name="fb_tell_us_your_problem">Bitte nennen Sie das Problem, das aufgetreten ist:</string>
-    <string name="fb_thx_feedback_tip">Das tut uns leid. Dieses Problem wird in zukünftigen Versionen repariert sein.</string>
-    <string name="fb_thx_feedback_title">Danke für Ihr Feedback</string>
     <string name="fb_type">Typ</string>
-    <string name="feedback">Feedback</string>
-    <string name="feedback_des">Fehler melden und Verbesserungen vorschlagen</string>
-    <string name="feedback_hint">Melden Sie Fehler und sagen Sie uns, was zu verbessern</string>
-    <string name="feedback_hint_tip">Rückgespräch und Anregungen</string>
-    <string name="feedback_mail_text">Systeminfo</string>
     <string name="file_name">Dateiname</string>
     <string name="flashlight">Taschenlampe</string>
     <string name="free">Kostenlos</string>
@@ -568,10 +563,8 @@ analyse"</string>
     <string name="product_guide_hint">Einige Produkte sind noch nicht in der Produktsammlung enthalten. Sie können auf die Websuche tippen, um weitere Produktdaten abzurufen.</string>
     <string name="purchased_failed">Der Service über Google Paid ist derzeit oder in Ihrem Land nicht verfügbar. Sie können die Anwendung weiterhin nutzen, aber die Bezahlung zum Entfernen von Werbungen nicht vornehmen.</string>
     <string name="purchased_failed_title">Kauf nicht möglich</string>
-    <string name="qr2_negative_feedback_hint_gpt">Bitte teilen Sie uns das Problem mit, das Sie während des Scanvorgangs hatten. Wir werden unser Bestes tun, um es zu verbessern.</string>
     <string name="qr2_problem_code_ask_gpt">Welchen Code haben Sie gescannt?</string>
     <string name="qr2_rate_later_gpt">Später fragen</string>
-    <string name="qr2_thanks_feedback">Vielen Dank für Ihr Feedback!</string>
     <string name="qr_code">QR-Code</string>
     <string name="qr_code_not_found">Kein QR-/Strichcode gefunden</string>
     <string name="qr_code_not_found_hint">Achten Sie darauf, dass der QR-/Strichcode scharf ist und sich komplett innerhalb des Rahmens befindet</string>
@@ -639,7 +632,6 @@ analyse"</string>
     <string name="song_name">Songname</string>
     <string name="start">Start</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="still_have_problems_1">Immer noch Probleme</string>
     <string name="storage_permission_save_images">Der Zugriff auf den Speicher ist erforderlich, um Bilder speichern zu können.</string>
     <string name="subject">Betreff:</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
@@ -654,11 +646,8 @@ analyse"</string>
     <string name="tell_us_your_problem">Bitte nennen Sie das Problem, das aufgetreten ist:</string>
     <string name="template_percent">%1$d Prozent.</string>
     <string name="text">Text</string>
-    <string name="text_feedback_hint_short">Bitte beschreiben Sie das Problem</string>
     <string name="text_message">Textnachricht</string>
     <string name="then_select_generate">2. Wählen Sie „%s“</string>
-    <string name="thx_feedback_tip">Das tut uns leid. Dieses Problem wird in zukünftigen Versionen repariert sein.</string>
-    <string name="thx_feedback_title">Danke für Ihr Feedback</string>
     <string name="tiktok">TikTok</string>
     <string name="tip">Tipp</string>
     <string name="title">Titel:</string>

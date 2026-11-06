@@ -92,7 +92,6 @@
     .line 4
     .line 5
     .line 6
-    invoke-interface {p1}, Lcom/google/firebase/components/ComponentRegistrar;->getComponents()Ljava/util/List;
 
     .line 7
     .line 8

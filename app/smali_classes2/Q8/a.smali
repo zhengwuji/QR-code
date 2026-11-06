@@ -25,7 +25,6 @@
     .locals 0
 
     .line 1
-    invoke-static {p1}, Lcom/google/firebase/abt/component/AbtRegistrar;->a(LT8/d;)Lcom/google/firebase/abt/component/a;
 
     .line 2
     .line 3

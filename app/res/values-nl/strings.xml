@@ -52,6 +52,7 @@
     <string name="avoid_reflections">Vermijd &lt;b>lichtreflecties&lt;/b> en &lt;b>schaduwen&lt;/b> op de code</string>
     <string name="barcode_number_gpt">Streepjescode nummer...</string>
     <string name="barcode_scan_fail_tip">Als de scan mislukt, kun je proberen zoeken door de streepjescode handmatig in te voeren.</string>
+    <string name="qr2_thanks_feedback">Bedankt voor je feedback!</string>
     <string name="beep">Piepen</string>
     <string name="beep_hint">Piepen als scan voltooid is</string>
     <string name="birthday">Verjaardag:</string>
@@ -189,6 +190,7 @@ Deze functie is binnenkort beschikbaar…"</string>
     <string name="delete_sure">Weet je zeker dat je het wilt verwijderen?</string>
     <string name="description">Beschrijving</string>
     <string name="different_engine_more_info">Probeer andere zoekmachines om meer nuttige informatie te vinden.</string>
+    <string name="still_have_problems_1">Ik ondervind nog steeds problemen</string>
     <string name="dropdown_menu">Dropdownmenu</string>
     <string name="ebay">eBay</string>
     <string name="email">E-mail:</string>
@@ -274,14 +276,7 @@ Deze functie is binnenkort beschikbaar…"</string>
     <string name="fb_ok">OK</string>
     <string name="fb_please_tell_more">Wil je ons wat meer vertellen, zodat we je probleem sneller kunnen oplossen?(Minstens %s tekens)</string>
     <string name="fb_tell_us_your_problem">Laat ons weten welk probleem je ondervond</string>
-    <string name="fb_thx_feedback_tip">We zullen het in een toekomstige versie verhelpen. Onze excuses voor het ongemak.</string>
-    <string name="fb_thx_feedback_title">Bedankt voor je feedback</string>
     <string name="fb_type">Type</string>
-    <string name="feedback">Feedback</string>
-    <string name="feedback_des">Rapporteer programmeerfoutjes en vertel ons wat we beter kunnen doen</string>
-    <string name="feedback_hint">Meld bugs en vertel ons wat we kunnen verbeteren</string>
-    <string name="feedback_hint_tip">Terugkoppel- of suggestie</string>
-    <string name="feedback_mail_text">Systeeminfo</string>
     <string name="file_name">Bestandsnaam</string>
     <string name="flashlight">Zaklamp</string>
     <string name="free">Gratis</string>
@@ -538,10 +533,8 @@ analyse"</string>
     <string name="product_guide_hint">Sommige producten zijn nog niet in de productbibliotheek ingevoerd. Tik op Zoeken op het web voor meer productinformatie.</string>
     <string name="purchased_failed">De Google Paid-dienst is momenteel niet beschikbaar in je land, je kunt de toepassing blijven gebruiken, maar je kan niet betalen voor het verwijderen van advertenties.</string>
     <string name="purchased_failed_title">Kan geen aankoop maken</string>
-    <string name="qr2_negative_feedback_hint_gpt">Vertel ons alstublieft het probleem dat u tegenkwam tijdens het scannen, we zullen ons best doen om te verbeteren.</string>
     <string name="qr2_problem_code_ask_gpt">Wat voor soort code heeft u gescand?</string>
     <string name="qr2_rate_later_gpt">Vraag me later</string>
-    <string name="qr2_thanks_feedback">Bedankt voor je feedback!</string>
     <string name="qr_code">QR-code</string>
     <string name="qr_code_not_found">Geen QR-code/barcode gevonden</string>
     <string name="qr_code_not_found_hint">Controleer of de QR-code of barcode duidelijk is en volledig binnen het kader valt</string>
@@ -609,7 +602,6 @@ analyse"</string>
     <string name="song_name">Naam nummer</string>
     <string name="start">Start</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="still_have_problems_1">Ik ondervind nog steeds problemen</string>
     <string name="storage_permission_save_images">Voor het opslaan van afbeeldingen is opslagtoestemming vereist.</string>
     <string name="subject">Onderwerp:</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
@@ -624,11 +616,8 @@ analyse"</string>
     <string name="tell_us_your_problem">Laat ons weten welk probleem je ondervond</string>
     <string name="template_percent">%1$d procent.</string>
     <string name="text">Tekst</string>
-    <string name="text_feedback_hint_short">Beschrijf het probleem</string>
     <string name="text_message">Tekstbericht</string>
     <string name="then_select_generate">"2. Selecteer '%s'"</string>
-    <string name="thx_feedback_tip">We zullen het in een toekomstige versie verhelpen. Onze excuses voor het ongemak.</string>
-    <string name="thx_feedback_title">Bedankt voor je feedback</string>
     <string name="tiktok">TikTok</string>
     <string name="tip">tips van</string>
     <string name="title">Titel:</string>

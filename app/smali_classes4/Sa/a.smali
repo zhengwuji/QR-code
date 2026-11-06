@@ -14,7 +14,6 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, LTa/b;-><init>(Landroid/content/Context;)V
 
     .line 4
     .line 5
@@ -30,7 +29,6 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, LTa/c;-><init>(Landroid/content/Context;)V
 
     .line 4
     .line 5

@@ -234,7 +234,7 @@
 .end method
 
 .method public static final b(Landroid/app/Activity;I)V
-    .locals 2
+    .locals 3
     .param p0    # Landroid/app/Activity;
         .annotation build Lorg/jetbrains/annotations/NotNull;
         .end annotation
@@ -269,6 +269,12 @@
     .line 14
     .line 15
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
+
+    const-string v1, "android.intent.extra.ALLOW_MULTIPLE"
+
+    const/4 v2, 0x1
+
+    invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
     .line 16
     .line 17

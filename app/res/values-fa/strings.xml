@@ -53,6 +53,7 @@
     <string name="avoid_reflections">از &lt;b>بازتاب&lt;/b> نور یا &lt;b>سایه&lt;/b> افتادن روی کد اجتناب کنید</string>
     <string name="barcode_number_gpt">شماره بارکد...</string>
     <string name="barcode_scan_fail_tip">اگر اسکن انجام نشد، می‌توانید به صورت دستی شماره بارکد را وارد و جستجو کنید.</string>
+    <string name="qr2_thanks_feedback">به خاطر نظر از شما سپاسگزاریم!</string>
     <string name="beep">بوق</string>
     <string name="beep_hint">صدای بوق در صورت موفقیت آمیز بودن اسکن</string>
     <string name="bigo_ad_about_app_default">درباره این برنامه</string>
@@ -216,6 +217,7 @@
     <string name="delete_sure">مطمئنید که می‌خواهید حذف کنید؟</string>
     <string name="description">توصیف</string>
     <string name="different_engine_more_info">برای دریافت اطلاعات مفید بیشتر، موتورهای جستجوی مختلف را امتحان کنید!</string>
+    <string name="still_have_problems_1">هنوز مشکل دارید</string>
     <string name="download">دانلود</string>
     <string name="dropdown_menu">منوی کرکره‌ای</string>
     <string name="ebay">eBay</string>
@@ -302,14 +304,7 @@
     <string name="fb_ok">تأیید</string>
     <string name="fb_please_tell_more">لطفاً جزئیات بیشتری را در اختیارمان بگذارید تا بتوانیم مشکل شما را سریعتر بیابیم و حل کنیم (حداقل %s کاراکتر)</string>
     <string name="fb_tell_us_your_problem">به ما بگویید با چه مشکلی مواجه شدید</string>
-    <string name="fb_thx_feedback_tip">این مشکل را در نسخه بعدی رفع می‌کنیم. به خاطر این مشکل متأسفیم.</string>
-    <string name="fb_thx_feedback_title">به خاطر نظر از شما سپاسگزاریم</string>
     <string name="fb_type">نوع</string>
-    <string name="feedback">بازخوردی</string>
-    <string name="feedback_des">اشکالات را گزارش دهید و به ما بگویید چه چیزی بهبود یابد</string>
-    <string name="feedback_hint">گزارش اشکالات و موارد پیشنهادی</string>
-    <string name="feedback_hint_tip">بازخورد یا پیشنهاد</string>
-    <string name="feedback_mail_text">اطلاعات سیستم</string>
     <string name="file_name">نام فایل</string>
     <string name="flashlight">چراق قوه</string>
     <string name="free">رایگان</string>
@@ -566,10 +561,8 @@
     <string name="product_guide_hint">بعضی از محصولات هنوز وارد کتابخانه محصول نشده‌اند. می‌توانید برای دریافت اطلاعات بیشتر درباره محصول، روی جستجوی وب کلیک کنید.</string>
     <string name="purchased_failed">خدمات Google Paid در حال حاضر کار نمی‌کند یا در کشور شما در دسترس نیست. می‌توانید بدون حذف آگهی‌ها به استفاده از این برنامه ادامه دهید.</string>
     <string name="purchased_failed_title">خرید انجام نمی‌شود</string>
-    <string name="qr2_negative_feedback_hint_gpt">لطفاً مشکلی که در فرآیند اسکن برخورد کردید به ما اطلاع دهید، ما تلاش خود را برای بهبود انجام خواهیم داد.</string>
     <string name="qr2_problem_code_ask_gpt">نوع کدی که اسکن کرده‌اید چیست؟</string>
     <string name="qr2_rate_later_gpt">بعداً از من بپرس</string>
-    <string name="qr2_thanks_feedback">به خاطر نظر از شما سپاسگزاریم!</string>
     <string name="qr_code">کد QR</string>
     <string name="qr_code_not_found">هیچ کد QR/بارکدی پیدا نشد</string>
     <string name="qr_code_not_found_hint">دقت کنید که کد QR/بارکد واضح است و کاملاً داخل قاب قرار دارد</string>
@@ -637,7 +630,6 @@
     <string name="song_name">نام ترانه</string>
     <string name="start">شروع</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="still_have_problems_1">هنوز مشکل دارید</string>
     <string name="storage_permission_save_images">برای ذخیره عکسها، نیاز به مجوز دسترسی به فضای حافظه است.</string>
     <string name="subject">موضوع:</string>
     <string name="summary_collapsed_preference_list">%1$s، %2$s</string>
@@ -652,11 +644,8 @@
     <string name="tell_us_your_problem">به ما بگویید با چه مشکلی مواجه شدید</string>
     <string name="template_percent">%1$d درصد.</string>
     <string name="text">متن</string>
-    <string name="text_feedback_hint_short">لطفاً مشکل خود را توضیح دهید</string>
     <string name="text_message">پیام متنی</string>
     <string name="then_select_generate">2. \"%s\" را انتخاب کنید</string>
-    <string name="thx_feedback_tip">این مشکل را در نسخه بعدی رفع می‌کنیم. به خاطر این مشکل متأسفیم.</string>
-    <string name="thx_feedback_title">به خاطر نظر از شما سپاسگزاریم</string>
     <string name="tiktok">TikTok</string>
     <string name="tip">نکته</string>
     <string name="title">عنوان:</string>

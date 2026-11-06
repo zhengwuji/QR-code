@@ -430,7 +430,6 @@
 
     .line 89
     .line 90
-    invoke-virtual {p1}, LV6/b;->c()LV6/b$b;
 
     .line 91
     .line 92
@@ -448,7 +447,6 @@
     const/4 v3, 0x1
 
     .line 98
-    invoke-virtual {p1, p2, v3}, LV6/b$b;->h(FI)LV6/b$b;
 
     .line 99
     .line 100
@@ -456,7 +454,6 @@
     move-result-object p1
 
     .line 102
-    invoke-virtual {p1}, LV6/b$b;->a()LV6/b;
 
     .line 103
     .line 104

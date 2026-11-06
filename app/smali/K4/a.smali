@@ -43,7 +43,6 @@
 
     .line 8
     .line 9
-    invoke-direct {v0, v1}, Lcom/bytedance/sdk/component/sf/pcc/vh$pcc;-><init>(Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -56,7 +55,6 @@
 
     .line 15
     .line 16
-    invoke-virtual {v0, v2, v3, v1}, Lcom/bytedance/sdk/component/sf/pcc/vh$pcc;->pcc(JLjava/util/concurrent/TimeUnit;)Lcom/bytedance/sdk/component/sf/pcc/vh$pcc;
 
     .line 17
     .line 18
@@ -64,7 +62,6 @@
     move-result-object v0
 
     .line 20
-    invoke-virtual {v0, v2, v3, v1}, Lcom/bytedance/sdk/component/sf/pcc/vh$pcc;->sf(JLjava/util/concurrent/TimeUnit;)Lcom/bytedance/sdk/component/sf/pcc/vh$pcc;
 
     .line 21
     .line 22
@@ -72,7 +69,6 @@
     move-result-object v0
 
     .line 24
-    invoke-virtual {v0, v2, v3, v1}, Lcom/bytedance/sdk/component/sf/pcc/vh$pcc;->gm(JLjava/util/concurrent/TimeUnit;)Lcom/bytedance/sdk/component/sf/pcc/vh$pcc;
 
     .line 25
     .line 26
@@ -80,7 +76,6 @@
     move-result-object v0
 
     .line 28
-    invoke-virtual {v0}, Lcom/bytedance/sdk/component/sf/pcc/vh$pcc;->pcc()Lcom/bytedance/sdk/component/sf/pcc/vh;
 
     .line 29
     .line 30

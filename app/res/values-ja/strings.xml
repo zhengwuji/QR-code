@@ -52,6 +52,7 @@
     <string name="avoid_reflections">コード上に光の&lt;b>反射&lt;/b>や&lt;b>影&lt;/b>ができないようにします</string>
     <string name="barcode_number_gpt">バーコード番号...</string>
     <string name="barcode_scan_fail_tip">スキャンに失敗した場合は、バーコード番号を手動で入力して検索してみましょう。</string>
+    <string name="qr2_thanks_feedback">フィードバックありがとうございます！</string>
     <string name="beep">通知音</string>
     <string name="beep_hint">スキャン成功時にビープ音</string>
     <string name="bigo_ad_about_app_default">このアプリについて</string>
@@ -216,6 +217,7 @@
     <string name="delete_sure">本当に削除しますか？</string>
     <string name="description">説明</string>
     <string name="different_engine_more_info">より役立つ情報を入手するため、別の検索エンジンをお試しください！</string>
+    <string name="still_have_problems_1">まだ問題があります</string>
     <string name="dropdown_menu">プルダウン メニュー</string>
     <string name="ebay">eBay</string>
     <string name="email">Eメール:</string>
@@ -301,14 +303,7 @@
     <string name="fb_ok">OK</string>
     <string name="fb_please_tell_more">問題を特定し、素早く解決できるように詳細を教えてください（%s文字以上）</string>
     <string name="fb_tell_us_your_problem">どのような問題がありましたか？</string>
-    <string name="fb_thx_feedback_tip">今後のバージョンで修正いたします。ご不便おかけして申し訳ございません。</string>
-    <string name="fb_thx_feedback_title">フィードバックをいただきありがとうございます</string>
     <string name="fb_type">種類</string>
-    <string name="feedback">フィードバック</string>
-    <string name="feedback_des">バグの報告やアプリ改善のご意見をお聞かせください</string>
-    <string name="feedback_hint">バグを報告し、改善すべき点を教えてください</string>
-    <string name="feedback_hint_tip">フィードバックや提案</string>
-    <string name="feedback_mail_text">システム情報</string>
     <string name="file_name">ファイル名</string>
     <string name="flashlight">懐中電灯</string>
     <string name="free">無料</string>
@@ -564,10 +559,8 @@ Google Playでレビューお願いします。"</string>
     <string name="product_guide_hint">まだ製品ライブラリにない製品もあります。ウェブ検索をタップすると製品の詳細を見ることができます。</string>
     <string name="purchased_failed">お住まいの国でGoogleの有料サービスをご利用いただけないか、Googleの有料サービスを現在ご利用いただけないため、アプリを購入できません。アプリは引き続きご利用いただけますが、お支払いをして広告を排除することはできません。</string>
     <string name="purchased_failed_title">購入できません</string>
-    <string name="qr2_negative_feedback_hint_gpt">スキャンプロセス中に遭遇した問題をお知らせください。改善に向けて最善を尽くしてまいります。</string>
     <string name="qr2_problem_code_ask_gpt">どのタイプのコードをスキャンしましたか？</string>
     <string name="qr2_rate_later_gpt">後でお願いします</string>
-    <string name="qr2_thanks_feedback">フィードバックありがとうございます！</string>
     <string name="qr_code">QRコード</string>
     <string name="qr_code_not_found">QRコード/バーコードが見つかりませんでした</string>
     <string name="qr_code_not_found_hint">QRコード/バーコードが鮮明で、フレーム内に完全に収まっていることを確認してください</string>
@@ -635,7 +628,6 @@ Google Playでレビューお願いします。"</string>
     <string name="song_name">曲名</string>
     <string name="start">スタート</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="still_have_problems_1">まだ問題があります</string>
     <string name="storage_permission_save_images">画像を保存するにはストレージの許可が必要です。</string>
     <string name="subject">件名:</string>
     <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
@@ -650,11 +642,8 @@ Google Playでレビューお願いします。"</string>
     <string name="tell_us_your_problem">どのような問題がありましたか？</string>
     <string name="template_percent">%1$dパーセント。</string>
     <string name="text">テキスト</string>
-    <string name="text_feedback_hint_short">問題を説明してください</string>
     <string name="text_message">テキストメッセージ</string>
     <string name="then_select_generate">2.［%s］を選択します</string>
-    <string name="thx_feedback_tip">今後のバージョンで修正いたします。ご不便おかけして申し訳ございません。</string>
-    <string name="thx_feedback_title">フィードバックをいただきありがとうございます</string>
     <string name="tiktok">TikTok</string>
     <string name="tip">ヒント</string>
     <string name="title">称号:</string>

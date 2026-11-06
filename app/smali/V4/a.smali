@@ -64,7 +64,6 @@
 
     .line 9
     .line 10
-    invoke-virtual {p1}, Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;->nac()Ljava/lang/String;
 
     .line 11
     .line 12
@@ -92,12 +91,10 @@
 
     .line 23
     .line 24
-    invoke-direct {v2, p0, p1}, LV4/c;-><init>(Landroid/content/Context;Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;)V
 
     .line 25
     .line 26
     .line 27
-    invoke-virtual {p1}, Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;->nac()Ljava/lang/String;
 
     .line 28
     .line 29
@@ -110,12 +107,10 @@
     .line 32
     .line 33
     .line 34
-    invoke-virtual {p1}, Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;->wh()I
 
     .line 35
     .line 36
     .line 37
-    invoke-virtual {p1}, Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;->nac()Ljava/lang/String;
 
     .line 38
     .line 39
@@ -137,12 +132,10 @@
     .line 44
     .line 45
     .line 46
-    invoke-virtual {p1}, Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;->wh()I
 
     .line 47
     .line 48
     .line 49
-    invoke-virtual {p1}, Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;->nac()Ljava/lang/String;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -181,7 +174,6 @@
 
     .line 5
     .line 6
-    invoke-virtual {p0}, Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;->nac()Ljava/lang/String;
 
     .line 7
     .line 8
@@ -225,12 +217,10 @@
     .line 25
     :cond_0
     :goto_0
-    invoke-virtual {p0}, Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;->wh()I
 
     .line 26
     .line 27
     .line 28
-    invoke-virtual {p0}, Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;->nac()Ljava/lang/String;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

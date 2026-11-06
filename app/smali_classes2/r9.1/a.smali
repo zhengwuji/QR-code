@@ -37,7 +37,6 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/google/firebase/installations/c;->e(LO8/f;)Lpersisted/IidStore;
 
     .line 4
     .line 5

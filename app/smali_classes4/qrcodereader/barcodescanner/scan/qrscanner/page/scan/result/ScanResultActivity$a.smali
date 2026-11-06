@@ -3,7 +3,6 @@
 .source "ScanResultActivity.java"
 
 # interfaces
-.implements LCe/v$a;
 
 
 # annotations

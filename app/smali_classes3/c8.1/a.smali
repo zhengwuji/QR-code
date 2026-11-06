@@ -325,7 +325,6 @@
     move-result-object v3
 
     .line 28
-    invoke-static {v3}, LJ7/a;->a(Landroid/content/Context;)LJ7/a;
 
     .line 29
     .line 30
@@ -333,7 +332,6 @@
     move-result-object v3
 
     .line 32
-    invoke-virtual {v3}, LJ7/a;->b()Lcom/google/android/gms/auth/api/signin/GoogleSignInAccount;
 
     .line 33
     .line 34

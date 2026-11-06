@@ -72,7 +72,6 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, LT8/f;->d(Ljava/lang/String;)Lcom/google/firebase/components/ComponentRegistrar;
 
     .line 2
     .line 3

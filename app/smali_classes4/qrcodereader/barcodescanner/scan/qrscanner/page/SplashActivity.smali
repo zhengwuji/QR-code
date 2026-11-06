@@ -232,7 +232,6 @@
     .line 4
     .line 5
     .line 6
-    invoke-static {}, Lde/j;->f()Lde/j;
 
     .line 7
     .line 8
@@ -244,13 +243,11 @@
 
     .line 11
     .line 12
-    invoke-virtual {v1, v0}, Lde/j;->j(Lde/j$b;)V
 
     .line 13
     .line 14
     .line 15
     :cond_0
-    invoke-static {}, Lde/j;->f()Lde/j;
 
     .line 16
     .line 17
@@ -262,7 +259,6 @@
 
     .line 20
     .line 21
-    invoke-virtual {v0, p0}, Lde/j;->g(Landroid/app/Activity;)Z
 
     .line 22
     .line 23
@@ -274,7 +270,6 @@
 
     .line 26
     .line 27
-    invoke-static {}, Lde/j;->f()Lde/j;
 
     .line 28
     .line 29
@@ -286,7 +281,6 @@
 
     .line 32
     .line 33
-    invoke-virtual {v0, p0}, Lde/j;->i(Landroid/app/Activity;)V
 
     .line 34
     .line 35
@@ -951,7 +945,6 @@
 
     .line 16
     .line 17
-    invoke-static {}, Lde/j;->f()Lde/j;
 
     .line 18
     .line 19
@@ -959,7 +952,6 @@
     move-result-object v0
 
     .line 21
-    invoke-virtual {v0, p0}, Lde/j;->k(Landroid/app/Activity;)V
 
     .line 22
     .line 23
@@ -997,7 +989,6 @@
 
     .line 12
     .line 13
-    invoke-static {}, Lde/j;->f()Lde/j;
 
     .line 14
     .line 15
@@ -1005,7 +996,6 @@
     move-result-object v0
 
     .line 17
-    invoke-virtual {v0, p0}, Lde/j;->g(Landroid/app/Activity;)Z
 
     .line 18
     .line 19
@@ -1763,7 +1753,6 @@
 
     .line 19
     .line 20
-    invoke-static {}, Lde/j;->f()Lde/j;
 
     .line 21
     .line 22
@@ -1771,7 +1760,6 @@
     move-result-object p1
 
     .line 24
-    invoke-virtual {p1, p0}, Lde/j;->g(Landroid/app/Activity;)Z
 
     .line 25
     .line 26

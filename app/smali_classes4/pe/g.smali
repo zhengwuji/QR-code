@@ -492,7 +492,6 @@
     .line 24
     .line 25
     .line 26
-    invoke-static {}, Lde/e;->i()Lde/e;
 
     .line 27
     .line 28
@@ -508,7 +507,6 @@
     move-result-object v1
 
     .line 34
-    invoke-virtual {v0, v1}, Lde/e;->n(Landroid/app/Activity;)V
 
     .line 35
     .line 36

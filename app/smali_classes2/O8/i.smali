@@ -29,7 +29,6 @@
 
     .line 2
     .line 3
-    invoke-static {p1}, Lcom/google/firebase/FirebaseCommonRegistrar;->b(Landroid/content/Context;)Ljava/lang/String;
 
     .line 4
     .line 5

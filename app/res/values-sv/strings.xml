@@ -52,6 +52,7 @@
     <string name="avoid_reflections">Undvik &lt;b>ljusreflexer&lt;/b> och &lt;b>skuggor&lt;/b> på koden</string>
     <string name="barcode_number_gpt">Streckkodsnummer...</string>
     <string name="barcode_scan_fail_tip">Om inläsningen misslyckades kan du prova att ange streckkodsnumret manuellt för att söka.</string>
+    <string name="qr2_thanks_feedback">Tack för din feedback!</string>
     <string name="beep">Pip</string>
     <string name="beep_hint">Pip när skanningen kunde genomföras</string>
     <string name="bigo_ad_lose_reward">Du kommer att förlora din belöning.</string>
@@ -193,6 +194,7 @@ Den här funktionen kommer snart …"</string>
     <string name="delete_sure">Är det säkert att du vill ta bort?</string>
     <string name="description">Beskrivning</string>
     <string name="different_engine_more_info">Prova olika sökmotorer för att hitta mer användbar information!</string>
+    <string name="still_have_problems_1">Har fortfarande problem</string>
     <string name="dropdown_menu">Rullgardinsmeny</string>
     <string name="ebay">eBay</string>
     <string name="email">E-postadres:</string>
@@ -278,14 +280,7 @@ Den här funktionen kommer snart …"</string>
     <string name="fb_ok">Ok</string>
     <string name="fb_please_tell_more">Beskriv närmare så vi kan hitta och lösa problemet snabbare (minst %s tecken)</string>
     <string name="fb_tell_us_your_problem">Berätta om problemet du stötte på</string>
-    <string name="fb_thx_feedback_tip">Vi kommer att åtgärda detta i en kommande version. Vi ber om ursäkt för olägenheten.</string>
-    <string name="fb_thx_feedback_title">Tack för din feedback.</string>
     <string name="fb_type">Typ</string>
-    <string name="feedback">Feedback</string>
-    <string name="feedback_des">Rapportera fel och ge förslag på vad vi kan förbättra</string>
-    <string name="feedback_hint">Rapportera fel och berätta vad som kan förbättras</string>
-    <string name="feedback_hint_tip">Återkoppling eller förslag</string>
-    <string name="feedback_mail_text">System info</string>
     <string name="file_name">Filnamn</string>
     <string name="flashlight">Ficklampa</string>
     <string name="free">Gratis</string>
@@ -541,10 +536,8 @@ Du får mer information när du är online igen."</string>
     <string name="product_guide_hint">Vissa produkter finns inte i produktbiblioteket ännu. Klicka på webbsökning om du vill ha ytterligare information.</string>
     <string name="purchased_failed">Googles betalningstjänst är inte tillgänglig, antingen just nu eller i ditt land. Du kan fortsätta använda applikationen, däremot går det inte att betala för att slippa reklam.</string>
     <string name="purchased_failed_title">Köpet kunde inte genomföras</string>
-    <string name="qr2_negative_feedback_hint_gpt">Vänligen berätta för oss vilket problem du stötte på under skanningen, vi kommer att göra vårt bästa för att förbättra.</string>
     <string name="qr2_problem_code_ask_gpt">Vilken typ av kod skannade du?</string>
     <string name="qr2_rate_later_gpt">Fråga mig senare</string>
-    <string name="qr2_thanks_feedback">Tack för din feedback!</string>
     <string name="qr_code">QR-kod</string>
     <string name="qr_code_not_found">Ingen QR-kod/streckkod hittades</string>
     <string name="qr_code_not_found_hint">Kontrollera att QR-/streckkoden är tydlig och helt innanför ramen</string>
@@ -612,7 +605,6 @@ Du får mer information när du är online igen."</string>
     <string name="song_name">Låtnamn</string>
     <string name="start">Start</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="still_have_problems_1">Har fortfarande problem</string>
     <string name="storage_permission_save_images">Åtkomst till minnet krävs för att kunna spara bilder.</string>
     <string name="subject">Ämne:</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
@@ -627,11 +619,8 @@ Du får mer information när du är online igen."</string>
     <string name="tell_us_your_problem">Berätta om problemet du stötte på</string>
     <string name="template_percent">%1$d procent.</string>
     <string name="text">Text</string>
-    <string name="text_feedback_hint_short">Beskriv ditt problem</string>
     <string name="text_message">SMS</string>
     <string name="then_select_generate">2. Välj \"%s\"</string>
-    <string name="thx_feedback_tip">Vi kommer att åtgärda detta i en kommande version. Vi ber om ursäkt för olägenheten.</string>
-    <string name="thx_feedback_title">Tack för din feedback.</string>
     <string name="tiktok">TikTok</string>
     <string name="tip">Tips</string>
     <string name="title">Titel:</string>

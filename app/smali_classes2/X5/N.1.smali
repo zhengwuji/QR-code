@@ -238,40 +238,6 @@
     .line 65
     .line 66
     :cond_2
-    sget p2, LV5/e;->m:I
-
-    .line 67
-    .line 68
-    invoke-virtual {p0, p2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
-
-    .line 69
-    .line 70
-    .line 71
-    move-result-object p2
-
-    .line 72
-    check-cast p2, Landroid/widget/TextView;
-
-    .line 73
-    .line 74
-    if-eqz p2, :cond_3
-
-    .line 75
-    .line 76
-    new-instance p3, LX5/M;
-
-    .line 77
-    .line 78
-    invoke-direct {p3, p1, p0}, LX5/M;-><init>(Lone/DialogListener;Landroid/app/Dialog;)V
-
-    .line 79
-    .line 80
-    .line 81
-    invoke-virtual {p2, p3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
-
-    .line 82
-    .line 83
-    .line 84
     :cond_3
     invoke-static {p0}, LX5/g;->e(Landroid/app/Dialog;)V
     :try_end_0

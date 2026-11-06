@@ -25,7 +25,6 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Ly6/b;->b()[Lx6/k;
 
     .line 2
     .line 3

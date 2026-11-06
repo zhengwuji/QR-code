@@ -48,7 +48,6 @@
 
     .line 1
     :try_start_0
-    invoke-static {}, Lcom/google/firebase/crashlytics/a;->a()Lcom/google/firebase/crashlytics/a;
 
     .line 2
     .line 3
@@ -56,7 +55,6 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p1}, Lcom/google/firebase/crashlytics/a;->d(Ljava/lang/Throwable;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

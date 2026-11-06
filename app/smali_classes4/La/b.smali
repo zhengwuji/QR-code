@@ -89,7 +89,6 @@
     move v7, p6
 
     .line 10
-    invoke-direct/range {v0 .. v7}, LLa/b;-><init>(LJa/d;LLa/c;LJa/d;Ljava/lang/String;Ljava/lang/String;LLa/a;I)V
 
     .line 11
     .line 12

@@ -741,14 +741,12 @@
     .line 35
     .line 36
     .line 37
-    sget-object v0, LCe/v$b;->a:LCe/v$b;
 
     .line 38
     .line 39
     const/4 v1, 0x0
 
     .line 40
-    invoke-static {p0, v0, v1}, LCe/v;->a(Landroid/app/Activity;LCe/v$b;LCe/v$a;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -998,7 +996,6 @@
 
     .line 50
     .line 51
-    invoke-static {}, Lde/e;->i()Lde/e;
 
     .line 52
     .line 53
@@ -1006,7 +1003,6 @@
     move-result-object p2
 
     .line 55
-    invoke-virtual {p2, p0, p1}, Lde/e;->u(Landroid/app/Activity;Landroid/widget/LinearLayout;)V
 
     .line 56
     .line 57
@@ -1112,7 +1108,6 @@
 
     .line 33
     :cond_2
-    invoke-static {}, Lde/g;->i()Lde/g;
 
     .line 34
     .line 35
@@ -1120,7 +1115,6 @@
     move-result-object v1
 
     .line 37
-    invoke-virtual {v1, p0}, Lde/g;->j(Landroid/app/Activity;)Z
 
     .line 38
     .line 39
@@ -1185,7 +1179,6 @@
     move-result v3
 
     .line 66
-    invoke-direct {v1, p0, v2, v3}, Lde/h;-><init>(Landroid/content/Context;Lde/h$b;Z)V
 
     .line 67
     .line 68
@@ -2892,7 +2885,6 @@
 
     .line 6
     .line 7
-    invoke-static {}, Lde/j;->f()Lde/j;
 
     .line 8
     .line 9
@@ -2900,7 +2892,6 @@
     move-result-object p1
 
     .line 11
-    invoke-virtual {p1, p0}, Lde/j;->g(Landroid/app/Activity;)Z
 
     .line 12
     .line 13
@@ -2912,7 +2903,6 @@
 
     .line 16
     .line 17
-    invoke-static {}, Lde/j;->f()Lde/j;
 
     .line 18
     .line 19
@@ -2920,7 +2910,6 @@
     move-result-object p1
 
     .line 21
-    invoke-virtual {p1, p0}, Lde/j;->k(Landroid/app/Activity;)V
 
     .line 22
     .line 23
@@ -3129,7 +3118,6 @@
 
     .line 1
     :try_start_0
-    invoke-static {}, Lde/g;->i()Lde/g;
 
     .line 2
     .line 3
@@ -3137,7 +3125,6 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p0}, Lde/g;->j(Landroid/app/Activity;)Z
 
     .line 6
     .line 7
@@ -4373,12 +4360,36 @@
     .line 70
     .line 71
     :try_start_0
+    invoke-virtual {p3}, Landroid/content/Intent;->getClipData()Landroid/content/ClipData;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_check_single_data
+
+    invoke-virtual {v0}, Landroid/content/ClipData;->getItemCount()I
+
+    move-result v1
+
+    if-lez v1, :cond_check_single_data
+
+    const/4 v1, 0x0
+
+    invoke-virtual {v0, v1}, Landroid/content/ClipData;->getItemAt(I)Landroid/content/ClipData$Item;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/content/ClipData$Item;->getUri()Landroid/net/Uri;
+
+    move-result-object v0
+
+    goto :cond_process_album_uri
+
+    :cond_check_single_data
     invoke-virtual {p3}, Landroid/content/Intent;->getData()Landroid/net/Uri;
 
-    .line 72
-    .line 73
-    .line 74
     move-result-object v0
+
+    :cond_process_album_uri
 
     .line 75
     invoke-static {p0, v0}, Lqrcodereader/barcodescanner/scan/qrscanner/base/BaseFileProvider;->l(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
@@ -4683,7 +4694,6 @@
 
     .line 87
     .line 88
-    invoke-static {p0}, Lee/b;->b(Lfe/c;)V
 
     .line 89
     .line 90
@@ -4753,7 +4763,6 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lde/e;->i()Lde/e;
 
     .line 5
     .line 6
@@ -4761,7 +4770,6 @@
     move-result-object v0
 
     .line 8
-    invoke-virtual {v0}, Lde/e;->p()V
 
     .line 9
     .line 10
@@ -4882,6 +4890,12 @@
     .line 3
     .line 4
     invoke-direct {p0}, Lqrcodereader/barcodescanner/scan/qrscanner/page/MainActivity;->s0()V
+
+    invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
+
+    move-result-object v0
+
+    invoke-direct {p0, v0}, Lqrcodereader/barcodescanner/scan/qrscanner/page/MainActivity;->handleCustomIntent(Landroid/content/Intent;)V
 
     .line 5
     .line 6
@@ -5019,7 +5033,6 @@
 
     .line 71
     .line 72
-    invoke-static {}, Lde/g;->i()Lde/g;
 
     .line 73
     .line 74
@@ -5027,13 +5040,11 @@
     move-result-object v2
 
     .line 76
-    invoke-virtual {v2, p0}, Lde/g;->k(Landroid/app/Activity;)V
 
     .line 77
     .line 78
     .line 79
     :cond_2
-    invoke-static {}, Lde/e;->i()Lde/e;
 
     .line 80
     .line 81
@@ -5041,7 +5052,6 @@
     move-result-object v2
 
     .line 83
-    invoke-virtual {v2}, Lde/e;->q()V
 
     .line 84
     .line 85
@@ -5058,7 +5068,6 @@
 
     .line 91
     .line 92
-    invoke-static {}, Lde/j;->f()Lde/j;
 
     .line 93
     .line 94
@@ -5066,7 +5075,6 @@
     move-result-object v2
 
     .line 96
-    invoke-virtual {v2, p0}, Lde/j;->g(Landroid/app/Activity;)Z
 
     .line 97
     .line 98
@@ -5121,7 +5129,6 @@
 
     .line 122
     .line 123
-    invoke-static {}, Lde/j;->f()Lde/j;
 
     .line 124
     .line 125
@@ -5129,7 +5136,6 @@
     move-result-object v1
 
     .line 127
-    invoke-virtual {v1, p0}, Lde/j;->k(Landroid/app/Activity;)V
 
     .line 128
     .line 129
@@ -5276,7 +5282,6 @@
 
     .line 199
     .line 200
-    invoke-static {}, Lde/e;->i()Lde/e;
 
     .line 201
     .line 202
@@ -5284,7 +5289,6 @@
     move-result-object v1
 
     .line 204
-    invoke-virtual {v1, p0}, Lde/e;->n(Landroid/app/Activity;)V
 
     .line 205
     .line 206
@@ -5715,7 +5719,6 @@
     .line 45
     .line 46
     .line 47
-    invoke-static {}, Lde/e;->i()Lde/e;
 
     .line 48
     .line 49
@@ -5732,12 +5735,10 @@
     .line 54
     .line 55
     .line 56
-    invoke-virtual {v0, v1}, Lde/e;->r(Lde/e$b;)V
 
     .line 57
     .line 58
     .line 59
-    invoke-static {}, Lde/e;->i()Lde/e;
 
     .line 60
     .line 61
@@ -5745,10 +5746,177 @@
     move-result-object v0
 
     .line 63
-    invoke-virtual {v0, p0}, Lde/e;->n(Landroid/app/Activity;)V
 
     .line 64
     .line 65
     .line 66
+    return-void
+.end method
+
+.method public onKeyDown(ILandroid/view/KeyEvent;)Z
+    .locals 3
+
+    const/16 v0, 0x18
+
+    if-ne p1, v0, :cond_check_down
+
+    goto :cond_volume_check
+
+    :cond_check_down
+    const/16 v0, 0x19
+
+    if-ne p1, v0, :cond_default
+
+    :cond_volume_check
+    iget v0, p0, Lqrcodereader/barcodescanner/scan/qrscanner/page/MainActivity;->x:I
+
+    const/4 v1, 0x1
+
+    if-ne v0, v1, :cond_default
+
+    iget-object v0, p0, Lqrcodereader/barcodescanner/scan/qrscanner/page/MainActivity;->t:Lve/V;
+
+    if-eqz v0, :cond_default
+
+    invoke-virtual {v0}, Lve/V;->y4()V
+
+    return v1
+
+    :cond_default
+    invoke-super {p0, p1, p2}, Lfe/c;->onKeyDown(ILandroid/view/KeyEvent;)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method protected onNewIntent(Landroid/content/Intent;)V
+    .locals 0
+
+    invoke-super {p0, p1}, Landroidx/fragment/app/k;->onNewIntent(Landroid/content/Intent;)V
+
+    invoke-virtual {p0, p1}, Landroid/app/Activity;->setIntent(Landroid/content/Intent;)V
+
+    invoke-direct {p0, p1}, Lqrcodereader/barcodescanner/scan/qrscanner/page/MainActivity;->handleCustomIntent(Landroid/content/Intent;)V
+
+    return-void
+.end method
+
+.method private handleCustomIntent(Landroid/content/Intent;)V
+    .locals 4
+
+    if-nez p1, :cond_exit
+
+    :try_start_custom
+    invoke-virtual {p1}, Landroid/content/Intent;->getAction()Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "android.intent.action.SEND"
+
+    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_check_shortcut
+
+    const-string v0, "android.intent.extra.STREAM"
+
+    invoke-virtual {p1, v0}, Landroid/content/Intent;->getParcelableExtra(Ljava/lang/String;)Landroid/os/Parcelable;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/net/Uri;
+
+    if-nez v0, :cond_have_uri
+
+    invoke-virtual {p1}, Landroid/content/Intent;->getData()Landroid/net/Uri;
+
+    move-result-object v0
+
+    :cond_have_uri
+    if-eqz v0, :cond_clear_send
+
+    invoke-static {p0, v0}, Lqrcodereader/barcodescanner/scan/qrscanner/base/BaseFileProvider;->l(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_clear_send
+
+    invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+
+    move-result-object v0
+
+    invoke-static {p0, v0}, Lqrcodereader/barcodescanner/scan/qrscanner/page/scan/ScanAlbumActivity;->k0(Landroid/content/Context;Landroid/net/Uri;)V
+
+    :cond_clear_send
+    const/4 v0, 0x0
+
+    invoke-virtual {p1, v0}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
+
+    :cond_check_shortcut
+    const-string v0, "qr_tab"
+
+    invoke-virtual {p1, v0}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_exit
+
+    const-string v2, "1"
+
+    invoke-virtual {v2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_tab_2
+
+    const/4 v2, 0x1
+
+    invoke-virtual {p0, v2}, Lqrcodereader/barcodescanner/scan/qrscanner/page/MainActivity;->M0(I)V
+
+    goto :cond_clear_tab
+
+    :cond_tab_2
+    const-string v2, "2"
+
+    invoke-virtual {v2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_tab_4
+
+    const/4 v2, 0x2
+
+    invoke-virtual {p0, v2}, Lqrcodereader/barcodescanner/scan/qrscanner/page/MainActivity;->M0(I)V
+
+    goto :cond_clear_tab
+
+    :cond_tab_4
+    const-string v2, "4"
+
+    invoke-virtual {v2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_clear_tab
+
+    const/4 v1, 0x4
+
+    invoke-virtual {p0, v1}, Lqrcodereader/barcodescanner/scan/qrscanner/page/MainActivity;->M0(I)V
+
+    :cond_clear_tab
+    invoke-virtual {p1, v0}, Landroid/content/Intent;->removeExtra(Ljava/lang/String;)V
+    :try_end_custom
+    .catch Ljava/lang/Exception; {:try_start_custom .. :try_end_custom} :catch_custom
+
+    goto :cond_exit
+
+    :catch_custom
+    :cond_exit
     return-void
 .end method

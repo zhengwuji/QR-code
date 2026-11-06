@@ -308,7 +308,6 @@
 
     .line 126
     :cond_2
-    invoke-static {}, Lde/g;->i()Lde/g;
 
     .line 127
     .line 128
@@ -320,7 +319,6 @@
 
     .line 131
     .line 132
-    invoke-virtual {p1, v0}, Lde/g;->g(Landroid/app/Activity;)V
 
     .line 133
     .line 134

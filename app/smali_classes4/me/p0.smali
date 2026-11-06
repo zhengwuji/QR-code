@@ -348,11 +348,9 @@
 
     .line 6
     .line 7
-    sget-object p1, Lqrcodereader/barcodescanner/scan/qrscanner/page/exit/ScanFailedFeedbackActivity;->h:Lqrcodereader/barcodescanner/scan/qrscanner/page/exit/ScanFailedFeedbackActivity$a;
 
     .line 8
     .line 9
-    invoke-virtual {p1, p0}, Lqrcodereader/barcodescanner/scan/qrscanner/page/exit/ScanFailedFeedbackActivity$a;->a(Landroid/app/Activity;)V
 
     .line 10
     .line 11
@@ -431,15 +429,12 @@
 
     .line 6
     .line 7
-    sget-object p1, Lqrcodereader/barcodescanner/scan/qrscanner/page/setting/FeedbackActivity;->v:Lqrcodereader/barcodescanner/scan/qrscanner/page/setting/FeedbackActivity$a;
 
     .line 8
     .line 9
-    sget-object v0, Lqrcodereader/barcodescanner/scan/qrscanner/page/setting/FeedbackActivity$b;->a:Lqrcodereader/barcodescanner/scan/qrscanner/page/setting/FeedbackActivity$b;
 
     .line 10
     .line 11
-    invoke-virtual {p1, p0, v0}, Lqrcodereader/barcodescanner/scan/qrscanner/page/setting/FeedbackActivity$a;->f(Landroid/app/Activity;Lqrcodereader/barcodescanner/scan/qrscanner/page/setting/FeedbackActivity$b;)V
 
     .line 12
     .line 13

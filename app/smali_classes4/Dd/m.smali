@@ -100,7 +100,6 @@
     move-result p1
 
     .line 7
-    invoke-static {p1}, Lcom/moloco/sdk/internal/utils/c;->a(I)Ljava/lang/String;
 
     .line 8
     .line 9

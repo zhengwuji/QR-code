@@ -9,8 +9,7 @@
     <style name="Ad.Bigo.Theme.NoTitleBar.Fullscreen" parent="@android:style/Theme.NoTitleBar.Fullscreen">
         <item name="android:fitsSystemWindows">true</item>
     </style>
-    <style name="Ad.Fan.Activity" parent="@android:style/Theme.Translucent.NoTitleBar">
-    </style>
+    <style name="Ad.Fan.Activity" parent="@android:style/Theme.Translucent.NoTitleBar" />
     <style name="Ad.VK.Activity" parent="@android:style/Theme.NoTitleBar.Fullscreen">
         <item name="android:fitsSystemWindows">false</item>
     </style>

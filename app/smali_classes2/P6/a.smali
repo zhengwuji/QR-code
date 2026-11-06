@@ -134,7 +134,6 @@
 
     .line 4
     .line 5
-    invoke-virtual {p1, v0, v1}, Ls6/B0$b;->G([BI)Ls6/B0$b;
 
     .line 6
     .line 7

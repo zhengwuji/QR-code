@@ -402,16 +402,13 @@
     .line 56
     .line 57
     .line 58
-    new-instance v1, LEe/a;
 
     .line 59
     .line 60
-    invoke-direct {v1, p0}, LEe/a;-><init>(Lqrcodereader/barcodescanner/scan/qrscanner/views/ShimmerConstraintLayout;)V
 
     .line 61
     .line 62
     .line 63
-    invoke-virtual {v0, v1}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
     .line 64
     .line 65

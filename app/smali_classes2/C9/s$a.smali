@@ -281,7 +281,6 @@
 
     .line 98
     .line 99
-    invoke-virtual {p2}, Lcom/google/firebase/installations/g;->b()Ljava/lang/String;
 
     .line 100
     .line 101

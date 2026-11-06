@@ -1594,6 +1594,9 @@
     <public type="color" name="dialog_text_first" id="0x7f06008a" />
     <public type="color" name="dialog_text_second" id="0x7f06008b" />
     <public type="color" name="dialog_wifi_bold" id="0x7f06008c" />
+    <public type="color" name="feedback_input_bg" id="0x7f06008d" />
+    <public type="color" name="feedback_reason_bg_select" id="0x7f06008e" />
+    <public type="color" name="feedback_reason_bg_unselect" id="0x7f06008f" />
     <public type="color" name="dismiss_icon_grey_500" id="0x7f060091" />
     <public type="color" name="dismiss_icon_grey_700" id="0x7f060092" />
     <public type="color" name="download_black" id="0x7f060093" />
@@ -1634,10 +1637,7 @@
     <public type="color" name="fb_reason_unselect" id="0x7f0600b8" />
     <public type="color" name="feedback_et_hint" id="0x7f0600b9" />
     <public type="color" name="feedback_et_text" id="0x7f0600ba" />
-    <public type="color" name="feedback_input_bg" id="0x7f0600bb" />
     <public type="color" name="feedback_page_bg" id="0x7f0600bc" />
-    <public type="color" name="feedback_reason_bg_select" id="0x7f0600bd" />
-    <public type="color" name="feedback_reason_bg_unselect" id="0x7f0600be" />
     <public type="color" name="feedback_reason_text_select" id="0x7f0600bf" />
     <public type="color" name="feedback_reason_text_unselect" id="0x7f0600c0" />
     <public type="color" name="feedback_svg_item" id="0x7f0600c1" />
@@ -3296,28 +3296,6 @@
     <public type="drawable" name="faq_svg_item_search" id="0x7f0801c1" />
     <public type="drawable" name="faq_svg_item_wifi" id="0x7f0801c2" />
     <public type="drawable" name="faq_svg_up" id="0x7f0801c3" />
-    <public type="drawable" name="fb_bg_dialog" id="0x7f0801c4" />
-    <public type="drawable" name="fb_bg_dialog_bottom" id="0x7f0801c5" />
-    <public type="drawable" name="fb_bg_reason_unselected" id="0x7f0801c6" />
-    <public type="drawable" name="fb_bg_submit" id="0x7f0801c7" />
-    <public type="drawable" name="fb_shape_et_bg" id="0x7f0801c8" />
-    <public type="drawable" name="fb_svc_feedback" id="0x7f0801c9" />
-    <public type="drawable" name="fb_svg_add_photo" id="0x7f0801ca" />
-    <public type="drawable" name="fb_svg_back" id="0x7f0801cb" />
-    <public type="drawable" name="fb_svg_delete" id="0x7f0801cc" />
-    <public type="drawable" name="fb_svg_warning" id="0x7f0801cf" />
-    <public type="drawable" name="fb_tv_color_submit" id="0x7f0801d1" />
-    <public type="drawable" name="feedback_ic_camera" id="0x7f0801d2" />
-    <public type="drawable" name="feedback_ic_photo" id="0x7f0801d3" />
-    <public type="drawable" name="feedback_input_bg" id="0x7f0801d4" />
-    <public type="drawable" name="feedback_reason_bg_select" id="0x7f0801d5" />
-    <public type="drawable" name="feedback_reason_bg_unselect" id="0x7f0801d6" />
-    <public type="drawable" name="feedback_svc_feedback" id="0x7f0801d7" />
-    <public type="drawable" name="feedback_svg_add_photo" id="0x7f0801d8" />
-    <public type="drawable" name="feedback_svg_back" id="0x7f0801d9" />
-    <public type="drawable" name="feedback_svg_delete" id="0x7f0801da" />
-    <public type="drawable" name="feedback_svg_photo" id="0x7f0801db" />
-    <public type="drawable" name="feedback_svg_warning" id="0x7f0801dc" />
     <public type="drawable" name="ic_ad_flag" id="0x7f0801e1" />
     <public type="drawable" name="ic_arrow_back_black_24" id="0x7f0801e2" />
     <public type="drawable" name="ic_arrow_down" id="0x7f0801e3" />
@@ -3529,7 +3507,6 @@
     <public type="drawable" name="parse_result_icon_link" id="0x7f0802e0" />
     <public type="drawable" name="parse_result_icon_text" id="0x7f0802e1" />
     <public type="drawable" name="parse_result_icon_website" id="0x7f0802e2" />
-    <public type="drawable" name="pic_ic_feedback_cry" id="0x7f0802e3" />
     <public type="drawable" name="pic_ic_no_history" id="0x7f0802e4" />
     <public type="drawable" name="pic_satisfied" id="0x7f0802ed" />
     <public type="drawable" name="png_enlarge" id="0x7f0802ef" />
@@ -3601,7 +3578,6 @@
     <public type="drawable" name="svg_norm_line" id="0x7f080332" />
     <public type="drawable" name="svg_pic_error" id="0x7f080333" />
     <public type="drawable" name="svg_pic_placeholder" id="0x7f080334" />
-    <public type="drawable" name="svg_result_like_24" id="0x7f080335" />
     <public type="drawable" name="svg_result_link_24" id="0x7f080336" />
     <public type="drawable" name="svg_result_text_24" id="0x7f080337" />
     <public type="drawable" name="svg_result_website_24" id="0x7f080338" />
@@ -3635,11 +3611,6 @@
     <public type="drawable" name="vector_ic_expand_less" id="0x7f0803b7" />
     <public type="drawable" name="vector_ic_expand_more" id="0x7f0803b8" />
     <public type="drawable" name="vector_ic_facebook" id="0x7f0803b9" />
-    <public type="drawable" name="vector_ic_feedback" id="0x7f0803ba" />
-    <public type="drawable" name="vector_ic_feedback_green_star" id="0x7f0803bb" />
-    <public type="drawable" name="vector_ic_feedback_selected" id="0x7f0803bc" />
-    <public type="drawable" name="vector_ic_feedback_star" id="0x7f0803bd" />
-    <public type="drawable" name="vector_ic_feedback_unselected" id="0x7f0803be" />
     <public type="drawable" name="vector_ic_flashlight" id="0x7f0803bf" />
     <public type="drawable" name="vector_ic_geo" id="0x7f0803c0" />
     <public type="drawable" name="vector_ic_google_search" id="0x7f0803c1" />
@@ -3787,7 +3758,6 @@
     <public type="drawable" name="notification_bg_normal_pressed" id="0x7f0802a9" />
     <public type="drawable" name="notify_panel_notification_icon_bg" id="0x7f0802af" />
     <public type="drawable" name="png_ask_smile" id="0x7f0802ee" />
-    <public type="drawable" name="png_feedback_smile" id="0x7f0802f1" />
     <public type="drawable" name="common_full_open_on_phone" id="0x7f080153" />
     <public type="drawable" name="notification_oversize_large_icon_bg" id="0x7f0802ab" />
     <public type="drawable" name="ad_mark" id="0x7f08007d" />
@@ -5527,14 +5497,12 @@
     <public type="layout" name="activity_debug_firebase" id="0x7f0d0033" />
     <public type="layout" name="activity_debug_ui" id="0x7f0d0034" />
     <public type="layout" name="activity_faq" id="0x7f0d0035" />
-    <public type="layout" name="activity_feedback" id="0x7f0d0036" />
     <public type="layout" name="activity_language_list" id="0x7f0d0037" />
     <public type="layout" name="activity_main" id="0x7f0d0038" />
     <public type="layout" name="activity_privacy_policy" id="0x7f0d0039" />
     <public type="layout" name="activity_result_create" id="0x7f0d003a" />
     <public type="layout" name="activity_result_scan" id="0x7f0d003b" />
     <public type="layout" name="activity_scan_album" id="0x7f0d003c" />
-    <public type="layout" name="activity_scan_failed_feedback" id="0x7f0d003d" />
     <public type="layout" name="activity_splash" id="0x7f0d003e" />
     <public type="layout" name="activty_webview_result" id="0x7f0d003f" />
     <public type="layout" name="ad_full_loading_layout" id="0x7f0d0040" />
@@ -5761,7 +5729,6 @@
     <public type="layout" name="exo_styled_sub_settings_list_item" id="0x7f0d011d" />
     <public type="layout" name="exo_track_selection_dialog" id="0x7f0d011e" />
     <public type="layout" name="expand_button" id="0x7f0d011f" />
-    <public type="layout" name="fb_item_rcv_photo" id="0x7f0d0120" />
     <public type="layout" name="fragment_create" id="0x7f0d0121" />
     <public type="layout" name="fragment_debug_dialog" id="0x7f0d0122" />
     <public type="layout" name="fragment_debug_page" id="0x7f0d0123" />
@@ -5788,8 +5755,6 @@
     <public type="layout" name="item_rcv_result_text_content" id="0x7f0d0138" />
     <public type="layout" name="item_rcv_result_url_content" id="0x7f0d0139" />
     <public type="layout" name="layout_adapter_faq" id="0x7f0d013a" />
-    <public type="layout" name="layout_adapter_feedback_photo" id="0x7f0d013b" />
-    <public type="layout" name="layout_adapter_feedback_reason" id="0x7f0d013c" />
     <public type="layout" name="layout_adapter_parse_button" id="0x7f0d013d" />
     <public type="layout" name="layout_adapter_result_loading" id="0x7f0d013e" />
     <public type="layout" name="layout_adapter_result_scan_type_amazon" id="0x7f0d013f" />
@@ -5806,8 +5771,6 @@
     <public type="layout" name="layout_dialog_app_low_storage" id="0x7f0d014a" />
     <public type="layout" name="layout_dialog_base" id="0x7f0d014b" />
     <public type="layout" name="layout_dialog_create_share_guide" id="0x7f0d014c" />
-    <public type="layout" name="layout_dialog_feedback_choose_photo" id="0x7f0d014d" />
-    <public type="layout" name="layout_dialog_feedback_thanks" id="0x7f0d014e" />
     <public type="layout" name="layout_dialog_history_delete_confirm" id="0x7f0d014f" />
     <public type="layout" name="layout_dialog_input_barcode" id="0x7f0d0150" />
     <public type="layout" name="layout_dialog_input_barcode_guide" id="0x7f0d0151" />
@@ -5988,6 +5951,7 @@
     <public type="string" name="avoid_reflections" id="0x7f120035" />
     <public type="string" name="barcode_number_gpt" id="0x7f120036" />
     <public type="string" name="barcode_scan_fail_tip" id="0x7f120037" />
+    <public type="string" name="qr2_thanks_feedback" id="0x7f120038" />
     <public type="string" name="beep" id="0x7f120039" />
     <public type="string" name="beep_hint" id="0x7f12003a" />
     <public type="string" name="bigo_ad_about_app_default" id="0x7f12003b" />
@@ -6168,6 +6132,7 @@
     <public type="string" name="description" id="0x7f1200ea" />
     <public type="string" name="different_engine_more_info" id="0x7f1200eb" />
     <public type="string" name="dismiss_button_description" id="0x7f1200ec" />
+    <public type="string" name="still_have_problems_1" id="0x7f1200ed" />
     <public type="string" name="download" id="0x7f1200ee" />
     <public type="string" name="dropdown_menu" id="0x7f1200ef" />
     <public type="string" name="ebay" id="0x7f1200f0" />
@@ -6260,14 +6225,7 @@
     <public type="string" name="fb_ok" id="0x7f12014a" />
     <public type="string" name="fb_please_tell_more" id="0x7f12014b" />
     <public type="string" name="fb_tell_us_your_problem" id="0x7f12014d" />
-    <public type="string" name="fb_thx_feedback_tip" id="0x7f12014e" />
-    <public type="string" name="fb_thx_feedback_title" id="0x7f12014f" />
     <public type="string" name="fb_type" id="0x7f120150" />
-    <public type="string" name="feedback" id="0x7f120151" />
-    <public type="string" name="feedback_des" id="0x7f120152" />
-    <public type="string" name="feedback_hint" id="0x7f120153" />
-    <public type="string" name="feedback_hint_tip" id="0x7f120154" />
-    <public type="string" name="feedback_mail_text" id="0x7f120155" />
     <public type="string" name="file_name" id="0x7f120156" />
     <public type="string" name="files_path_core_ad" id="0x7f120157" />
     <public type="string" name="firebase_database_url" id="0x7f120158" />
@@ -6608,10 +6566,8 @@
     <public type="string" name="project_id" id="0x7f1202b5" />
     <public type="string" name="purchased_failed" id="0x7f1202b8" />
     <public type="string" name="purchased_failed_title" id="0x7f1202b9" />
-    <public type="string" name="qr2_negative_feedback_hint_gpt" id="0x7f1202ba" />
     <public type="string" name="qr2_problem_code_ask_gpt" id="0x7f1202bb" />
     <public type="string" name="qr2_rate_later_gpt" id="0x7f1202bc" />
-    <public type="string" name="qr2_thanks_feedback" id="0x7f1202bd" />
     <public type="string" name="qr_code" id="0x7f1202be" />
     <public type="string" name="qr_code_not_found" id="0x7f1202bf" />
     <public type="string" name="qr_code_not_found_hint" id="0x7f1202c0" />
@@ -6692,7 +6648,6 @@
     <public type="string" name="spotify" id="0x7f12030d" />
     <public type="string" name="start" id="0x7f12030e" />
     <public type="string" name="status_bar_notification_info_overflow" id="0x7f12030f" />
-    <public type="string" name="still_have_problems_1" id="0x7f120310" />
     <public type="string" name="storage_permission_save_images" id="0x7f120311" />
     <public type="string" name="subject" id="0x7f120312" />
     <public type="string" name="summary_collapsed_preference_list" id="0x7f120313" />
@@ -6707,11 +6662,8 @@
     <public type="string" name="tell_us_your_problem" id="0x7f12031c" />
     <public type="string" name="template_percent" id="0x7f12031d" />
     <public type="string" name="text" id="0x7f12031e" />
-    <public type="string" name="text_feedback_hint_short" id="0x7f12031f" />
     <public type="string" name="text_message" id="0x7f120320" />
     <public type="string" name="then_select_generate" id="0x7f120321" />
-    <public type="string" name="thx_feedback_tip" id="0x7f120322" />
-    <public type="string" name="thx_feedback_title" id="0x7f120323" />
     <public type="string" name="tiktok" id="0x7f120324" />
     <public type="string" name="tip" id="0x7f120325" />
     <public type="string" name="title" id="0x7f120326" />

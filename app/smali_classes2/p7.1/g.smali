@@ -66,7 +66,6 @@
 
     .line 7
     .line 8
-    invoke-static {p2}, Lcom/google/android/gms/ads/internal/client/m0;->zzc(Landroid/os/IBinder;)Lcom/google/android/gms/ads/internal/client/n0;
 
     .line 9
     .line 10

@@ -53,6 +53,7 @@
     <string name="avoid_reflections">Не допускайте &lt;b>отражений&lt;/b> и &lt;b>теней&lt;/b> на коде</string>
     <string name="barcode_number_gpt">Номер штрих-кода...</string>
     <string name="barcode_scan_fail_tip">Если сканирование не удалось, попробуйте для поиска ввести номер штрихкода вручную.</string>
+    <string name="qr2_thanks_feedback">Спасибо за отзыв!</string>
     <string name="beep">Звуковой сигнал</string>
     <string name="beep_hint">Звуковой сигнал при успешном сканировании</string>
     <string name="bigo_ad_about_app_default">Об этом приложении</string>
@@ -217,6 +218,7 @@
     <string name="delete_sure">Вы действительно хотите удалить?</string>
     <string name="description">Описание</string>
     <string name="different_engine_more_info">Попробуйте разные поисковые системы, чтобы получать больше полезной информации!</string>
+    <string name="still_have_problems_1">Остались проблемы</string>
     <string name="download">Скачать</string>
     <string name="dropdown_menu">Раскрывающееся меню</string>
     <string name="ebay">eBay</string>
@@ -303,14 +305,7 @@
     <string name="fb_ok">OK</string>
     <string name="fb_please_tell_more">Расскажите о проблеме подробнее, чтобы мы быстрее нашли ее и решили (не менее %s символов)</string>
     <string name="fb_tell_us_your_problem">Расскажите, что за проблема у вас возникла</string>
-    <string name="fb_thx_feedback_tip">Мы исправим проблему в будущей версии. Извините за неудобство.</string>
-    <string name="fb_thx_feedback_title">Спасибо за обратную связь</string>
     <string name="fb_type">Тип</string>
-    <string name="feedback">Обратная связь</string>
-    <string name="feedback_des">Сообщать о ошибках и о том, что мы можем улучшить</string>
-    <string name="feedback_hint">Сообщайте об ошибках и расскажите нам, что улучшить</string>
-    <string name="feedback_hint_tip">Обратная связь или предложение</string>
-    <string name="feedback_mail_text">Системная информация</string>
     <string name="file_name">Название файла</string>
     <string name="flashlight">Фонарик</string>
     <string name="free">Бесплатно</string>
@@ -568,10 +563,8 @@
     <string name="product_guide_hint">Некоторых продуктов еще нет в библиотеке. Нажмите на «Поиск в сети», чтобы узнать о них больше.</string>
     <string name="purchased_failed">Этот платный сервис от Google Paid недоступен в данный момент или в вашей стране. Вы можете продолжить использование приложения, но без оплаты за удаление рекламы.</string>
     <string name="purchased_failed_title">Не могу совершить покупку</string>
-    <string name="qr2_negative_feedback_hint_gpt">Пожалуйста, расскажите нам о проблеме, с которой вы столкнулись в процессе сканирования, и мы приложим все усилия для улучшения.</string>
     <string name="qr2_problem_code_ask_gpt">Какой тип кода вы отсканировали?</string>
     <string name="qr2_rate_later_gpt">Спросите меня позже</string>
-    <string name="qr2_thanks_feedback">Спасибо за отзыв!</string>
     <string name="qr_code">QR-код</string>
     <string name="qr_code_not_found">QR-код/штрих-код не найден</string>
     <string name="qr_code_not_found_hint">Убедитесь, что QR-/штрихкод четкий и полностью внутри рамки</string>
@@ -639,7 +632,6 @@
     <string name="song_name">Название песни</string>
     <string name="start">Начало</string>
     <string name="status_bar_notification_info_overflow">>999</string>
-    <string name="still_have_problems_1">Остались проблемы</string>
     <string name="storage_permission_save_images">Чтобы сохранять изображения, нужен доступ к памяти.</string>
     <string name="subject">Тема:</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
@@ -654,11 +646,8 @@
     <string name="tell_us_your_problem">Расскажите, что за проблема у вас возникла</string>
     <string name="template_percent">Процентов: %1$d.</string>
     <string name="text">Текст</string>
-    <string name="text_feedback_hint_short">Опишите свою проблему</string>
     <string name="text_message">Текстовое сообщение</string>
     <string name="then_select_generate">2. Выберите «%s»</string>
-    <string name="thx_feedback_tip">Мы исправим проблему в будущей версии. Извините за неудобство.</string>
-    <string name="thx_feedback_title">Спасибо за обратную связь</string>
     <string name="tiktok">TikTok</string>
     <string name="tip">Совет</string>
     <string name="title">Обращение:</string>

@@ -282,7 +282,6 @@
 
     .line 4
     .line 5
-    invoke-static {}, Lcom/google/firebase/remoteconfig/a;->j()Lcom/google/firebase/remoteconfig/a;
 
     .line 6
     .line 7
@@ -322,7 +321,6 @@
 
     .line 21
     .line 22
-    invoke-virtual {v0, p1}, Lcom/google/firebase/remoteconfig/a;->m(Ljava/lang/String;)Ly9/o;
 
     .line 23
     .line 24
@@ -533,7 +531,6 @@
 
     .line 70
     :goto_1
-    invoke-static {}, Lcom/google/firebase/remoteconfig/a;->j()Lcom/google/firebase/remoteconfig/a;
 
     .line 71
     .line 72
@@ -545,7 +542,6 @@
 
     .line 75
     .line 76
-    invoke-virtual {v3, v2}, Lcom/google/firebase/remoteconfig/a;->p(Ly9/n;)Ld8/l;
 
     .line 77
     .line 78
@@ -554,7 +550,6 @@
 
     .line 80
     .line 81
-    invoke-virtual {v2}, Lcom/google/firebase/remoteconfig/a;->h()Ld8/l;
 
     .line 82
     .line 83

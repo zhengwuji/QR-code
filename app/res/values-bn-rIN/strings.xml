@@ -20,6 +20,7 @@
     <string name="avoid_reflections">কোডের উপর আলোর &lt;b>প্রতিফলন&lt;/b> অথবা &lt;b>ছায়া&lt;/b> এড়িয়ে চলুন</string>
     <string name="barcode_number_gpt">বারকোড নম্বর...</string>
     <string name="barcode_scan_fail_tip">স্ক্যান না করা গেলে আপনি সার্চে ম্যানুইয়ালি বারকোড নম্বর লেখার চেষ্টা করতে পারেন।</string>
+    <string name="qr2_thanks_feedback">আপনার ফিডব্যাকের জন্য ধন্যবাদ!</string>
     <string name="beep">বিপ</string>
     <string name="beep_hint">স্ক্যান সফল হলে বিপ ধ্বনি</string>
     <string name="bigo_ad_lose_reward">আপনার পুরস্কার হারাবেন।</string>
@@ -123,6 +124,7 @@
     <string name="delete_sure">আপনি কি নিশ্চিত যে আপনি মুছতে চান?</string>
     <string name="description">বর্ণনা</string>
     <string name="different_engine_more_info">আরও দরকারী তথ্য পেতে গেলে বিভিন্ন সার্চ ইঞ্জিনগুলি তে চেষ্টা করুন!</string>
+    <string name="still_have_problems_1">এখনও সমস্যা আছে</string>
     <string name="ebay">eBay</string>
     <string name="email">ইমেল:</string>
     <string name="email_address">ইমেল ঠিকানা</string>
@@ -149,14 +151,7 @@
     <string name="fb_ok">ঠিক আছে</string>
     <string name="fb_please_tell_more">অনুগ্রহ করে আমাদের আরও বিস্তারিত বলুন যাতে আমরা আরও দ্রুত আপনার সমস্যা চিহ্নিত করতে এবং সমাধান করতে পারি (কমপক্ষে %s বর্ণ)</string>
     <string name="fb_tell_us_your_problem">আপনি যে সমস্যার সম্মুখীন হয়েছেন তা আমাদের বলুন</string>
-    <string name="fb_thx_feedback_tip">ভবিষ্যত সংস্করণে আমরা ঠিক করে দেব। অসুবিধার জন্য দুঃখিত।</string>
-    <string name="fb_thx_feedback_title">আপনার ফিডব্যাকের জন্য ধন্যবাদ</string>
     <string name="fb_type">ধরন</string>
-    <string name="feedback">মতামত</string>
-    <string name="feedback_des">বাগ রিপোর্ট করুন এবং আমাদের বলুন কী উন্নতি করতে হবে</string>
-    <string name="feedback_hint">বাগ রিপোর্ট করুন এবং কি উন্নত করতে হবে আমাদের বলুন</string>
-    <string name="feedback_hint_tip">মতামত অথবা পরামর্শ</string>
-    <string name="feedback_mail_text">সিস্টেম তথ্য</string>
     <string name="file_name">ফাইল নাম</string>
     <string name="flashlight">ফ্ল্যাশলাইট</string>
     <string name="free">বিনামূল্যে</string>
@@ -348,10 +343,8 @@
     <string name="product_guide_hint">কিছু পণ্য এখনও পণ্য লাইব্রেরিতে প্রবিষ্ট হয়নি। পণ্য সংক্রান্ত আরও তথ্য পেতে আপনি ওয়েব অনুসন্ধান ট্যাপ করতে পারেন।</string>
     <string name="purchased_failed">Google Paid পরিষেবা এই মুহূর্তে অথবা আপনার দেশে উপলব্ধ নয়, আপনি বিজ্ঞাপন অপসারণ করার জন্য অর্থপ্রদান করা ছাড়া অ্যাপ্লিকেশনটি ব্যবহার করা চালিয়ে যেতে পারেন।</string>
     <string name="purchased_failed_title">ক্রয় করা সম্ভব নয়</string>
-    <string name="qr2_negative_feedback_hint_gpt">অনুগ্রহ করে স্ক্যানিং প্রক্রিয়ার সময় আপনি কোন সমস্যা মুখস্থ হয়েছে তা আমাদের বলুন, আমরা আপনার জন্য উন্নতি করতে চেষ্টা করব।</string>
     <string name="qr2_problem_code_ask_gpt">আপনি কি ধরনের কোড স্ক্যান করেছেন?</string>
     <string name="qr2_rate_later_gpt">পরে আমাকে পুঁজতে চাও</string>
-    <string name="qr2_thanks_feedback">আপনার ফিডব্যাকের জন্য ধন্যবাদ!</string>
     <string name="qr_code">QR কোড</string>
     <string name="qr_code_not_found">কোনো QR কোড/বারকোড পাওয়া যায়নি</string>
     <string name="qr_code_not_found_hint">নিশ্চিত করুন যে QR কোড/বারকোডটি স্পষ্ট এবং সম্পূর্ণভাবে ফ্রেমের মধ্যে আছে</string>
@@ -406,7 +399,6 @@
     <string name="something_wrong_try_again">কিছু ভুল হয়েছে দয়া করে। পরে আবার চেষ্টা করুন।</string>
     <string name="song_name">গানের নাম</string>
     <string name="start">শুরু</string>
-    <string name="still_have_problems_1">এখনও সমস্যা আছে</string>
     <string name="storage_permission_save_images">ছবিগুলি সেভ করতে স্টোরেজ অনুমতি প্রয়োজন।</string>
     <string name="subject">বিষয়:</string>
     <string name="tab_create_toolbar">QR কোড প্রস্তুতকারী</string>
@@ -418,11 +410,8 @@
     <string name="td_tip">বিঃদ্রঃ</string>
     <string name="tell_us_your_problem">আপনি যে সমস্যার সম্মুখীন হয়েছেন তা আমাদের বলুন</string>
     <string name="text">পাঠ্য</string>
-    <string name="text_feedback_hint_short">অনুগ্রহ করে আপনার সমস্যার বিবরণ দিন</string>
     <string name="text_message">টেক্সট বার্তা</string>
     <string name="then_select_generate">2. \"%s\" নির্বাচন করুন</string>
-    <string name="thx_feedback_tip">ভবিষ্যত সংস্করণে আমরা ঠিক করে দেব। অসুবিধার জন্য দুঃখিত।</string>
-    <string name="thx_feedback_title">আপনার ফিডব্যাকের জন্য ধন্যবাদ</string>
     <string name="tiktok">TikTok</string>
     <string name="tip">পরামর্শ</string>
     <string name="title">খেতাব:</string>

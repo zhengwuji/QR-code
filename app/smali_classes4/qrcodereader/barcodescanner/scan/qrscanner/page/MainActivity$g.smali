@@ -88,7 +88,6 @@
     .locals 2
 
     .line 1
-    invoke-static {}, Lde/g;->i()Lde/g;
 
     .line 2
     .line 3
@@ -100,7 +99,6 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1}, Lde/g;->g(Landroid/app/Activity;)V
 
     .line 8
     .line 9
@@ -121,7 +119,6 @@
     .locals 2
 
     .line 1
-    invoke-static {}, Lde/g;->i()Lde/g;
 
     .line 2
     .line 3
@@ -133,7 +130,6 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1}, Lde/g;->j(Landroid/app/Activity;)Z
 
     .line 8
     .line 9
@@ -145,7 +141,6 @@
 
     .line 12
     .line 13
-    invoke-static {}, Lde/g;->i()Lde/g;
 
     .line 14
     .line 15
@@ -178,7 +173,6 @@
     .line 28
     .line 29
     .line 30
-    invoke-virtual {v0, p1, v1}, Lde/g;->l(Landroid/view/ViewGroup;Lde/f;)V
 
     .line 31
     .line 32

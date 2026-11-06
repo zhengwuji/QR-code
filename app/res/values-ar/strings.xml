@@ -53,6 +53,7 @@
     <string name="avoid_reflections">تجنب &lt;b>انعكاسات&lt;/b> الضوء أو &lt;b>الظلال&lt;/b> على الرمز</string>
     <string name="barcode_number_gpt">رقم الباركود...</string>
     <string name="barcode_scan_fail_tip">في حال فشل المسح، يُمكنك تجربة إدخال رقم الباركود يدويًا للبحث.</string>
+    <string name="qr2_thanks_feedback">شكرا لملاحظاتك!</string>
     <string name="beep">صوت تنبيه</string>
     <string name="beep_hint">أطلق صوت تنبيه عندما ينجح الفحص</string>
     <string name="bigo_ad_about_app_default">عن هذا التطبيق</string>
@@ -219,6 +220,7 @@
     <string name="delete_sure">هل أنت متأكد أنك تريد الحذف؟</string>
     <string name="description">الوصف</string>
     <string name="different_engine_more_info">جرّب محركات بحث مختلفة للحصول على المزيد من المعلومات المفيدة!</string>
+    <string name="still_have_problems_1">لا تزال لديك مشاكل</string>
     <string name="download">تنزيل</string>
     <string name="dropdown_menu">قائمة منسدلة</string>
     <string name="ebay">eBay</string>
@@ -305,14 +307,7 @@
     <string name="fb_ok">تم</string>
     <string name="fb_please_tell_more">يرجى إبلاغنا بمزيد من التفاصيل حتى نتمكن من تحديد مشكلتك وحلها بشكل أسرع (على الأقل %s حرفًا)</string>
     <string name="fb_tell_us_your_problem">أخبرنا بالمشكلة التي واجهتها</string>
-    <string name="fb_thx_feedback_tip">سنصلح هذا المشكل في الإصدار القادم. معذرة عن الاإزعاج.</string>
-    <string name="fb_thx_feedback_title">شكرا على تعقيبك</string>
     <string name="fb_type">النوع</string>
-    <string name="feedback">الملاحظات</string>
-    <string name="feedback_des">أبلغ عن الأخطاء وأخبرنا بما يجب تحسينه</string>
-    <string name="feedback_hint">تقرير البق وتقول لنا ما لتحسين</string>
-    <string name="feedback_hint_tip">ردود الفعل أو اقتراح</string>
-    <string name="feedback_mail_text">معلومات النظام</string>
     <string name="file_name">اسم الملف</string>
     <string name="flashlight">مصباح يدوي</string>
     <string name="free">مجانا</string>
@@ -569,10 +564,8 @@
     <string name="product_guide_hint">لم يتم إدخال بعض المنتجات في مكتبة المنتجات حتى الآن. يمكنك ضغط بحث في الويب للحصول على معلومات أكثر عن المنتج.</string>
     <string name="purchased_failed">خدمة Google المدفوعة غير متاحة حاليًا أو غير متاحة في بلدك، يمكنك الاستمرار في استخدام التطبيق باستثناء الدفع لإزالة الإعلانات.</string>
     <string name="purchased_failed_title">تعذَّر الشراء</string>
-    <string name="qr2_negative_feedback_hint_gpt">يرجى إخبارنا بالمشكلة التي واجهتك أثناء عملية المسح، سنبذل قصارى جهدنا لتحسينها.</string>
     <string name="qr2_problem_code_ask_gpt">ما نوع الكود الذي قمت بمسحه؟</string>
     <string name="qr2_rate_later_gpt">اسألني في وقت لاحق</string>
-    <string name="qr2_thanks_feedback">شكرا لملاحظاتك!</string>
     <string name="qr_code">كود QR</string>
     <string name="qr_code_not_found">لم يُعثر على كود QR/باركود</string>
     <string name="qr_code_not_found_hint">تأكد من أن كود QR/الباركود واضح وأنه ضمن حدود الإطار بالكامل</string>
@@ -640,7 +633,6 @@
     <string name="song_name">اسم الأغنية</string>
     <string name="start">البداية</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="still_have_problems_1">لا تزال لديك مشاكل</string>
     <string name="storage_permission_save_images">مطلوب إذن التخزين لحفظ الصور.</string>
     <string name="subject">الموضوع:</string>
     <string name="summary_collapsed_preference_list">%1$s، %2$s</string>
@@ -655,11 +647,8 @@
     <string name="tell_us_your_problem">أخبرنا بالمشكلة التي واجهتها</string>
     <string name="template_percent">%1$d في المئة.</string>
     <string name="text">نص</string>
-    <string name="text_feedback_hint_short">يرجى وصف مشكلتك</string>
     <string name="text_message">رسالة نصية</string>
     <string name="then_select_generate">2. حدد \"%s\"</string>
-    <string name="thx_feedback_tip">سنصلح هذا المشكل في الإصدار القادم. معذرة عن الاإزعاج.</string>
-    <string name="thx_feedback_title">شكرا على تعقيبك</string>
     <string name="tiktok">TikTok</string>
     <string name="tip">تفريف</string>
     <string name="title">اللقب:</string>

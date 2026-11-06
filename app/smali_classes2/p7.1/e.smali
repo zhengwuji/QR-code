@@ -100,7 +100,6 @@
 
     .line 33
     .line 34
-    invoke-virtual {p1}, Lp7/e$a;->m()Lm7/E;
 
     .line 35
     .line 36

@@ -25,7 +25,6 @@
     .locals 0
 
     .line 1
-    invoke-static {p1}, Lg6/s;->c(Ljava/lang/Exception;)V
 
     .line 2
     .line 3

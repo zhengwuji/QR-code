@@ -64,7 +64,6 @@
 
     .line 4
     :try_start_0
-    invoke-virtual {v2}, Lcom/bytedance/sdk/component/sf/pcc/gbb;->oo()Z
 
     move-result v0
 
@@ -73,19 +72,15 @@
     .line 5
     iget-object v0, v1, LV4/c$a;->b:LV4/c;
 
-    invoke-static {v0}, LV4/c;->f(LV4/c;)Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;
 
     move-result-object v3
 
-    invoke-virtual {v2}, Lcom/bytedance/sdk/component/sf/pcc/gbb;->gm()I
 
     move-result v4
 
-    invoke-virtual {v2}, Lcom/bytedance/sdk/component/sf/pcc/gbb;->vj()Ljava/lang/String;
 
     move-result-object v7
 
-    invoke-static {v0, v3, v4, v7}, LV4/c;->i(LV4/c;Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;ILjava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -114,28 +109,22 @@
     .line 10
     iget-object v0, v1, LV4/c$a;->b:LV4/c;
 
-    invoke-static {v0}, LV4/c;->f(LV4/c;)Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;->dax()Ljava/lang/String;
 
     iget-object v0, v1, LV4/c$a;->b:LV4/c;
 
-    invoke-static {v0}, LV4/c;->f(LV4/c;)Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;->wh()I
 
     .line 11
     iget-object v0, v1, LV4/c$a;->b:LV4/c;
 
-    invoke-static {v0}, LV4/c;->f(LV4/c;)Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;
 
     move-result-object v0
 
-    invoke-static {v0}, LV4/a;->b(Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;)V
 
     return-void
 
@@ -151,7 +140,6 @@
     .line 12
     :cond_0
     :try_start_1
-    invoke-virtual {v2}, Lcom/bytedance/sdk/component/sf/pcc/gbb;->wh()Lcom/bytedance/sdk/component/sf/pcc/jr;
 
     move-result-object v7
     :try_end_1
@@ -159,7 +147,6 @@
 
     .line 13
     :try_start_2
-    invoke-virtual {v2}, Lcom/bytedance/sdk/component/sf/pcc/gbb;->wh()Lcom/bytedance/sdk/component/sf/pcc/jr;
 
     move-result-object v7
 
@@ -170,14 +157,12 @@
     .line 14
     iget-wide v10, v1, LV4/c$a;->a:J
 
-    invoke-virtual {v7}, Lcom/bytedance/sdk/component/sf/pcc/jr;->pcc()J
 
     move-result-wide v12
 
     add-long/2addr v10, v12
 
     .line 15
-    invoke-virtual {v7}, Lcom/bytedance/sdk/component/sf/pcc/jr;->gm()Ljava/io/InputStream;
 
     move-result-object v0
     :try_end_2
@@ -213,19 +198,15 @@
     :try_start_3
     iget-object v0, v1, LV4/c$a;->b:LV4/c;
 
-    invoke-static {v0}, LV4/c;->f(LV4/c;)Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;
 
     move-result-object v3
 
-    invoke-virtual {v2}, Lcom/bytedance/sdk/component/sf/pcc/gbb;->gm()I
 
     move-result v4
 
-    invoke-virtual {v2}, Lcom/bytedance/sdk/component/sf/pcc/gbb;->vj()Ljava/lang/String;
 
     move-result-object v8
 
-    invoke-static {v0, v3, v4, v8}, LV4/c;->i(LV4/c;Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;ILjava/lang/String;)V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_2
 
@@ -314,15 +295,12 @@
     .line 25
     iget-object v0, v1, LV4/c$a;->b:LV4/c;
 
-    invoke-static {v0}, LV4/c;->f(LV4/c;)Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;
 
     move-result-object v3
 
-    invoke-virtual {v2}, Lcom/bytedance/sdk/component/sf/pcc/gbb;->gm()I
 
     move-result v4
 
-    invoke-static {v0, v3, v4}, LV4/c;->h(LV4/c;Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;I)V
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_3
 
@@ -375,11 +353,9 @@
 
     iget-object v9, v1, LV4/c$a;->b:LV4/c;
 
-    invoke-static {v9}, LV4/c;->f(LV4/c;)Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;
 
     move-result-object v9
 
-    invoke-virtual {v9}, Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;->nac()Ljava/lang/String;
 
     move-result-object v9
 
@@ -397,11 +373,9 @@
     :cond_6
     iget-object v0, v1, LV4/c$a;->b:LV4/c;
 
-    invoke-static {v0}, LV4/c;->f(LV4/c;)Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;->hc()Z
 
     move-result v0
 
@@ -430,15 +404,12 @@
     :cond_7
     iget-object v0, v1, LV4/c$a;->b:LV4/c;
 
-    invoke-static {v0}, LV4/c;->f(LV4/c;)Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;
 
     move-result-object v3
 
-    invoke-virtual {v2}, Lcom/bytedance/sdk/component/sf/pcc/gbb;->gm()I
 
     move-result v4
 
-    invoke-static {v0, v3, v4}, LV4/c;->p(LV4/c;Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;I)V
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_3
 
@@ -451,13 +422,11 @@
     :try_start_7
     iget-object v0, v1, LV4/c$a;->b:LV4/c;
 
-    invoke-static {v0}, LV4/c;->f(LV4/c;)Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;
 
     move-result-object v3
 
     const-string v4, "Network link failed."
 
-    invoke-static {v0, v3, v5, v4}, LV4/c;->i(LV4/c;Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;ILjava/lang/String;)V
     :try_end_7
     .catchall {:try_start_7 .. :try_end_7} :catchall_0
 
@@ -477,13 +446,11 @@
     .line 34
     iget-object v3, v1, LV4/c$a;->b:LV4/c;
 
-    invoke-static {v3}, LV4/c;->f(LV4/c;)Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;
 
     move-result-object v4
 
     if-eqz v2, :cond_9
 
-    invoke-virtual {v2}, Lcom/bytedance/sdk/component/sf/pcc/gbb;->gm()I
 
     move-result v5
 
@@ -500,7 +467,6 @@
 
     move-result-object v0
 
-    invoke-static {v3, v4, v5, v0}, LV4/c;->i(LV4/c;Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;ILjava/lang/String;)V
     :try_end_8
     .catchall {:try_start_8 .. :try_end_8} :catchall_4
 
@@ -540,28 +506,22 @@
     .line 41
     iget-object v2, v1, LV4/c$a;->b:LV4/c;
 
-    invoke-static {v2}, LV4/c;->f(LV4/c;)Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;->dax()Ljava/lang/String;
 
     iget-object v2, v1, LV4/c$a;->b:LV4/c;
 
-    invoke-static {v2}, LV4/c;->f(LV4/c;)Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;->wh()I
 
     .line 42
     iget-object v2, v1, LV4/c$a;->b:LV4/c;
 
-    invoke-static {v2}, LV4/c;->f(LV4/c;)Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;
 
     move-result-object v2
 
-    invoke-static {v2}, LV4/a;->b(Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;)V
 
     throw v0
 .end method
@@ -572,7 +532,6 @@
     .line 1
     iget-object p1, p0, LV4/c$a;->b:LV4/c;
 
-    invoke-static {p1}, LV4/c;->f(LV4/c;)Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;
 
     move-result-object v0
 
@@ -582,16 +541,13 @@
 
     move-result-object p2
 
-    invoke-static {p1, v0, v1, p2}, LV4/c;->i(LV4/c;Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;ILjava/lang/String;)V
 
     .line 2
     iget-object p1, p0, LV4/c$a;->b:LV4/c;
 
-    invoke-static {p1}, LV4/c;->f(LV4/c;)Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;
 
     move-result-object p1
 
-    invoke-static {p1}, LV4/a;->b(Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;)V
 
     return-void
 .end method

@@ -181,12 +181,10 @@
     .locals 4
 
     .line 1
-    invoke-static {p0}, Lg6/u;->f(Landroid/content/Context;)V
 
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lg6/u;->c()Lg6/u;
 
     .line 5
     .line 6
@@ -206,12 +204,10 @@
 
     .line 13
     .line 14
-    invoke-direct {v0, v1, v2}, Lcom/google/android/datatransport/cct/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 15
     .line 16
     .line 17
-    invoke-virtual {p0, v0}, Lg6/u;->g(Lg6/f;)Ltransport/TransportFactory;
 
     .line 18
     .line 19

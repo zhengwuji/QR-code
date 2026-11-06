@@ -435,7 +435,6 @@
 
     .line 34
     .line 35
-    invoke-interface {v3, v2}, LT8/i;->a(Lcom/google/firebase/components/ComponentRegistrar;)Ljava/util/List;
 
     .line 36
     .line 37

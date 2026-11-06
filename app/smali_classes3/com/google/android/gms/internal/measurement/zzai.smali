@@ -489,7 +489,6 @@
 
     .line 71
     :cond_3
-    invoke-static {v0}, Lcom/bytedance/adsdk/pcc/a;->a(Ljava/math/BigDecimal;)Ljava/math/BigDecimal;
 
     .line 72
     .line 73

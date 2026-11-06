@@ -186,7 +186,6 @@
 
     .line 6
     .line 7
-    invoke-static {}, Ladlog/ADLogUtil;->a()Ladlog/ADLogUtil;
 
     .line 8
     .line 9
@@ -194,7 +193,6 @@
     move-result-object v0
 
     .line 11
-    invoke-virtual {v0, p1, p2}, Ladlog/ADLogUtil;->b(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -451,7 +449,6 @@
     move-result-object p1
 
     .line 6
-    invoke-static {}, Ladlog/ADLogUtil;->a()Ladlog/ADLogUtil;
 
     .line 7
     .line 8
@@ -463,7 +460,6 @@
 
     .line 11
     .line 12
-    invoke-virtual {v0, p1, v1}, Ladlog/ADLogUtil;->b(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 13
     .line 14
@@ -476,7 +472,6 @@
 
     .line 18
     .line 19
-    invoke-static {}, Ladlog/ADLogUtil;->a()Ladlog/ADLogUtil;
 
     .line 20
     .line 21
@@ -488,7 +483,6 @@
 
     .line 24
     .line 25
-    invoke-virtual {v0, p1, v1}, Ladlog/ADLogUtil;->b(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 26
     .line 27
@@ -571,7 +565,6 @@
     .line 57
     .line 58
     .line 59
-    invoke-static {}, Ladlog/ADLogUtil;->a()Ladlog/ADLogUtil;
 
     .line 60
     .line 61
@@ -583,7 +576,6 @@
 
     .line 64
     .line 65
-    invoke-virtual {p2, p1, v0}, Ladlog/ADLogUtil;->b(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 66
     .line 67
@@ -1290,7 +1282,6 @@
 
     .line 104
     :goto_2
-    invoke-static {}, Ladlog/ADLogUtil;->a()Ladlog/ADLogUtil;
 
     .line 105
     .line 106
@@ -1298,7 +1289,6 @@
     move-result-object v0
 
     .line 108
-    invoke-virtual {v0, p0, p1}, Ladlog/ADLogUtil;->c(Landroid/content/Context;Ljava/lang/Throwable;)V
 
     .line 109
     .line 110

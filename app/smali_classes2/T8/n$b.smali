@@ -137,7 +137,6 @@
 
     .line 4
     .line 5
-    invoke-direct {v1, p1}, LT8/o;-><init>(Lcom/google/firebase/components/ComponentRegistrar;)V
 
     .line 6
     .line 7

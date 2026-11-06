@@ -115,6 +115,9 @@
     <color name="dialog_text_first">#ff333333</color>
     <color name="dialog_text_second">#ff7f7f7f</color>
     <color name="dialog_wifi_bold">#ff00b66e</color>
+    <color name="feedback_input_bg">#ff222638</color>
+    <color name="feedback_reason_bg_select">#ff3d56ff</color>
+    <color name="feedback_reason_bg_unselect">#ff222638</color>
     <color name="dismiss_icon_grey_500">#ff9aa0a6</color>
     <color name="dismiss_icon_grey_700">#ff5f6368</color>
     <color name="download_black">#ff636363</color>
@@ -155,10 +158,7 @@
     <color name="fb_reason_unselect">#ff242424</color>
     <color name="feedback_et_hint">#ff707285</color>
     <color name="feedback_et_text">#ffffffff</color>
-    <color name="feedback_input_bg">#ff222638</color>
     <color name="feedback_page_bg">#ff000000</color>
-    <color name="feedback_reason_bg_select">#ff3d56ff</color>
-    <color name="feedback_reason_bg_unselect">#ff222638</color>
     <color name="feedback_reason_text_select">#ffffffff</color>
     <color name="feedback_reason_text_unselect">#ff242424</color>
     <color name="feedback_svg_item">#ff8f9cbb</color>

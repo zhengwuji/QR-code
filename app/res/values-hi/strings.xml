@@ -53,6 +53,7 @@
     <string name="avoid_reflections">कोड पर &lt;b>रोशनी का परावर्तन&lt;/b> या &lt;b>परछाई&lt;/b> न आने दें</string>
     <string name="barcode_number_gpt">बारकोड नंबर...</string>
     <string name="barcode_scan_fail_tip">यदि स्कैन विफल रहता है, तो आप खोज करने के लिए बारकोड नंबर को मैन्युअली डालकर भी कोशिश कर सकते हैं।</string>
+    <string name="qr2_thanks_feedback">फीडबैक के लिए धन्यवाद!</string>
     <string name="beep">बीपू</string>
     <string name="beep_hint">जब स्‍कैन सफल हो जाती है तो बीप करता है</string>
     <string name="bigo_ad_about_app_default">इस ऐप के बारे में</string>
@@ -217,6 +218,7 @@
     <string name="delete_sure">क्‍या आप वाकई में हटाना चाहते हैं?</string>
     <string name="description">विवरण</string>
     <string name="different_engine_more_info">अधिक उपयोगी जानकारी पाने के लिए अलग-अलग सर्च इंजिन्स आज़माएँ!</string>
+    <string name="still_have_problems_1">अब भी समस्या है</string>
     <string name="download">डाउनलोड</string>
     <string name="dropdown_menu">ड्रॉपडाउन मेन्यू</string>
     <string name="ebay">ईबे</string>
@@ -303,14 +305,7 @@
     <string name="fb_ok">ठीक है</string>
     <string name="fb_please_tell_more">कृपया हमें विस्तार से बताएं ताकि हम आपकी समस्या जानकर अधिक जल्दी सुलझा सकें (कम से कम %s वर्ण)</string>
     <string name="fb_tell_us_your_problem">आपको आई समस्या हमें बताएं</string>
-    <string name="fb_thx_feedback_tip">हम इसे भविष्‍य के संस्‍करण में दूर कर देंगे। असुविधा के लिए खेद है।</string>
-    <string name="fb_thx_feedback_title">आपकी प्रतिक्रिया के लिए धन्‍यवाद</string>
     <string name="fb_type">प्रकार</string>
-    <string name="feedback">फीडबैक</string>
-    <string name="feedback_des">त्रुटियाँ रिपोर्ट करें और बेहतरी के लिए सुझाव दें</string>
-    <string name="feedback_hint">बग्स की शिकायत करें और हमें बताएं कि क्या सुधार कर</string>
-    <string name="feedback_hint_tip">फीडबैक या सुझाव</string>
-    <string name="feedback_mail_text">सिस्टम जानकारी</string>
     <string name="file_name">फाइल का नाम</string>
     <string name="flashlight">फ्लैशलाइट</string>
     <string name="free">मुफ्त</string>
@@ -567,10 +562,8 @@
     <string name="product_guide_hint">कुछ उत्पाद अब तक उत्पाद लाइब्रेरी में दर्ज नहीं हैं। अधिक उत्पाद जानकारी हेतु आप वेब खोज पर टैप कर सकते हैं।</string>
     <string name="purchased_failed">गूगल पेड सेवा या तो अभी उपलब्ध नहीं है या आपके देश में है ही नहीं। आप विज्ञापन हटाने का भुगतान करने के सिवा ऐप के अन्य उपयोग जारी रख सकते हैं।</string>
     <string name="purchased_failed_title">खरीद नहीं सकते</string>
-    <string name="qr2_negative_feedback_hint_gpt">कृपया हमें स्कैनिंग प्रक्रिया के दौरान आपकी किसी समस्या का वर्णन करें, हम अपनी सर्वोत्तम कोशिश करेंगे कि सुधार करें।</string>
     <string name="qr2_problem_code_ask_gpt">आपने किस प्रकार का कोड स्कैन किया?</string>
     <string name="qr2_rate_later_gpt">बाद में पूछें</string>
-    <string name="qr2_thanks_feedback">फीडबैक के लिए धन्यवाद!</string>
     <string name="qr_code">क्‍यूआर कोड</string>
     <string name="qr_code_not_found">कोई क्‍यूअर कोड/बारकोड नहीं मिला</string>
     <string name="qr_code_not_found_hint">सुनिश्चित करें कि क्‍यूआर कोड/बारकोड स्‍पष्‍ट हो और पूरी तरह फ्रेम के अंदर हो</string>
@@ -638,7 +631,6 @@
     <string name="song_name">गीत का नाम</string>
     <string name="start">शुरू</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="still_have_problems_1">अब भी समस्या है</string>
     <string name="storage_permission_save_images">फोटो सहेजने के लिए संग्रहण अनुमति आवश्यक है।</string>
     <string name="subject">विषय</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
@@ -653,11 +645,8 @@
     <string name="tell_us_your_problem">आपको आई समस्या हमें बताएं</string>
     <string name="template_percent">%1$d प्रतिशत.</string>
     <string name="text">टेक्‍स्‍ट</string>
-    <string name="text_feedback_hint_short">कृपया अपनी स्समया का विवरण दें</string>
     <string name="text_message">टेक्‍स्‍ट संदेश</string>
     <string name="then_select_generate">2. \"%s\" चुनें</string>
-    <string name="thx_feedback_tip">हम इसे भविष्‍य के संस्‍करण में दूर कर देंगे। असुविधा के लिए खेद है।</string>
-    <string name="thx_feedback_title">आपकी प्रतिक्रिया के लिए धन्‍यवाद</string>
     <string name="tiktok">TikTok</string>
     <string name="tip">युक्ति</string>
     <string name="title">शीर्षक:</string>

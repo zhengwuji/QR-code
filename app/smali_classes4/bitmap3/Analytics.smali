@@ -421,7 +421,6 @@
 
     .line 158
     :cond_8
-    invoke-static {p0}, Lcom/google/firebase/analytics/FirebaseAnalytics;->getInstance(Landroid/content/Context;)Lcom/google/firebase/analytics/FirebaseAnalytics;
 
     .line 159
     .line 160
@@ -437,7 +436,6 @@
     move-result-object p1
 
     .line 166
-    invoke-virtual {p2, p1, v1}, Lcom/google/firebase/analytics/FirebaseAnalytics;->a(Ljava/lang/String;Landroid/os/Bundle;)V
 
     .line 167
     .line 168

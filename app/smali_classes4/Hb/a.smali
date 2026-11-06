@@ -463,7 +463,6 @@
 
     .line 9
     :try_start_0
-    invoke-static {}, Lcom/google/firebase/remoteconfig/a;->j()Lcom/google/firebase/remoteconfig/a;
 
     .line 10
     .line 11
@@ -471,7 +470,6 @@
     move-result-object v0
 
     .line 13
-    invoke-virtual {v0}, Lcom/google/firebase/remoteconfig/a;->i()Ly9/l;
 
     .line 14
     .line 15
@@ -499,7 +497,6 @@
 
     .line 26
     .line 27
-    invoke-static {}, Lcom/google/firebase/remoteconfig/a;->j()Lcom/google/firebase/remoteconfig/a;
 
     .line 28
     .line 29
@@ -507,7 +504,6 @@
     move-result-object v0
 
     .line 31
-    invoke-virtual {v0}, Lcom/google/firebase/remoteconfig/a;->i()Ly9/l;
 
     .line 32
     .line 33

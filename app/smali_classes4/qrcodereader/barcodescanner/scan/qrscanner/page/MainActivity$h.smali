@@ -57,21 +57,7 @@
 .end method
 
 .method public b()V
-    .locals 2
+    .locals 0
 
-    .line 1
-    sget-object v0, Lqrcodereader/barcodescanner/scan/qrscanner/page/exit/ScanFailedFeedbackActivity;->h:Lqrcodereader/barcodescanner/scan/qrscanner/page/exit/ScanFailedFeedbackActivity$a;
-
-    .line 2
-    .line 3
-    iget-object v1, p0, Lqrcodereader/barcodescanner/scan/qrscanner/page/MainActivity$h;->a:Lqrcodereader/barcodescanner/scan/qrscanner/page/MainActivity;
-
-    .line 4
-    .line 5
-    invoke-virtual {v0, v1}, Lqrcodereader/barcodescanner/scan/qrscanner/page/exit/ScanFailedFeedbackActivity$a;->a(Landroid/app/Activity;)V
-
-    .line 6
-    .line 7
-    .line 8
     return-void
 .end method

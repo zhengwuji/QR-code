@@ -35,7 +35,6 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, LB7/b;-><init>(Lcom/google/android/gms/internal/ads/zziof;)V
 
     .line 4
     .line 5
@@ -57,7 +56,6 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzcok;->zza()Landroid/content/Context;
 
     .line 6
     .line 7

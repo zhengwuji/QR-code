@@ -25,7 +25,6 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Lx6/h;->e()Ljava/lang/reflect/Constructor;
 
     .line 2
     .line 3

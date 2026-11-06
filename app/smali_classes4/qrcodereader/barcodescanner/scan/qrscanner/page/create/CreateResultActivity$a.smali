@@ -3,7 +3,6 @@
 .source "CreateResultActivity.java"
 
 # interfaces
-.implements LCe/v$a;
 
 
 # annotations

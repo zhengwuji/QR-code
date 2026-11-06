@@ -648,7 +648,6 @@
 
     .line 22
     :try_start_0
-    invoke-static {p0}, LZ7/m;->a(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -658,10 +657,8 @@
     .line 24
     new-instance v3, LZ7/m;
 
-    invoke-direct {v3, p0, v1}, LZ7/m;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 25
-    invoke-virtual {v3, v2}, LZ7/m;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
     :try_end_0
@@ -1193,7 +1190,6 @@
     .line 78
     new-instance v0, Lcom/google/android/gms/internal/measurement/zzdq$zzc;
 
-    invoke-direct {v0, p1}, Lcom/google/android/gms/internal/measurement/zzdq$zzc;-><init>(LZ7/r;)V
 
     .line 79
     iget-object p1, p0, Lcom/google/android/gms/internal/measurement/zzdq;->zzj:Lcom/google/android/gms/internal/measurement/zzdb;
@@ -1303,7 +1299,6 @@
     :cond_1
     new-instance v1, Lcom/google/android/gms/internal/measurement/zzdq$zzb;
 
-    invoke-direct {v1, p1}, Lcom/google/android/gms/internal/measurement/zzdq$zzb;-><init>(LZ7/t;)V
 
     .line 67
     iget-object v2, p0, Lcom/google/android/gms/internal/measurement/zzdq;->zzf:Ljava/util/List;

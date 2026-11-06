@@ -25,7 +25,6 @@
     .locals 0
 
     .line 1
-    invoke-static {p1, p2, p3}, LV4/a;->a(Landroid/content/Context;Lcom/bykv/vk/openvk/pcc/pcc/pcc/gm/a;LP4/a$a;)V
 
     .line 2
     .line 3

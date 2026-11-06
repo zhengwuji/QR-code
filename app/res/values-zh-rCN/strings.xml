@@ -53,6 +53,7 @@
     <string name="avoid_reflections">请避免码上出现&lt;b>反光&lt;/b>或&lt;b>阴影&lt;/b></string>
     <string name="barcode_number_gpt">条形码号...</string>
     <string name="barcode_scan_fail_tip">若扫描失败，你可以尝试手动输入条码编号以进行搜索。</string>
+    <string name="qr2_thanks_feedback">感谢你的反馈！</string>
     <string name="beep">提示音</string>
     <string name="beep_hint">扫描成功时发出提示音</string>
     <string name="bigo_ad_about_app_default">关于这个应用</string>
@@ -210,6 +211,7 @@
     <string name="delete_sure">确定要删除吗？</string>
     <string name="description">描述</string>
     <string name="different_engine_more_info">试试不同的搜索引擎以获取更多有用信息！</string>
+    <string name="still_have_problems_1">仍有问题</string>
     <string name="download">下载</string>
     <string name="dropdown_menu">下拉菜单</string>
     <string name="ebay">易趣</string>
@@ -296,14 +298,7 @@
     <string name="fb_ok">确定</string>
     <string name="fb_please_tell_more">请告诉我们更多细节，以便我们更快地定位并解决你的问题（至少%s个字符）</string>
     <string name="fb_tell_us_your_problem">请告诉我们您遇到的问题</string>
-    <string name="fb_thx_feedback_tip">很抱歉给你造成不便。我们将在之后的版本中修复此问题。</string>
-    <string name="fb_thx_feedback_title">谢谢您的反馈</string>
     <string name="fb_type">类型</string>
-    <string name="feedback">反馈</string>
-    <string name="feedback_des">报告错误并告诉我们需要改进的地方</string>
-    <string name="feedback_hint">反馈和建议</string>
-    <string name="feedback_hint_tip">反馈或建议</string>
-    <string name="feedback_mail_text">系统信息</string>
     <string name="file_name">文件名</string>
     <string name="flashlight">手电筒</string>
     <string name="free">免费</string>
@@ -560,10 +555,8 @@
     <string name="product_guide_hint">某些商品尚未被录入商品库中。你可以点击网页搜索以获取更多商品信息。</string>
     <string name="purchased_failed">谷歌付费服务不支持你的国家，或谷歌支付服务在这此刻不可用，你可以继续使用该应用程序，但不能购买移除广告。</string>
     <string name="purchased_failed_title">购买失败</string>
-    <string name="qr2_negative_feedback_hint_gpt">请告诉我们你在扫描过程中遇到的问题，我们将尽力改进。</string>
     <string name="qr2_problem_code_ask_gpt">你扫描的是哪种类型的码？</string>
     <string name="qr2_rate_later_gpt">稍后再问我</string>
-    <string name="qr2_thanks_feedback">感谢你的反馈！</string>
     <string name="qr_code">二维码</string>
     <string name="qr_code_not_found">未发现二维码/条码</string>
     <string name="qr_code_not_found_hint">请确保二维码/条码清晰且完全位于扫描框内</string>
@@ -631,7 +624,6 @@
     <string name="song_name">歌曲名</string>
     <string name="start">开始</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="still_have_problems_1">仍有问题</string>
     <string name="storage_permission_save_images">保存图片需要存储权限。</string>
     <string name="subject">主题：</string>
     <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
@@ -646,11 +638,8 @@
     <string name="tell_us_your_problem">请告诉我们您遇到的问题</string>
     <string name="template_percent">百分之 %1$d。</string>
     <string name="text">文本</string>
-    <string name="text_feedback_hint_short">请描述您的问题</string>
     <string name="text_message">短信</string>
     <string name="then_select_generate">2. 选择“%s”</string>
-    <string name="thx_feedback_tip">很抱歉给你造成不便。我们将在之后的版本中修复此问题。</string>
-    <string name="thx_feedback_title">谢谢您的反馈</string>
     <string name="tiktok">抖音</string>
     <string name="tip">建议</string>
     <string name="title">头衔：</string>

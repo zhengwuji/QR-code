@@ -95,7 +95,6 @@
     const/4 v0, 0x1
 
     .line 2
-    invoke-static {v0}, Lcom/google/android/gms/internal/consent_sdk/zzdb;->zza(Z)Z
 
     .line 3
     .line 4
@@ -115,7 +114,6 @@
 
     .line 11
     .line 12
-    invoke-static {v2}, Lcom/google/android/gms/internal/consent_sdk/zzct;->zza(Landroid/content/Context;)Ljava/lang/String;
 
     .line 13
     .line 14

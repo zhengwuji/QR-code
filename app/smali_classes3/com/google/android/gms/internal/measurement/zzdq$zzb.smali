@@ -64,7 +64,6 @@
 
     move-wide v4, p4
 
-    invoke-interface/range {v0 .. v5}, LZ7/t;->a(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;J)V
 
     return-void
 .end method

@@ -37,7 +37,6 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/google/firebase/installations/c;->d(Lcom/google/firebase/installations/c;)V
 
     .line 4
     .line 5

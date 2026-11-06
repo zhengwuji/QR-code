@@ -32,12 +32,10 @@
 
     .line 7
     .line 8
-    invoke-static {p1}, Lg6/u;->f(Landroid/content/Context;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-static {}, Lg6/u;->c()Lg6/u;
 
     .line 12
     .line 13
@@ -45,7 +43,6 @@
     move-result-object p1
 
     .line 15
-    invoke-virtual {p1, p2}, Lg6/u;->g(Lg6/f;)Ltransport/TransportFactory;
 
     .line 16
     .line 17
@@ -53,7 +50,6 @@
     move-result-object p1
 
     .line 19
-    invoke-virtual {p2}, Lcom/google/android/datatransport/cct/a;->a()Ljava/util/Set;
 
     .line 20
     .line 21

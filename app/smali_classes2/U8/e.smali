@@ -25,7 +25,6 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Lcom/google/firebase/concurrent/ExecutorsRegistrar;->b()Ljava/util/concurrent/ScheduledExecutorService;
 
     .line 2
     .line 3
